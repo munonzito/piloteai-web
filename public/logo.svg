@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F2440"/>
+      <stop offset="100%" stop-color="#0A1929"/>
+    </linearGradient>
+    <linearGradient id="bodyLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#66BB6A"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="bodyDark" x1="0" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#43A047"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+    <linearGradient id="wingTop" x1="0" y1="0" x2="1" y2="0.5">
+      <stop offset="0%" stop-color="#81C784"/>
+      <stop offset="100%" stop-color="#4CAF50"/>
+    </linearGradient>
+    <linearGradient id="wingBottom" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#388E3C"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="tailLight" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#A5D6A7"/>
+      <stop offset="100%" stop-color="#66BB6A"/>
+    </linearGradient>
+    <linearGradient id="tailDark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2E7D32"/>
+      <stop offset="100%" stop-color="#1B5E20"/>
+    </linearGradient>
+    <linearGradient id="noseCone" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0%" stop-color="#C8E6C9"/>
+      <stop offset="100%" stop-color="#81C784"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1024" height="1024" fill="url(#bgGrad)"/>
+
+  <g transform="translate(512, 512) rotate(-20) scale(1.35)">
+    <!-- Fuselage left (dark side) -->
+    <polygon points="0,-280 -32,-80 -24,160 0,200" fill="url(#bodyDark)"/>
+    <!-- Fuselage right (light side) -->
+    <polygon points="0,-280 32,-80 24,160 0,200" fill="url(#bodyLight)"/>
+    
+    <!-- Nose cone highlight -->
+    <polygon points="0,-280 -14,-200 0,-210 14,-200" fill="url(#noseCone)"/>
+
+    <!-- Left wing top face -->
+    <polygon points="-28,-30 -260,50 -240,70 -24,10" fill="url(#wingTop)"/>
+    <!-- Left wing bottom face -->
+    <polygon points="-24,10 -240,70 -250,80 -28,20" fill="url(#wingBottom)"/>
+    
+    <!-- Right wing top face -->
+    <polygon points="28,-30 260,50 240,70 24,10" fill="url(#bodyLight)"/>
+    <!-- Right wing bottom face -->
+    <polygon points="24,10 240,70 250,80 28,20" fill="url(#bodyDark)"/>
+
+    <!-- Left tail wing top -->
+    <polygon points="-20,130 -110,180 -100,195 -18,155" fill="url(#tailLight)"/>
+    <!-- Left tail wing bottom -->
+    <polygon points="-18,155 -100,195 -105,205 -20,165" fill="url(#tailDark)"/>
+    
+    <!-- Right tail wing top -->
+    <polygon points="20,130 110,180 100,195 18,155" fill="url(#bodyLight)"/>
+    <!-- Right tail wing bottom -->
+    <polygon points="18,155 100,195 105,205 20,165" fill="url(#tailDark)"/>
+
+    <!-- Vertical stabilizer left face -->
+    <polygon points="0,100 -6,105 -6,175 0,200" fill="url(#tailDark)"/>
+    <!-- Vertical stabilizer right face -->
+    <polygon points="0,100 6,105 6,175 0,200" fill="url(#tailLight)"/>
+    <!-- Dorsal fin -->
+    <polygon points="0,100 0,160 -40,170 -30,155" fill="url(#wingBottom)" opacity="0.7"/>
+
+    <!-- Engine glow / accent line along fuselage -->
+    <line x1="0" y1="-250" x2="0" y2="-100" stroke="#C8E6C9" stroke-width="2" opacity="0.4"/>
+  </g>
+</svg>
