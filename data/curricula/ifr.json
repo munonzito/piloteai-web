@@ -1,0 +1,114 @@
+{
+  "id": "ifr",
+  "code": "IFR",
+  "name": "Habilitación de Vuelo por Instrumentos",
+  "fullName": "Habilitación de Vuelo por Instrumentos (IFR)",
+  "description": "Habilitación que permite al piloto operar aeronaves sin referencias visuales externas, utilizando instrumentos de cabina y radioayudas.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "ifr-reglamentacion",
+      "name": "Reglamentación Aeronáutica IFR",
+      "description": "Normas nacionales e internacionales para vuelos por instrumentos",
+      "icon": "📋",
+      "topics": [
+        "Reglas de vuelo IFR según DAN 91",
+        "Requisitos para habilitación IFR (DAN 61)",
+        "Espacio aéreo controlado y requisitos IFR",
+        "Procedimientos ATC para vuelos IFR",
+        "Plan de vuelo IFR: requisitos y formulario",
+        "Mínimos meteorológicos para operaciones IFR",
+        "Alternates de destino y en ruta: requisitos",
+        "Separación vertical y lateral",
+        "Comunicaciones obligatorias en vuelo IFR"
+      ]
+    },
+    {
+      "id": "ifr-meteorologia",
+      "name": "Meteorología Avanzada",
+      "description": "Fenómenos meteorológicos complejos y toma de decisiones en condiciones adversas",
+      "icon": "🌤️",
+      "topics": [
+        "Fenómenos meteorológicos complejos en vuelo IFR",
+        "Interpretación avanzada de METAR y TAF",
+        "SIGMET, GAMET y avisos meteorológicos",
+        "Engelamiento y sus niveles de severidad",
+        "Turbulencia en vuelo IFR",
+        "Cizalladura del viento y microburst",
+        "Visibilidad, techo y condiciones IMC",
+        "Toma de decisiones meteorológicas para IFR"
+      ]
+    },
+    {
+      "id": "ifr-radionavegacion",
+      "name": "Radionavegación y Aproximaciones",
+      "description": "Sistemas de radioayudas, procedimientos de aproximación y salidas/llegadas instrumentales",
+      "icon": "📡",
+      "topics": [
+        "VOR: principios, uso e interceptación de radiales",
+        "ILS: localizer, glide slope, markers y categorías",
+        "NDB y ADF: principios y uso",
+        "DME: funcionamiento y aplicación",
+        "GNSS/GPS en navegación IFR",
+        "Procedimientos SID (Standard Instrument Departure)",
+        "Procedimientos STAR (Standard Terminal Arrival Route)",
+        "Aproximaciones de precisión (ILS CAT I, II, III)",
+        "Aproximaciones de no precisión (VOR, NDB, RNAV)",
+        "Circling approach",
+        "Aproximación frustrada (missed approach)",
+        "Holding patterns: entrada y procedimiento"
+      ]
+    },
+    {
+      "id": "ifr-planificacion",
+      "name": "Planificación de Vuelo IFR",
+      "description": "Preparación de planes de vuelo instrumentales, combustible y uso de cartas IFR",
+      "icon": "📝",
+      "topics": [
+        "Preparación del plan de vuelo IFR",
+        "Cálculo de combustible: mínimo, reserva, alternate",
+        "Selección de altitudes y niveles de vuelo IFR",
+        "Cartas aeronáuticas IFR: enroute, approach, SID, STAR",
+        "NOTAM y su análisis para vuelos IFR",
+        "Uso del AIP Chile para planificación IFR",
+        "Gestión de alternates",
+        "Performance en vuelo IFR"
+      ]
+    },
+    {
+      "id": "ifr-instrumentos",
+      "name": "Instrumentos de Vuelo IFR",
+      "description": "Instrumentos para vuelo por instrumentos, fallas y diagnóstico",
+      "icon": "🎛️",
+      "topics": [
+        "Instrumentos giroscópicos: horizonte artificial, HSI, giro direccional",
+        "Instrumentos de vuelo primarios y de apoyo",
+        "Errores de instrumentos y limitaciones",
+        "Fallas de instrumentos: diagnóstico y procedimiento",
+        "Altímetro: ajustes QNH/QFE en vuelo IFR",
+        "Sistemas pitot-estáticos en IMC",
+        "Uso del autopilot en vuelo IFR",
+        "Flight director y su interpretación"
+      ]
+    },
+    {
+      "id": "ifr-emergencias",
+      "name": "Emergencias IFR",
+      "description": "Gestión de fallas y emergencias durante vuelo por instrumentos",
+      "icon": "🆘",
+      "topics": [
+        "Falla de comunicaciones en IFR",
+        "Falla de instrumentos de vuelo",
+        "Falla de sistemas de navegación",
+        "Procedimientos de emergencia en IMC",
+        "Descenso de emergencia en IFR",
+        "Pérdida de orientación en condiciones IMC"
+      ]
+    }
+  ]
+}

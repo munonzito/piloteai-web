@@ -1,0 +1,173 @@
+{
+  "id": "ultraliviano",
+  "licenseId": "ultraliviano",
+  "name": "Piloto Ultraliviano",
+  "fullName": "Lecciones para Licencia de Piloto Ultraliviano (Parapente / Ala Delta)",
+  "description": "Plan de lecciones para preparar el examen DGAC de Piloto Ultraliviano",
+  "totalLessons": 22,
+  "estimatedTotalHours": 4,
+  "subjects": [
+    {
+      "id": "ul-aerodinamica",
+      "name": "Aerodinámica",
+      "icon": "🪂",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "ul-aero-1",
+          "title": "Sustentación en Parapente y Ala Delta",
+          "description": "Principios de sustentación, resistencia y eficiencia",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Principios de sustentación en parapente/ala delta",
+            "Resistencia y eficiencia aerodinámica",
+            "Polar de velocidades"
+          ]
+        },
+        {
+          "id": "ul-aero-2",
+          "title": "Control, Estabilidad y Plegada",
+          "description": "Control por peso, estabilidad, stall y plegada",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Control de la aeronave: peso del piloto y frenos",
+            "Estabilidad y comportamiento en vuelo",
+            "Pérdida aerodinámica y plegada",
+            "Efectos del viento en vuelo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ul-meteorologia",
+      "name": "Meteorología",
+      "icon": "🌤️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "ul-met-1",
+          "title": "Térmicas y Corrientes de Ladera",
+          "description": "Formación de térmicas, corrientes de ladera y dynamic soaring",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Corrientes térmicas y su formación",
+            "Corrientes de ladera (dynamic soaring)",
+            "Inversión térmica y capa límite"
+          ]
+        },
+        {
+          "id": "ul-met-2",
+          "title": "Nubes, Viento y Peligros",
+          "description": "Nubes indicadoras, viento, ráfagas, rotores y peligros",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Nubes indicadoras de actividad térmica",
+            "Viento: gradiente, ráfagas y rotores",
+            "Condiciones peligrosas: tormentas, viento fuerte",
+            "Lectura del cielo y predicción local"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ul-reglamentacion",
+      "name": "Reglamentación",
+      "icon": "📋",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "ul-reg-1",
+          "title": "Licencia Ultraliviano y Normativa",
+          "description": "DAN 61, DAN 91, espacio aéreo y zonas de vuelo libre",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de licencia ultraliviano",
+            "DAN 91: Reglas de operación",
+            "Espacio aéreo y restricciones",
+            "Zonas permitidas para vuelo libre",
+            "Prioridades y reglas de derecho de paso",
+            "Documentación y seguro"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ul-tecnicas",
+      "name": "Técnicas de Vuelo",
+      "icon": "🪁",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "ul-tec-1",
+          "title": "Despegue Frontal y Reverso",
+          "description": "Técnicas de despegue frontal y reverso en parapente",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Técnicas de despegue: frontal y reverso"
+          ]
+        },
+        {
+          "id": "ul-tec-2",
+          "title": "Vuelo Térmico y de Ladera",
+          "description": "Control en vuelo, centrado de térmicas y vuelo de ladera",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Control en vuelo: virajes, aceleración",
+            "Centrado de térmicas",
+            "Vuelo de ladera"
+          ]
+        },
+        {
+          "id": "ul-tec-3",
+          "title": "Aterrizaje y Emergencias",
+          "description": "Aproximación, aterrizaje, plegada, barrena y paracaídas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Aproximación y aterrizaje",
+            "Maniobras de emergencia: plegada, barrena",
+            "Uso del paracaídas de emergencia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ul-factores-humanos",
+      "name": "Factores Humanos y Seguridad",
+      "icon": "🧠",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "ul-fh-1",
+          "title": "Fisiología y Seguridad en Vuelo Libre",
+          "description": "Hipoxia, fatiga, toma de decisiones y equipamiento de seguridad",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Hipoxia en vuelo de altitud",
+            "Fatiga y deshidratación",
+            "Toma de decisiones: volar o no volar",
+            "Evaluación de condiciones del sitio de vuelo",
+            "Equipamiento de seguridad obligatorio"
+          ]
+        }
+      ]
+    }
+  ]
+}

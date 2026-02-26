@@ -1,0 +1,163 @@
+{
+  "id": "pch",
+  "code": "PCH",
+  "name": "Piloto Comercial de Helicóptero",
+  "fullName": "Licencia de Piloto Comercial de Helicóptero",
+  "description": "Licencia para operar helicópteros con fines comerciales. Requiere dominio profundo de aerodinámica de rotor, performance, emergencias y operaciones especiales.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "pch-aerodinamica-rotor",
+      "name": "Aerodinámica de Rotor",
+      "description": "Aerodinámica avanzada de ala rotatoria y fenómenos de vuelo",
+      "icon": "🚁",
+      "topics": [
+        "Autorrotación y régimen de potencia negativa",
+        "Divergencia giroscópica y precesión",
+        "VRS (Vortex Ring State) - Estado de anillo de vórtice",
+        "Translational Lift y Effective Translational Lift (ETL)",
+        "Retreating Blade Stall (pérdida de pala en retroceso)",
+        "LTE (Loss of Tail Rotor Effectiveness)",
+        "Disimetría de sustentación avanzada",
+        "Efecto suelo IGE/OGE avanzado",
+        "Mast bumping y sus causas",
+        "Dinámica del rotor y vibración"
+      ]
+    },
+    {
+      "id": "pch-limitaciones",
+      "name": "Limitaciones de Helicópteros",
+      "description": "Limitaciones operativas, charts de potencia y curvas H/V",
+      "icon": "⚠️",
+      "topics": [
+        "Charts de potencia y su interpretación",
+        "Torque, TOT, N1, N2 y RPM del rotor",
+        "Curva altura-velocidad (H/V diagram)",
+        "Régimen de ascenso y techo operacional",
+        "Performance en alta densidad altitude (DA)",
+        "Limitaciones de peso y centro de gravedad",
+        "Limitaciones de viento para operaciones"
+      ]
+    },
+    {
+      "id": "pch-emergencias",
+      "name": "Emergencias Específicas",
+      "description": "Procedimientos de emergencia específicos de helicóptero",
+      "icon": "🆘",
+      "topics": [
+        "Autorrotaciones completas y parciales",
+        "Falla de motor: procedimiento inmediato",
+        "Falla del rotor de cola (TR failure)",
+        "Sobretemperatura (overtemp) del motor",
+        "Emergencias en hover y vuelo estacionario",
+        "Procedimientos del POH para fallas críticas",
+        "Aterrizaje de emergencia con motor inoperativo",
+        "Fuego en motor y en vuelo"
+      ]
+    },
+    {
+      "id": "pch-sistemas",
+      "name": "Sistemas de Helicóptero",
+      "description": "Sistemas mecánicos, hidráulicos y de control del helicóptero",
+      "icon": "⚙️",
+      "topics": [
+        "Transmisión y caja de engranajes (gearbox)",
+        "Sistema de rotor principal y sus componentes",
+        "Sistema de rotor de cola",
+        "Sistema de combustible",
+        "Sistema hidráulico",
+        "Control de potencia y governor",
+        "Motores a pistón vs. turbina (turboshaft)",
+        "Sistema eléctrico",
+        "Instrumentos específicos del helicóptero"
+      ]
+    },
+    {
+      "id": "pch-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "description": "Normativa DAN 61, DAN 91 y regulaciones para operaciones comerciales",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Licencias y habilitaciones comerciales",
+        "DAN 91: Reglas de operación",
+        "Requisitos y atribuciones del piloto comercial de helicóptero",
+        "Tiempos de vuelo y descanso",
+        "Espacio aéreo y procedimientos ATC",
+        "Normativa para operaciones comerciales en helicóptero",
+        "Documentación y registros requeridos"
+      ]
+    },
+    {
+      "id": "pch-performance",
+      "name": "Performance y Planificación",
+      "description": "Cálculos de rendimiento y planificación de vuelo para helicópteros",
+      "icon": "📊",
+      "topics": [
+        "Cálculo de torque requerido",
+        "Carga útil y rango disponible",
+        "Cartas de altitud, temperatura y peso",
+        "Operaciones en espacios confinados",
+        "Hover IGE y OGE: cálculos de performance",
+        "Planificación de combustible",
+        "Peso y balance avanzado"
+      ]
+    },
+    {
+      "id": "pch-meteorologia",
+      "name": "Meteorología Aplicada",
+      "description": "Meteorología aplicada a operaciones comerciales de helicóptero",
+      "icon": "🌤️",
+      "topics": [
+        "Interpretación avanzada de METAR y TAF",
+        "SIGMET y fenómenos peligrosos",
+        "Efectos del viento en operaciones de helicóptero",
+        "Turbulencia mecánica y orográfica",
+        "Visibilidad y condiciones mínimas",
+        "Meteorología de montaña para helicópteros"
+      ]
+    },
+    {
+      "id": "pch-navegacion",
+      "name": "Navegación y Comunicaciones",
+      "description": "Navegación avanzada y comunicaciones para operaciones comerciales",
+      "icon": "🧭",
+      "topics": [
+        "Radionavegación: VOR, NDB, DME, GPS",
+        "Planificación de vuelo comercial",
+        "Cartas aeronáuticas y procedimientos",
+        "Comunicaciones ATC avanzadas"
+      ]
+    },
+    {
+      "id": "pch-factores-humanos",
+      "name": "Factores Humanos y CRM",
+      "description": "CRM, toma de decisiones y gestión de riesgos",
+      "icon": "🧠",
+      "topics": [
+        "CRM (Crew Resource Management)",
+        "Toma de decisiones en situaciones críticas",
+        "Gestión de amenazas y errores (TEM)",
+        "Fatiga y estrés operacional",
+        "Conciencia situacional"
+      ]
+    },
+    {
+      "id": "pch-operaciones-especiales",
+      "name": "Operaciones Especiales",
+      "description": "Operaciones especializadas con helicóptero",
+      "icon": "🏔️",
+      "topics": [
+        "Vuelo de montaña",
+        "Carga externa y operaciones con línea larga (longline)",
+        "Combate de incendios forestales",
+        "Rescate y evacuación aeromédica (HEMS)",
+        "Operaciones en espacios confinados y plataformas"
+      ]
+    }
+  ]
+}

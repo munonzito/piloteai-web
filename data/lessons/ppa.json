@@ -1,0 +1,600 @@
+{
+  "id": "ppa",
+  "licenseId": "ppa",
+  "name": "Piloto Privado de Avión",
+  "fullName": "Lecciones para Licencia de Piloto Privado de Avión",
+  "description": "Plan de lecciones para preparar el examen DGAC de Piloto Privado de Avión (PPA)",
+  "totalLessons": 62,
+  "estimatedTotalHours": 13,
+  "subjects": [
+    {
+      "id": "ppa-aerodinamica",
+      "name": "Aerodinámica",
+      "icon": "✈️",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "ppa-aero-1",
+          "title": "Las Cuatro Fuerzas del Vuelo",
+          "description": "Sustentación, peso, empuje y resistencia: las fuerzas que actúan sobre un avión",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Las cuatro fuerzas del vuelo: sustentación, peso, empuje y resistencia",
+            "Sustentación y el principio de Bernoulli"
+          ]
+        },
+        {
+          "id": "ppa-aero-2",
+          "title": "Ángulo de Ataque y Sustentación",
+          "description": "Cómo el ángulo de ataque determina la sustentación y cuándo se produce la pérdida",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Ángulo de ataque y ángulo de ataque crítico",
+            "Pérdida aerodinámica (stall) y recuperación"
+          ]
+        },
+        {
+          "id": "ppa-aero-3",
+          "title": "Estabilidad de la Aeronave",
+          "description": "Estabilidad estática y dinámica: cómo el avión se mantiene en equilibrio",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 3,
+          "topicsCovered": [
+            "Estabilidad estática y dinámica"
+          ]
+        },
+        {
+          "id": "ppa-aero-4",
+          "title": "Superficies de Control",
+          "description": "Alerones, elevador y timón: cómo se controla un avión en vuelo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Superficies de control: alerones, elevador, timón de dirección",
+            "Flaps y dispositivos hipersustentadores"
+          ]
+        },
+        {
+          "id": "ppa-aero-5",
+          "title": "Resistencia Aerodinámica",
+          "description": "Tipos de resistencia y cómo afectan la eficiencia del avión",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 5,
+          "topicsCovered": [
+            "Resistencia parásita e inducida"
+          ]
+        },
+        {
+          "id": "ppa-aero-6",
+          "title": "Factores de Carga y Configuración",
+          "description": "Fuerzas G en maniobras y efectos de la configuración del avión",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 6,
+          "topicsCovered": [
+            "Factores de carga y maniobras",
+            "Efectos de la configuración en el vuelo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppa-meteorologia",
+      "name": "Meteorología Aeronáutica",
+      "icon": "🌤️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "ppa-met-1",
+          "title": "La Atmósfera y sus Propiedades",
+          "description": "Estructura de la atmósfera, presión y temperatura",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Estructura de la atmósfera y propiedades del aire",
+            "Presión atmosférica y altimetría"
+          ]
+        },
+        {
+          "id": "ppa-met-2",
+          "title": "Temperatura, Humedad y Punto de Rocío",
+          "description": "Cómo la temperatura y la humedad afectan el vuelo",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 2,
+          "topicsCovered": [
+            "Temperatura, humedad y punto de rocío"
+          ]
+        },
+        {
+          "id": "ppa-met-3",
+          "title": "Nubes: Formación y Tipos",
+          "description": "Cómo se forman las nubes y qué significan para un piloto",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Formación de nubes y tipos de nubes",
+            "Visibilidad y techo de nubes"
+          ]
+        },
+        {
+          "id": "ppa-met-4",
+          "title": "Frentes Meteorológicos",
+          "description": "Frentes fríos, cálidos, estacionarios y ocluidos",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Frentes fríos, cálidos, estacionarios y ocluidos"
+          ]
+        },
+        {
+          "id": "ppa-met-5",
+          "title": "Fenómenos Peligrosos en Vuelo",
+          "description": "Turbulencia, engelamiento y cizalladura del viento",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 5,
+          "topicsCovered": [
+            "Fenómenos peligrosos: turbulencia, engelamiento, cizalladura del viento",
+            "Tormentas eléctricas y fenómenos convectivos"
+          ]
+        },
+        {
+          "id": "ppa-met-6",
+          "title": "Lectura de Reportes METAR",
+          "description": "Aprende a decodificar un reporte meteorológico aeronáutico",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 6,
+          "topicsCovered": [
+            "Interpretación de reportes METAR"
+          ]
+        },
+        {
+          "id": "ppa-met-7",
+          "title": "Pronósticos TAF y Cartas de Tiempo",
+          "description": "Interpreta pronósticos de aeródromo y cartas de vientos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 7,
+          "topicsCovered": [
+            "Interpretación de pronósticos TAF",
+            "Cartas de tiempo significativo y vientos en altitud"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppa-navegacion",
+      "name": "Navegación Aérea",
+      "icon": "🧭",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "ppa-nav-1",
+          "title": "Coordenadas Geográficas",
+          "description": "Latitud, longitud y el sistema de coordenadas para la navegación",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 1,
+          "topicsCovered": [
+            "Coordenadas geográficas: latitud y longitud"
+          ]
+        },
+        {
+          "id": "ppa-nav-2",
+          "title": "Norte Verdadero y Norte Magnético",
+          "description": "Variación magnética, desviación de la brújula y correcciones",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Norte verdadero, norte magnético y variación magnética",
+            "Desviación de la brújula y corrección"
+          ]
+        },
+        {
+          "id": "ppa-nav-3",
+          "title": "Cartas Aeronáuticas VFR",
+          "description": "Cómo leer e interpretar una carta aeronáutica",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Lectura de cartas aeronáuticas VFR",
+            "Rutas visuales publicadas"
+          ]
+        },
+        {
+          "id": "ppa-nav-4",
+          "title": "Planificación de Ruta y Rumbos",
+          "description": "Cálculo de rumbos, deriva por viento y triángulo de velocidades",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Planificación de rutas y cálculo de rumbos",
+            "Cálculo de deriva por viento (triángulo de velocidades)"
+          ]
+        },
+        {
+          "id": "ppa-nav-5",
+          "title": "Combustible y Autonomía",
+          "description": "Cálculos de consumo de combustible y planificación de autonomía",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 5,
+          "topicsCovered": [
+            "Cálculo de consumo de combustible y autonomía"
+          ]
+        },
+        {
+          "id": "ppa-nav-6",
+          "title": "Radionavegación Básica: VOR y NDB",
+          "description": "Fundamentos del VOR y el NDB para navegación aérea",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 6,
+          "topicsCovered": [
+            "Radionavegación básica: VOR, NDB",
+            "Uso del GPS en aviación"
+          ]
+        },
+        {
+          "id": "ppa-nav-7",
+          "title": "Plan de Vuelo y AIP Chile",
+          "description": "Cómo presentar un plan de vuelo ATC y usar el AIP",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 7,
+          "topicsCovered": [
+            "Plan de vuelo ATC y formulario ATC-1",
+            "Uso del AIP Chile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppa-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "icon": "📋",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "ppa-reg-1",
+          "title": "La DGAC y el Sistema Regulatorio",
+          "description": "Estructura de la DGAC, Código Aeronáutico y marco DAR/DAN",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Estructura de la DGAC y su rol regulador",
+            "Código Aeronáutico de Chile",
+            "Marco regulatorio: DAR y DAN"
+          ]
+        },
+        {
+          "id": "ppa-reg-2",
+          "title": "Certificaciones Médicas y Licencias",
+          "description": "DAR 01, DAN 61 y los requisitos para obtener tu PPL",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "DAR 01: Certificaciones Médicas",
+            "DAR/DAN 61: Licencias para Pilotos y sus Habilitaciones",
+            "Requisitos para licencia PPL: edad, horas, médico"
+          ]
+        },
+        {
+          "id": "ppa-reg-3",
+          "title": "Atribuciones del Piloto Privado",
+          "description": "Qué puedes y qué no puedes hacer con una licencia PPL",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 3,
+          "topicsCovered": [
+            "Atribuciones y limitaciones del piloto privado",
+            "Documentación de la aeronave y del piloto"
+          ]
+        },
+        {
+          "id": "ppa-reg-4",
+          "title": "Reglas de Vuelo Visual (VFR)",
+          "description": "DAN 91, reglas del aire y condiciones VFR",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "DAN 91: Reglas de Operación y reglas del aire",
+            "Reglas de vuelo visual (VFR)"
+          ]
+        },
+        {
+          "id": "ppa-reg-5",
+          "title": "Espacio Aéreo Chileno",
+          "description": "Clasificación del espacio aéreo y requisitos para cada clase",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 5,
+          "topicsCovered": [
+            "Espacio aéreo: clasificación y requisitos"
+          ]
+        },
+        {
+          "id": "ppa-reg-6",
+          "title": "Comunicaciones ATC y Emergencias",
+          "description": "Procedimientos de radio, fraseología y señales de emergencia",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 6,
+          "topicsCovered": [
+            "Procedimientos de comunicaciones ATC",
+            "Señales visuales y de emergencia"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppa-instrumentos",
+      "name": "Instrumentos de Vuelo",
+      "icon": "🎛️",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "ppa-inst-1",
+          "title": "Sistema Pitot-Estático",
+          "description": "Altímetro, velocímetro y variómetro: cómo funcionan",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Sistema pitot-estático: altímetro, velocímetro, variómetro"
+          ]
+        },
+        {
+          "id": "ppa-inst-2",
+          "title": "El Altímetro en Detalle",
+          "description": "Ajustes QNH, QFE, QNE y errores comunes del altímetro",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Altímetro: ajuste QNH, QFE, QNE y errores"
+          ]
+        },
+        {
+          "id": "ppa-inst-3",
+          "title": "Velocímetro y Variómetro",
+          "description": "IAS, CAS, TAS, marcas del arco y uso del variómetro",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Velocímetro: IAS, CAS, TAS y marcas del arco",
+            "Variómetro y uso en vuelo"
+          ]
+        },
+        {
+          "id": "ppa-inst-4",
+          "title": "Instrumentos Giroscópicos",
+          "description": "Horizonte artificial, giro direccional y coordinador de giro",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Instrumentos giroscópicos: horizonte artificial, giro direccional, coordinador de giro"
+          ]
+        },
+        {
+          "id": "ppa-inst-5",
+          "title": "Brújula e Indicadores de Motor",
+          "description": "Brújula magnética, indicadores de motor y fallas de instrumentos",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 5,
+          "topicsCovered": [
+            "Brújula magnética: errores y uso",
+            "Indicadores de motor: RPM, presión de aceite, temperatura",
+            "Indicadores de combustible y sistemas eléctricos",
+            "Fallas de instrumentos y diagnóstico"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppa-motores",
+      "name": "Motores y Sistemas de la Aeronave",
+      "icon": "⚙️",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "ppa-mot-1",
+          "title": "El Motor de Pistón",
+          "description": "Ciclo Otto, magnetos, bujías y principios del motor aeronáutico",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Principios del motor de pistón (ciclo Otto)",
+            "Sistema de encendido: magnetos y bujías"
+          ]
+        },
+        {
+          "id": "ppa-mot-2",
+          "title": "Sistema de Combustible",
+          "description": "Tanques, bombas, carburador y engelamiento del carburador",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Sistema de combustible: tipos, tanques, bombas y carburador",
+            "Engelamiento del carburador y uso del calor"
+          ]
+        },
+        {
+          "id": "ppa-mot-3",
+          "title": "Sistemas del Avión",
+          "description": "Lubricación, sistema eléctrico, sistema de vacío y hélice",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Sistema de lubricación",
+            "Sistema eléctrico de la aeronave",
+            "Sistema de vacío",
+            "Hélice de paso fijo y variable"
+          ]
+        },
+        {
+          "id": "ppa-mot-4",
+          "title": "Inspección y Estructura",
+          "description": "Inspección preflight/postflight y estructura del avión",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Inspección preflight y postflight",
+            "Estructura de la aeronave: fuselaje, alas, empenaje, tren de aterrizaje"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppa-performance",
+      "name": "Performance y Peso y Balance",
+      "icon": "📊",
+      "order": 7,
+      "lessons": [
+        {
+          "id": "ppa-perf-1",
+          "title": "Altitud Densidad y Performance",
+          "description": "Cómo la altitud densidad afecta el rendimiento de tu avión",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Altitud densidad y sus efectos en performance",
+            "Efectos de la temperatura y altitud en el rendimiento"
+          ]
+        },
+        {
+          "id": "ppa-perf-2",
+          "title": "Distancias de Despegue y Aterrizaje",
+          "description": "Factores que afectan las distancias de despegue y aterrizaje",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Distancia de despegue y factores que la afectan",
+            "Distancia de aterrizaje y factores que la afectan"
+          ]
+        },
+        {
+          "id": "ppa-perf-3",
+          "title": "Velocidades de Ascenso: Vx y Vy",
+          "description": "Mejor ángulo y mejor régimen de ascenso",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 3,
+          "topicsCovered": [
+            "Régimen de ascenso: Vx y Vy"
+          ]
+        },
+        {
+          "id": "ppa-perf-4",
+          "title": "Peso y Balance",
+          "description": "Cálculo del centro de gravedad, pesos máximos y envolvente",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Peso máximo de despegue, aterrizaje y rampa",
+            "Centro de gravedad: cálculo y límites",
+            "Envolvente de peso y balance"
+          ]
+        },
+        {
+          "id": "ppa-perf-5",
+          "title": "Curvas del POH y Carga Útil",
+          "description": "Usar las curvas de performance del manual y calcular payload",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 5,
+          "topicsCovered": [
+            "Curvas de performance del POH",
+            "Carga útil y cálculo de payload"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ppa-factores-humanos",
+      "name": "Factores Humanos y Fisiología",
+      "icon": "🧠",
+      "order": 8,
+      "lessons": [
+        {
+          "id": "ppa-fh-1",
+          "title": "Hipoxia e Hiperventilación",
+          "description": "Tipos de hipoxia, síntomas, prevención e hiperventilación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Hipoxia: tipos, síntomas y prevención",
+            "Hiperventilación",
+            "Efecto de la altitud en el cuerpo humano"
+          ]
+        },
+        {
+          "id": "ppa-fh-2",
+          "title": "Visión y Desorientación Espacial",
+          "description": "Visión nocturna, ilusiones sensoriales y desorientación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Visión nocturna y adaptación visual",
+            "Desorientación espacial e ilusiones sensoriales"
+          ]
+        },
+        {
+          "id": "ppa-fh-3",
+          "title": "Fatiga, Estrés y Sustancias",
+          "description": "Efectos de la fatiga, estrés, alcohol y medicamentos en el vuelo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Fatiga y sus efectos en el rendimiento",
+            "Estrés y toma de decisiones",
+            "Efectos del alcohol, medicamentos y drogas"
+          ]
+        },
+        {
+          "id": "ppa-fh-4",
+          "title": "CRM y Toma de Decisiones",
+          "description": "Modelo DECIDE y CRM básico para pilotos",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "CRM básico (Crew Resource Management)",
+            "Modelo DECIDE para toma de decisiones aeronáuticas"
+          ]
+        }
+      ]
+    }
+  ]
+}

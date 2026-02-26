@@ -1,0 +1,177 @@
+{
+  "id": "globo",
+  "licenseId": "globo",
+  "name": "Piloto de Globo/Dirigible",
+  "fullName": "Lecciones para Licencia de Piloto de Globo Libre o Dirigible",
+  "description": "Plan de lecciones para preparar el examen DGAC de Piloto de Globo",
+  "totalLessons": 22,
+  "estimatedTotalHours": 4,
+  "subjects": [
+    {
+      "id": "pg-aerostatica",
+      "name": "Aerostática y Principios de Vuelo",
+      "icon": "🎈",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "pg-aero-1",
+          "title": "Principio de Arquímedes en Vuelo",
+          "description": "Sustentación aerostática, aire caliente vs gas y control",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Principio de Arquímedes aplicado al vuelo",
+            "Sustentación aerostática: aire caliente vs. gas",
+            "Relación temperatura-sustentación",
+            "Control de ascenso y descenso"
+          ]
+        },
+        {
+          "id": "pg-aero-2",
+          "title": "Estructura, Quemador y Performance",
+          "description": "Envolvente, materiales, quemador y factores de performance",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Envolvente del globo: materiales y estructura",
+            "Quemador: funcionamiento y tipos de combustible",
+            "Estabilidad del globo en vuelo",
+            "Factores que afectan la performance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pg-meteorologia",
+      "name": "Meteorología",
+      "icon": "🌤️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "pg-met-1",
+          "title": "Viento y Capas Atmosféricas",
+          "description": "Viento en superficie y altitud, inversión térmica y capas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Viento en superficie y en altitud",
+            "Inversión térmica y capas de viento",
+            "Condiciones ideales para vuelo en globo"
+          ]
+        },
+        {
+          "id": "pg-met-2",
+          "title": "Turbulencia, Convección y Ventanas",
+          "description": "Turbulencia, actividad convectiva y ventanas de vuelo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Turbulencia y sus efectos en globos",
+            "Actividad convectiva y riesgos",
+            "Pronósticos meteorológicos para vuelo de globo",
+            "Ventanas de vuelo: amanecer y atardecer"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pg-navegacion",
+      "name": "Navegación",
+      "icon": "🧭",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "pg-nav-1",
+          "title": "Planificación y Navegación por Viento",
+          "description": "Cartas, zona de lanzamiento, uso del viento para navegar",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Lectura de cartas y mapas",
+            "Planificación del vuelo: zona de lanzamiento y aterrizaje",
+            "Uso del viento en diferentes altitudes para navegar"
+          ]
+        },
+        {
+          "id": "pg-nav-2",
+          "title": "Aterrizaje, Comunicaciones y GPS",
+          "description": "Selección de sitios de aterrizaje, equipo de tierra y GPS",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 2,
+          "topicsCovered": [
+            "Selección de sitios de aterrizaje",
+            "Comunicación con equipo de tierra",
+            "GPS y seguimiento del vuelo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pg-reglamentacion",
+      "name": "Reglamentación",
+      "icon": "📋",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "pg-reg-1",
+          "title": "Licencia de Globo y Normativa",
+          "description": "DAN 61, DAN 91, espacio aéreo, certificación y documentación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de licencia de piloto de globo",
+            "DAN 91: Reglas de operación aplicables",
+            "Espacio aéreo y restricciones para globos",
+            "Requisitos de seguridad y equipo obligatorio",
+            "Certificación del globo",
+            "Documentación y registros",
+            "Requisitos médicos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pg-operaciones",
+      "name": "Operaciones y Procedimientos",
+      "icon": "🎪",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "pg-ope-1",
+          "title": "Inflado y Despegue",
+          "description": "Preparación, inflado y procedimiento de despegue del globo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Preparación e inflado del globo",
+            "Procedimiento de despegue",
+            "Control del vuelo: uso del quemador y válvula"
+          ]
+        },
+        {
+          "id": "pg-ope-2",
+          "title": "Aterrizaje, Desinflado y Emergencias",
+          "description": "Aterrizaje normal y con viento, desinflado y emergencias",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Procedimiento de aterrizaje normal",
+            "Aterrizaje en condiciones de viento",
+            "Desinflado y empaque",
+            "Procedimientos de emergencia",
+            "Coordinación con equipo de persecución"
+          ]
+        }
+      ]
+    }
+  ]
+}

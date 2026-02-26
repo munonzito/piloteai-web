@@ -1,0 +1,185 @@
+{
+  "id": "lsa",
+  "licenseId": "lsa",
+  "name": "Piloto de LSA",
+  "fullName": "Lecciones para Licencia de Piloto de Aeronave Deportiva Liviana",
+  "description": "Plan de lecciones para preparar el examen DGAC de Piloto de LSA",
+  "totalLessons": 24,
+  "estimatedTotalHours": 5,
+  "subjects": [
+    {
+      "id": "lsa-aerodinamica",
+      "name": "Aerodinámica",
+      "icon": "✈️",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "lsa-aero-1",
+          "title": "Fuerzas del Vuelo y Sustentación",
+          "description": "Las cuatro fuerzas, sustentación y resistencia en LSA",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Principios básicos de sustentación y resistencia",
+            "Las cuatro fuerzas del vuelo"
+          ]
+        },
+        {
+          "id": "lsa-aero-2",
+          "title": "Estabilidad, Stall y Control",
+          "description": "Estabilidad, pérdida aerodinámica, factores de carga y flaps",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Estabilidad y control de aeronaves LSA",
+            "Pérdida aerodinámica y recuperación",
+            "Factores de carga y limitaciones",
+            "Superficies de control",
+            "Efectos de la configuración de flaps"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lsa-meteorologia",
+      "name": "Meteorología",
+      "icon": "🌤️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "lsa-met-1",
+          "title": "Atmósfera y Fenómenos Básicos",
+          "description": "Estructura de la atmósfera, presión, temperatura y nubes",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Estructura de la atmósfera",
+            "Presión, temperatura y humedad",
+            "Formación de nubes y visibilidad"
+          ]
+        },
+        {
+          "id": "lsa-met-2",
+          "title": "Viento, Frentes y Reportes",
+          "description": "Viento, turbulencia, frentes, METAR y TAF",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Viento y turbulencia",
+            "Frentes meteorológicos",
+            "Interpretación de METAR y TAF",
+            "Condiciones VFR mínimas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lsa-navegacion",
+      "name": "Navegación",
+      "icon": "🧭",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "lsa-nav-1",
+          "title": "Cartas, Navegación Visual y GPS",
+          "description": "Lectura de cartas, navegación por estima, brújula y GPS",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Lectura de cartas aeronáuticas",
+            "Navegación visual y por estima",
+            "Uso de brújula y referencias terrestres",
+            "Planificación de rutas y combustible",
+            "Uso básico de GPS"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lsa-reglamentacion",
+      "name": "Reglamentación",
+      "icon": "📋",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "lsa-reg-1",
+          "title": "Licencia LSA y Normativa",
+          "description": "DAN 61, categorías LSA, espacio aéreo y documentación",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de licencia LSA",
+            "DAN 91: Reglas de operación",
+            "Definición y categorías de aeronaves LSA",
+            "Espacio aéreo permitido",
+            "Limitaciones operacionales",
+            "Documentación requerida",
+            "Requisitos médicos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lsa-motores",
+      "name": "Motores y Sistemas",
+      "icon": "⚙️",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "lsa-mot-1",
+          "title": "Motor, Combustible y Eléctrica",
+          "description": "Tipos de motor, sistema de combustible y eléctrico en LSA",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Motor: tipos y funcionamiento básico",
+            "Sistema de combustible",
+            "Sistema eléctrico"
+          ]
+        },
+        {
+          "id": "lsa-mot-2",
+          "title": "Instrumentos, Hélice e Inspección",
+          "description": "Instrumentos de vuelo/motor, hélice e inspección pre-vuelo",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 2,
+          "topicsCovered": [
+            "Instrumentos de vuelo y motor",
+            "Inspección pre-vuelo",
+            "Hélice y su operación"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "lsa-performance",
+      "name": "Performance",
+      "icon": "📊",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "lsa-perf-1",
+          "title": "Performance y Peso y Balance LSA",
+          "description": "Distancias, peso y balance, efectos de altitud y velocidades",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Distancias de despegue y aterrizaje",
+            "Peso y balance",
+            "Efectos de altitud y temperatura",
+            "Velocidades operacionales"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "id": "multimotor",
+  "licenseId": "multimotor",
+  "name": "Habilitación Multimotor",
+  "fullName": "Lecciones para Habilitación de Aeronave Multimotor",
+  "description": "Plan de lecciones para preparar el examen DGAC de Habilitación Multimotor",
+  "totalLessons": 26,
+  "estimatedTotalHours": 6,
+  "subjects": [
+    {
+      "id": "mm-aerodinamica",
+      "name": "Aerodinámica Multimotor",
+      "icon": "✈️",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "mm-aero-1",
+          "title": "Asimetría de Empuje y VMC",
+          "description": "Efectos de la asimetría de empuje y VMC",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Asimetría de empuje y sus efectos",
+            "VMC (Velocidad Mínima de Control) y factores que la afectan"
+          ]
+        },
+        {
+          "id": "mm-aero-2",
+          "title": "Motor Crítico y Efectos Aerodinámicos",
+          "description": "Motor crítico, P-factor, torque y precesión con un motor inoperativo",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Motor crítico: concepto y determinación",
+            "P-factor, torque y precesión giroscópica con un motor inoperativo",
+            "Yaw y roll causados por falla de motor"
+          ]
+        },
+        {
+          "id": "mm-aero-3",
+          "title": "Vuelo OEI y Blue Line Speed",
+          "description": "Vuelo con motor inoperativo, Vy SE y velocidades clave",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Vuelo con motor inoperativo (OEI)",
+            "Vy SE (Best Rate of Climb Single Engine)",
+            "Blue line speed y red radial line"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mm-procedimientos",
+      "name": "Procedimientos Normales y de Emergencia",
+      "icon": "📝",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "mm-proc-1",
+          "title": "Preflight y Operaciones Normales",
+          "description": "Inspección, arranque, taxi y despegue en multimotor",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Inspección pre-vuelo de aeronave multimotor",
+            "Procedimientos de arranque y taxi",
+            "Despegue normal y con viento cruzado",
+            "Peso y balance para multimotor"
+          ]
+        },
+        {
+          "id": "mm-proc-2",
+          "title": "Falla de Motor en Despegue",
+          "description": "Procedimiento ante falla de motor durante el despegue",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Falla de motor en despegue: procedimiento"
+          ]
+        },
+        {
+          "id": "mm-proc-3",
+          "title": "Falla de Motor en Vuelo",
+          "description": "Identificar, verificar, feather y reinicio de motor",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Falla de motor en vuelo: identificar, verificar, feather",
+            "Asegurar motor inoperativo (feathering)",
+            "Reinicio de motor en vuelo"
+          ]
+        },
+        {
+          "id": "mm-proc-4",
+          "title": "Aproximación y Aterrizaje OEI",
+          "description": "Descenso, aproximación, aterrizaje y go-around con un motor",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Descenso y aproximación con un motor",
+            "Aterrizaje con motor inoperativo",
+            "Go-around con motor inoperativo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mm-performance",
+      "name": "Performance Multimotor",
+      "icon": "📊",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "mm-perf-1",
+          "title": "Performance Normal y OEI",
+          "description": "Performance de despegue, ascenso y SE performance",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Performance de despegue y ascenso multimotor",
+            "Performance con motor inoperativo (SE performance)",
+            "Distancias de despegue y aterrizaje"
+          ]
+        },
+        {
+          "id": "mm-perf-2",
+          "title": "Drift-Down y Techo SE",
+          "description": "Drift-down, techo con un motor y curvas del POH",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Régimen de ascenso y descenso OEI",
+            "Drift-down con motor inoperativo",
+            "Techo de servicio con un motor",
+            "Curvas de performance del POH multimotor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mm-sistemas",
+      "name": "Sistemas de Aeronave Multimotor",
+      "icon": "⚙️",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "mm-sis-1",
+          "title": "Propulsión y Hélices",
+          "description": "Motores, hélices de paso variable y feathering",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Sistemas de propulsión: motores y hélices",
+            "Hélices de paso variable y feathering"
+          ]
+        },
+        {
+          "id": "mm-sis-2",
+          "title": "Combustible, Eléctrica y Otros Sistemas",
+          "description": "Crossfeed, generadores múltiples, presurización y tren retráctil",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Sistema de combustible: crossfeed y gestión",
+            "Sistema eléctrico con generadores múltiples",
+            "Sistemas de presurización (si aplica)",
+            "Tren de aterrizaje retráctil",
+            "Instrumentos de monitoreo de motor"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mm-maniobras-ifr",
+      "name": "Maniobras IFR Básicas",
+      "icon": "🎛️",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "mm-ifr-1",
+          "title": "IFR con Motor Inoperativo",
+          "description": "Aproximaciones IFR, holding y escape con motor inoperativo",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Aproximaciones IFR con ambos motores",
+            "Aproximaciones IFR con motor inoperativo",
+            "Holding con motor inoperativo",
+            "Procedimientos de escape OEI"
+          ]
+        }
+      ]
+    }
+  ]
+}

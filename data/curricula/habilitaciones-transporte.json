@@ -1,0 +1,188 @@
+{
+  "id": "habilitaciones-transporte",
+  "code": "HAB-TP",
+  "name": "Habilitaciones de Aeronaves de Transporte",
+  "fullName": "Habilitaciones de Tipo para Aeronaves de Transporte de Línea Aérea",
+  "description": "Exámenes de habilitación de tipo para aeronaves específicas de línea aérea. Cada habilitación cubre sistemas, limitaciones y procedimientos de la aeronave específica.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "habilitaciones": [
+    {
+      "id": "hab-a320",
+      "code": "A320",
+      "name": "Habilitación Airbus A320",
+      "description": "Habilitación de tipo para la familia Airbus A320 (A318/A319/A320/A321)",
+      "subjects": [
+        {
+          "id": "a320-sistemas",
+          "name": "Sistemas del A320",
+          "description": "Sistemas principales de la familia A320",
+          "icon": "⚙️",
+          "topics": [
+            "Fly-by-wire y leyes de control normal, alternate, direct",
+            "Sistema hidráulico: Green, Blue, Yellow",
+            "Sistema eléctrico: generadores, APU, RAT",
+            "Sistema de combustible y gestión",
+            "Sistema de presurización y aire acondicionado (bleed/pack)",
+            "Tren de aterrizaje y frenos (autobrake, anti-skid)",
+            "Protección contra hielo y lluvia",
+            "FMGC/MCDU y automatización",
+            "ECAM y gestión de alertas",
+            "Autopilot y autothrust",
+            "Flight envelope protections"
+          ]
+        },
+        {
+          "id": "a320-limitaciones",
+          "name": "Limitaciones",
+          "description": "Limitaciones operacionales del A320",
+          "icon": "⚠️",
+          "topics": [
+            "Limitaciones de velocidad (VMO/MMO)",
+            "Limitaciones de motor (N1, EGT, N2)",
+            "Limitaciones de peso (MTOW, MLW, MZFW)",
+            "Limitaciones de altitud y presurización",
+            "Limitaciones de viento cruzado y de cola",
+            "Limitaciones de temperatura operacional"
+          ]
+        },
+        {
+          "id": "a320-emergencias",
+          "name": "Procedimientos de Emergencia",
+          "description": "Procedimientos anormales y de emergencia del A320",
+          "icon": "🆘",
+          "topics": [
+            "Engine failure procedures",
+            "Dual engine failure",
+            "Smoke and fire procedures",
+            "Depressurization",
+            "Landing gear gravity extension",
+            "Evacuation procedures",
+            "ECAM actions philosophy"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-b737",
+      "code": "B737",
+      "name": "Habilitación Boeing 737",
+      "description": "Habilitación de tipo para Boeing 737 (B732/B733 y series)",
+      "subjects": [
+        {
+          "id": "b737-sistemas",
+          "name": "Sistemas del B737",
+          "description": "Sistemas principales del Boeing 737",
+          "icon": "⚙️",
+          "topics": [
+            "Sistemas hidráulicos A y B",
+            "Sistema eléctrico y generadores",
+            "Sistema de combustible",
+            "Sistema de presurización y aire acondicionado",
+            "Tren de aterrizaje y frenos",
+            "Flight controls: manual y autopilot",
+            "FMC y automatización",
+            "Instrumentos y displays de cabina"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-b763",
+      "code": "B763",
+      "name": "Habilitación Boeing 767-300",
+      "description": "Habilitación de tipo para Boeing 767-300",
+      "subjects": [
+        {
+          "id": "b763-sistemas",
+          "name": "Sistemas del B767",
+          "description": "Sistemas principales del Boeing 767",
+          "icon": "⚙️",
+          "topics": [
+            "Sistemas hidráulicos (L, C, R)",
+            "Sistema eléctrico y APU",
+            "Sistema de combustible y transferencia",
+            "Sistema de presurización",
+            "Flight management y automatización",
+            "Tren de aterrizaje y frenos",
+            "ETOPS: sistemas y procedimientos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-b777",
+      "code": "B777",
+      "name": "Habilitación Boeing 777",
+      "description": "Habilitación de tipo para Boeing 777",
+      "subjects": [
+        {
+          "id": "b777-sistemas",
+          "name": "Sistemas del B777",
+          "description": "Sistemas principales del Boeing 777",
+          "icon": "⚙️",
+          "topics": [
+            "Fly-by-wire Boeing: PFC y ACE",
+            "Sistemas hidráulicos (L, C, R)",
+            "Sistema eléctrico avanzado",
+            "Motores GE90/Trent 800 y sistemas de propulsión",
+            "AIMS y aviónica integrada",
+            "ETOPS: sistemas y operaciones",
+            "Automatización avanzada"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-b788",
+      "code": "B788",
+      "name": "Habilitación Boeing 787-8 Dreamliner",
+      "description": "Habilitación de tipo para Boeing 787-8",
+      "subjects": [
+        {
+          "id": "b788-sistemas",
+          "name": "Sistemas del B787",
+          "description": "Sistemas principales del Boeing 787 Dreamliner",
+          "icon": "⚙️",
+          "topics": [
+            "Arquitectura eléctrica avanzada (more electric aircraft)",
+            "No-bleed architecture",
+            "Sistema eléctrico y distribución de potencia",
+            "Estructura de materiales compuestos",
+            "Flight controls: fly-by-wire",
+            "Aviónica y displays HUD",
+            "Motores GEnx/Trent 1000",
+            "ETOPS extendido"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-a340",
+      "code": "A340",
+      "name": "Habilitación Airbus A340",
+      "description": "Habilitación de tipo para Airbus A340",
+      "subjects": [
+        {
+          "id": "a340-sistemas",
+          "name": "Sistemas del A340",
+          "description": "Sistemas principales del Airbus A340",
+          "icon": "⚙️",
+          "topics": [
+            "Fly-by-wire: leyes de control",
+            "Sistemas hidráulicos (Green, Blue, Yellow)",
+            "Sistema de cuatro motores: gestión y operación",
+            "Sistema de combustible y transferencia",
+            "ECAM y gestión de alertas",
+            "Automatización y FMS",
+            "Presurización y sistemas ambientales"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "id": "eov",
+  "code": "EOV",
+  "name": "Encargado de Operaciones de Vuelo",
+  "fullName": "Licencia de Encargado de Operaciones de Vuelo",
+  "description": "Licencia para desempeñarse como despachador de vuelo/encargado de operaciones. Evalúa meteorología, navegación, performance, reglamentación y planificación de vuelos.",
+  "category": "personal_de_tierra",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "eov-meteorologia",
+      "name": "Meteorología Aeronáutica",
+      "description": "Meteorología avanzada para despacho de vuelos",
+      "icon": "🌤️",
+      "topics": [
+        "Interpretación de METAR, SPECI y TAF",
+        "SIGMET, AIRMET y avisos meteorológicos",
+        "Cartas de tiempo significativo",
+        "Vientos en altitud y temperaturas",
+        "Fenómenos peligrosos: engelamiento, turbulencia, ceniza volcánica",
+        "Corriente en chorro y su efecto en planificación",
+        "Análisis de condiciones para despacho",
+        "Climatología aeronáutica de Chile"
+      ]
+    },
+    {
+      "id": "eov-navegacion",
+      "name": "Navegación Aérea",
+      "description": "Rutas aéreas, procedimientos y espacio aéreo",
+      "icon": "🧭",
+      "topics": [
+        "Rutas aéreas nacionales e internacionales",
+        "Espacio aéreo: clasificación y requisitos",
+        "Procedimientos ATC y coordinación",
+        "Cartas aeronáuticas IFR y VFR",
+        "NOTAM y PIB (Pre-flight Information Bulletin)",
+        "AIP Chile y uso operacional",
+        "Alternates y su selección",
+        "Radioayudas y sistemas de navegación"
+      ]
+    },
+    {
+      "id": "eov-performance",
+      "name": "Performance y Planeación de Vuelo",
+      "description": "Cálculos de performance y planificación de combustible",
+      "icon": "📊",
+      "topics": [
+        "Performance de despegue y aterrizaje",
+        "Cálculo de combustible: trip, reserve, alternate, contingency",
+        "Peso y balance operacional",
+        "Selección de altitud de crucero",
+        "Performance en ruta y drift-down",
+        "Limitaciones operacionales de la aeronave",
+        "Planes de vuelo operacionales (OFP)",
+        "ETOPS y su planificación"
+      ]
+    },
+    {
+      "id": "eov-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "description": "Normativa para operaciones de vuelo y despacho",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de licencia EOV",
+        "DAN 91: Reglas de operación",
+        "DAN 119 y 121: Operaciones de transporte aéreo",
+        "Responsabilidades del encargado de operaciones",
+        "Control operacional compartido con el piloto",
+        "Mínimos operacionales para despacho",
+        "MEL y CDL: aplicación operacional",
+        "Documentación de despacho",
+        "Código Aeronáutico y legislación"
+      ]
+    },
+    {
+      "id": "eov-comunicaciones",
+      "name": "Comunicaciones y Procedimientos ATC",
+      "description": "Comunicaciones aeronáuticas y coordinación con ATC",
+      "icon": "📻",
+      "topics": [
+        "Fraseología ATC estándar",
+        "Procedimientos de comunicación para operaciones",
+        "Coordinación con ATC y FIC",
+        "Procedimientos de emergencia en comunicaciones",
+        "AFTN y sistemas de comunicación aeronáutica"
+      ]
+    },
+    {
+      "id": "eov-aeronaves",
+      "name": "Conocimiento General de Aeronaves",
+      "description": "Sistemas de aeronaves relevantes para operaciones de vuelo",
+      "icon": "⚙️",
+      "topics": [
+        "Sistemas principales de aeronaves de transporte",
+        "Instrumentación y aviónica relevante",
+        "Limitaciones operacionales por sistemas",
+        "MEL y lista de equipos mínimos"
+      ]
+    }
+  ]
+}

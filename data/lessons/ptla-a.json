@@ -1,0 +1,426 @@
+{
+  "id": "ptla-a",
+  "licenseId": "ptla-a",
+  "name": "PTLA Avión",
+  "fullName": "Lecciones para Licencia de Piloto de Transporte de Línea Aérea - Avión",
+  "description": "Plan de lecciones para preparar el examen DGAC de PTLA-A, la máxima licencia de piloto en Chile",
+  "totalLessons": 58,
+  "estimatedTotalHours": 13,
+  "subjects": [
+    {
+      "id": "ptla-a-performance",
+      "name": "Performance Avanzada",
+      "icon": "📊",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "ptla-perf-1",
+          "title": "Despegue con Limitaciones Comerciales",
+          "description": "Cálculos de despegue, derate y flex temp",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Cálculo de despegue y aterrizaje con limitaciones comerciales",
+            "Curvas de empuje reducido (derate y flex temp)"
+          ]
+        },
+        {
+          "id": "ptla-perf-2",
+          "title": "Limitaciones de Peso",
+          "description": "MTOW, MLW, MZFW y masa y centrado en aeronaves de transporte",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Limitaciones de peso: MTOW, MLW, MZFW",
+            "Masa y centrado en aeronaves de transporte"
+          ]
+        },
+        {
+          "id": "ptla-perf-3",
+          "title": "Drift-Down y Motor Inoperativo",
+          "description": "Requerimientos engine-out y procedimientos de drift-down",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Requerimientos de drift-down y motor inoperativo (engine-out)"
+          ]
+        },
+        {
+          "id": "ptla-perf-4",
+          "title": "ETOPS y Performance de Aeronaves Grandes",
+          "description": "Rutas ETOPS, performance en B737/A320 y FMS",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Rutas ETOPS y sus requisitos",
+            "Performance en aeronaves grandes (B737, A320, etc.)",
+            "FMS (Flight Management System) y su uso en performance"
+          ]
+        },
+        {
+          "id": "ptla-perf-5",
+          "title": "MEL, Combustible y Pistas Contaminadas",
+          "description": "MEL, planificación de combustible avanzada y pistas contaminadas",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 5,
+          "topicsCovered": [
+            "MEL (Minimum Equipment List) y su aplicación",
+            "Planificación de combustible comercial avanzada",
+            "Operaciones en pistas contaminadas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-a-navegacion",
+      "name": "Navegación Avanzada",
+      "icon": "🧭",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "ptla-nav-1",
+          "title": "RNAV, RNP y PBN",
+          "description": "Area Navigation, Required Navigation Performance y PBN",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "RNAV (Area Navigation) y procedimientos",
+            "RNP (Required Navigation Performance)",
+            "PBN (Performance Based Navigation)"
+          ]
+        },
+        {
+          "id": "ptla-nav-2",
+          "title": "Procedimientos Instrumentales Avanzados",
+          "description": "SID, STAR, IAP y holdings avanzados",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Procedimientos instrumentales avanzados: SID, STAR, IAP",
+            "Holding patterns y procedimientos de espera"
+          ]
+        },
+        {
+          "id": "ptla-nav-3",
+          "title": "Aproximaciones ILS CAT I, II y III",
+          "description": "Aproximaciones de precisión de categorías I, II y III",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Aproximaciones de precisión: ILS CAT I, II, III",
+            "Aproximaciones no precisión: VOR, NDB, RNAV"
+          ]
+        },
+        {
+          "id": "ptla-nav-4",
+          "title": "Cartas IFR y Planificación de Largo Alcance",
+          "description": "Interpretación de cartas IFR, altitudes mínimas y planificación",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Cartas IFR: interpretación completa",
+            "Altitudes mínimas y sectores",
+            "Planificación de vuelo comercial de largo alcance"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-a-regulaciones",
+      "name": "Regulaciones Aeronáuticas",
+      "icon": "📋",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "ptla-reg-1",
+          "title": "Licencia PTLA y DAN 61",
+          "description": "Requisitos PTLA, DAN 91 y normativa OACI",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Licencias y habilitaciones PTLA",
+            "DAN 91: Reglas de operación general",
+            "Normativa OACI aplicable"
+          ]
+        },
+        {
+          "id": "ptla-reg-2",
+          "title": "DAN 119 y 121: Transporte Aéreo",
+          "description": "Certificación de explotadores y operaciones de línea aérea",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "DAN 119: Certificación de explotadores aéreos",
+            "DAN 121: Operaciones de transporte aéreo comercial",
+            "Requisitos operacionales de aerolíneas"
+          ]
+        },
+        {
+          "id": "ptla-reg-3",
+          "title": "Tiempos, Despacho y Mínimos",
+          "description": "Tiempos de vuelo/descanso, despacho y mínimos IFR",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Tiempos de vuelo, servicio y descanso",
+            "Procedimientos de despacho y control operacional",
+            "Mínimos operacionales IFR"
+          ]
+        },
+        {
+          "id": "ptla-reg-4",
+          "title": "Inglés Aeronáutico",
+          "description": "Inglés aeronáutico e interpretación de textos OACI",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 4,
+          "topicsCovered": [
+            "Inglés aeronáutico e interpretación de textos OACI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-a-meteorologia",
+      "name": "Meteorología Operacional",
+      "icon": "🌤️",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "ptla-met-1",
+          "title": "TAF, METAR y Avisos Operacionales",
+          "description": "Interpretación operacional de TAF, METAR, SIGMET y AIRMET",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Interpretación operacional de TAF y METAR",
+            "SIGMET, AIRMET y sus implicancias operacionales"
+          ]
+        },
+        {
+          "id": "ptla-met-2",
+          "title": "CAT, Engelamiento y Convección",
+          "description": "Clear Air Turbulence, engelamiento severo y fenómenos convectivos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Turbulencia severa y clear air turbulence (CAT)",
+            "Engelamiento y sus efectos en aeronaves de transporte",
+            "Fenómenos convectivos severos"
+          ]
+        },
+        {
+          "id": "ptla-met-3",
+          "title": "Jet Stream y Wind Shear",
+          "description": "Corriente en chorro, cizalladura y microburst",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Corriente en chorro (jet stream) y su uso operacional",
+            "Cizalladura del viento (wind shear) y microburst"
+          ]
+        },
+        {
+          "id": "ptla-met-4",
+          "title": "Vientos en Altitud y Ceniza Volcánica",
+          "description": "Cartas de vientos, volcanes, meteorología tropical y ciclones",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Cartas de vientos y temperaturas en altitud",
+            "Volcanes y ceniza volcánica",
+            "Meteorología tropical: ciclones y ITCZ"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-a-factores-humanos",
+      "name": "Factores Humanos",
+      "icon": "🧠",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "ptla-fh-1",
+          "title": "CRM Avanzado y TEM",
+          "description": "CRM avanzado, TEM y liderazgo en cabina multicrew",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "CRM (Crew Resource Management) avanzado",
+            "TEM (Threat and Error Management)",
+            "Gestión multicrew y liderazgo en cabina"
+          ]
+        },
+        {
+          "id": "ptla-fh-2",
+          "title": "Automatización y Toma de Decisiones",
+          "description": "Automation management y decisiones bajo presión",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Toma de decisiones bajo presión",
+            "Manejo de automatización (automation management)"
+          ]
+        },
+        {
+          "id": "ptla-fh-3",
+          "title": "Fatiga, Estrés y Conciencia Situacional",
+          "description": "Gestión de fatiga y sueño, estrés y conciencia situacional",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Fatiga y gestión del sueño para tripulaciones",
+            "Estrés operacional en línea aérea",
+            "Conciencia situacional en operaciones complejas"
+          ]
+        },
+        {
+          "id": "ptla-fh-4",
+          "title": "Cultura de Seguridad y Accidentes",
+          "description": "Cultura de seguridad, reporte de eventos y factores humanos en accidentes",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Cultura de seguridad y reporte de eventos",
+            "Factores humanos en accidentes aéreos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-a-sistemas",
+      "name": "Sistemas Avanzados de Aeronaves",
+      "icon": "⚙️",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "ptla-sis-1",
+          "title": "Fly-by-Wire y Automatización",
+          "description": "Fly-by-wire, leyes de control y automatización de cabina",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Fly-by-wire y leyes de control",
+            "Automatización de cabina: autopilot, autothrottle, FMS"
+          ]
+        },
+        {
+          "id": "ptla-sis-2",
+          "title": "Presurización y Sistemas Hidráulicos",
+          "description": "Sistemas de presurización, A/C e hidráulicos avanzados",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Sistemas de presurización y aire acondicionado",
+            "Sistemas hidráulicos avanzados"
+          ]
+        },
+        {
+          "id": "ptla-sis-3",
+          "title": "Eléctrica, Turbofan y Combustible",
+          "description": "Sistemas eléctricos, motores turbofan y sistema de combustible",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Sistemas eléctricos de aeronaves de transporte",
+            "Motores turbofan: principios y operación",
+            "Sistemas de combustible en aeronaves grandes"
+          ]
+        },
+        {
+          "id": "ptla-sis-4",
+          "title": "TCAS, EGPWS y Weather Radar",
+          "description": "Sistemas de alerta de tráfico, terreno y radar meteorológico",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "TCAS (Traffic Collision Avoidance System)",
+            "EGPWS (Enhanced Ground Proximity Warning System)",
+            "Weather radar y su uso operacional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-a-planificacion",
+      "name": "Planificación de Vuelo Comercial",
+      "icon": "📝",
+      "order": 7,
+      "lessons": [
+        {
+          "id": "ptla-plan-1",
+          "title": "Ruta y Altitud de Crucero",
+          "description": "Planificación de ruta y selección de altitud de crucero óptima",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Planificación de ruta comercial",
+            "Selección de altitud de crucero óptima"
+          ]
+        },
+        {
+          "id": "ptla-plan-2",
+          "title": "Cálculo de Combustible Comercial",
+          "description": "Trip, contingency, alternate, final reserve y extra fuel",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Cálculo de combustible: trip, contingency, alternate, final reserve, extra"
+          ]
+        },
+        {
+          "id": "ptla-plan-3",
+          "title": "NOTAM, Despacho y Documentación",
+          "description": "Análisis de NOTAM, despacho de vuelo y documentación",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "NOTAM y su análisis operacional",
+            "Despacho de vuelo y documentación",
+            "Análisis meteorológico para planificación"
+          ]
+        },
+        {
+          "id": "ptla-plan-4",
+          "title": "Alternates y Peso y Balance",
+          "description": "Selección de alternates y peso y balance para carga y pasajeros",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Alternates de destino y en ruta",
+            "Peso y balance para carga y pasajeros"
+          ]
+        }
+      ]
+    }
+  ]
+}

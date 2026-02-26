@@ -1,0 +1,107 @@
+{
+  "id": "pph",
+  "code": "PPH",
+  "name": "Piloto Privado de Helicóptero",
+  "fullName": "Licencia de Piloto Privado de Helicóptero",
+  "description": "Licencia para volar helicópteros de forma privada. Evalúa conocimientos específicos de aerodinámica de ala rotatoria y operaciones en helicóptero.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "pph-aerodinamica",
+      "name": "Aerodinámica de Helicópteros",
+      "description": "Principios de sustentación por rotor, efecto suelo y autorrotación",
+      "icon": "🚁",
+      "topics": [
+        "Principios de sustentación por rotor",
+        "Efecto suelo (IGE y OGE)",
+        "Autorrotación: principios y procedimiento",
+        "Vórtice de estela del rotor",
+        "Traslación y Effective Translational Lift (ETL)",
+        "Disimetría de sustentación",
+        "Efecto Coriolis y conservación del momento angular",
+        "Control cíclico, colectivo y pedales antipar",
+        "Estabilidad del helicóptero",
+        "Factores de carga en maniobras"
+      ]
+    },
+    {
+      "id": "pph-meteorologia",
+      "name": "Meteorología Aeronáutica",
+      "description": "Interpretación de cartas meteorológicas y fenómenos críticos",
+      "icon": "🌤️",
+      "topics": [
+        "Estructura de la atmósfera y propiedades del aire",
+        "Presión atmosférica y altimetría",
+        "Formación de nubes y tipos de precipitación",
+        "Frentes meteorológicos",
+        "Fenómenos peligrosos: turbulencia, cizalladura, engelamiento",
+        "Interpretación de METAR y TAF",
+        "Efectos del viento en operaciones de helicóptero",
+        "Visibilidad y condiciones VFR"
+      ]
+    },
+    {
+      "id": "pph-navegacion",
+      "name": "Navegación Aérea",
+      "description": "Uso de cartas VFR, radionavegación y planificación de rutas",
+      "icon": "🧭",
+      "topics": [
+        "Coordenadas geográficas y cartas aeronáuticas",
+        "Norte verdadero y magnético, variación magnética",
+        "Lectura de cartas VFR",
+        "Planificación de rutas para helicópteros",
+        "Radionavegación básica: VOR, NDB",
+        "Cálculo de combustible y autonomía",
+        "Plan de vuelo y uso del AIP Chile"
+      ]
+    },
+    {
+      "id": "pph-reglamentacion",
+      "name": "Reglamentación Aérea",
+      "description": "Normas DGAC y reglamentos aplicables a helicópteros",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de licencia PPH",
+        "DAN 91: Reglas de operación general",
+        "Atribuciones y limitaciones del piloto privado de helicóptero",
+        "Espacio aéreo y requisitos de operación",
+        "Procedimientos de comunicaciones ATC",
+        "Normativa específica para operaciones de helicóptero",
+        "Documentación requerida: aeronave y piloto",
+        "Regulaciones internacionales OACI aplicables"
+      ]
+    },
+    {
+      "id": "pph-factores-humanos",
+      "name": "Factores Humanos",
+      "description": "Fisiología del vuelo, fatiga, visión y toma de decisiones",
+      "icon": "🧠",
+      "topics": [
+        "Hipoxia y sus efectos",
+        "Desorientación espacial e ilusiones",
+        "Fatiga y estrés en vuelo",
+        "Visión nocturna y adaptación visual",
+        "Efectos del alcohol y medicamentos",
+        "Toma de decisiones aeronáuticas",
+        "CRM básico"
+      ]
+    },
+    {
+      "id": "pph-comunicaciones",
+      "name": "Comunicaciones Aeronáuticas",
+      "description": "Fraseología ATC estándar y procedimientos de radio",
+      "icon": "📻",
+      "topics": [
+        "Fraseología ATC estándar",
+        "Procedimientos de radio en operaciones de helicóptero",
+        "Comunicaciones en emergencia",
+        "Uso de frecuencias y transponder"
+      ]
+    }
+  ]
+}

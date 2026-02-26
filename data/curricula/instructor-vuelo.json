@@ -1,0 +1,91 @@
+{
+  "id": "instructor-vuelo",
+  "code": "IV",
+  "name": "Instructor de Vuelo",
+  "fullName": "Habilitación de Instructor de Vuelo",
+  "description": "Habilitación que permite instruir a alumnos pilotos. Evalúa técnicas de instrucción, pedagogía aplicada, normativa y procedimientos de vuelo.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "iv-tecnica-instruccion",
+      "name": "Técnicas de Instrucción",
+      "description": "Metodología y pedagogía aplicada a la instrucción de vuelo",
+      "icon": "📚",
+      "topics": [
+        "Principios del aprendizaje",
+        "Métodos de instrucción: demostración, práctica, briefing/debriefing",
+        "Planificación de lecciones de vuelo",
+        "Retroalimentación efectiva al alumno",
+        "Evaluación del progreso del alumno",
+        "Motivación y gestión del alumno",
+        "Comunicación efectiva en instrucción",
+        "Estilos de aprendizaje y adaptación de la enseñanza",
+        "Manejo de situaciones difíciles con alumnos",
+        "Desarrollo de habilidades de decisión en alumnos"
+      ]
+    },
+    {
+      "id": "iv-normativa",
+      "name": "Normativa Aeronáutica",
+      "description": "Reglamentos DAN, DAR y normativa OACI aplicable a la instrucción",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de habilitación de instructor",
+        "DAR/DAN aplicables a instrucción de vuelo",
+        "Requisitos para escuelas de vuelo y CIACs",
+        "Normativa OACI sobre formación de pilotos",
+        "Responsabilidades legales del instructor",
+        "Programa de formación: contenidos mínimos",
+        "Registros y documentación de instrucción",
+        "Atribuciones y limitaciones del instructor de vuelo"
+      ]
+    },
+    {
+      "id": "iv-factores-humanos",
+      "name": "Factores Humanos",
+      "description": "Gestión de la fatiga, toma de decisiones y CRM en instrucción",
+      "icon": "🧠",
+      "topics": [
+        "Gestión de la fatiga en instrucción",
+        "Toma de decisiones: modelo DECIDE",
+        "CRM aplicado a la instrucción",
+        "Estrés y sus efectos en instructor y alumno",
+        "Conciencia situacional durante la instrucción",
+        "Manejo del riesgo en vuelos de instrucción"
+      ]
+    },
+    {
+      "id": "iv-seguridad",
+      "name": "Seguridad Operacional",
+      "description": "SMS, gestión de riesgos y cultura de seguridad",
+      "icon": "🛡️",
+      "topics": [
+        "SMS (Safety Management System) aplicado a instrucción",
+        "Gestión de riesgos en vuelos de entrenamiento",
+        "Análisis de accidentes e incidentes en instrucción",
+        "Cultura de seguridad y reporte de eventos",
+        "Manejo de amenazas y errores (TEM) en instrucción"
+      ]
+    },
+    {
+      "id": "iv-procedimientos",
+      "name": "Procedimientos de Vuelo",
+      "description": "Maniobras básicas, avanzadas y de emergencia para enseñanza",
+      "icon": "✈️",
+      "topics": [
+        "Maniobras básicas: virajes, ascensos, descensos",
+        "Maniobras avanzadas: stalls, slow flight, steep turns",
+        "Procedimientos de emergencia y su enseñanza",
+        "Demostración de maniobras al alumno",
+        "Transferencia progresiva de control",
+        "Circuitos de tránsito y operaciones en aeródromo",
+        "Vuelos de navegación de entrenamiento"
+      ]
+    }
+  ]
+}

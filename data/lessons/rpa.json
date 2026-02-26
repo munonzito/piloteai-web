@@ -1,0 +1,217 @@
+{
+  "id": "rpa",
+  "licenseId": "rpa",
+  "name": "Operador de RPA (Drones)",
+  "fullName": "Lecciones para Credencial de Operador de Aeronave Pilotada a Distancia",
+  "description": "Plan de lecciones para preparar el examen DGAC de Operador de RPA/RPAS (Drones)",
+  "totalLessons": 28,
+  "estimatedTotalHours": 6,
+  "subjects": [
+    {
+      "id": "rpa-normativa",
+      "name": "Normativa RPAS",
+      "icon": "📋",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "rpa-norm-1",
+          "title": "DAN 151 y Normativa de Drones",
+          "description": "Regulación de operaciones RPAS, DAN 91 y credencial de operador",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 151: Operaciones de sistemas de aeronaves pilotadas a distancia",
+            "DAN 91: Reglas de operación aplicables a RPAS",
+            "Credencial de operador RPA: requisitos y atribuciones"
+          ]
+        },
+        {
+          "id": "rpa-norm-2",
+          "title": "Clasificación y Condiciones VLOS",
+          "description": "Clasificación por peso, VLOS y zonas permitidas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Clasificación de RPAS por peso y categoría",
+            "Condiciones VLOS (Visual Line of Sight)",
+            "Zonas permitidas y prohibidas para operaciones con drones"
+          ]
+        },
+        {
+          "id": "rpa-norm-3",
+          "title": "NOTAM, Registro y Responsabilidades",
+          "description": "Restricciones de espacio aéreo, registro y seguros",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "NOTAM y restricciones de espacio aéreo",
+            "Responsabilidades del operador",
+            "Registro de aeronaves no tripuladas",
+            "Seguros y responsabilidad civil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rpa-aerodinamica",
+      "name": "Aerodinámica Básica",
+      "icon": "✈️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "rpa-aero-1",
+          "title": "Fuerzas del Vuelo en Drones",
+          "description": "Sustentación, fuerzas del vuelo y tipos de drones",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Principios básicos de sustentación",
+            "Las cuatro fuerzas del vuelo aplicadas a drones",
+            "Tipos de aeronaves no tripuladas: multirrotor, ala fija, híbrido"
+          ]
+        },
+        {
+          "id": "rpa-aero-2",
+          "title": "Estabilidad, Viento y Limitaciones",
+          "description": "Estabilidad de drones, efecto del viento y limitaciones de performance",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 2,
+          "topicsCovered": [
+            "Estabilidad y control de drones",
+            "Efecto del viento en operaciones con drones",
+            "Limitaciones de performance por altitud y temperatura"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rpa-meteorologia",
+      "name": "Meteorología Básica",
+      "icon": "🌤️",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "rpa-met-1",
+          "title": "Atmósfera y Presión para Drones",
+          "description": "Estructura de la atmósfera y efectos de la presión",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 1,
+          "topicsCovered": [
+            "Estructura básica de la atmósfera",
+            "Presión atmosférica y sus efectos"
+          ]
+        },
+        {
+          "id": "rpa-met-2",
+          "title": "Viento, Turbulencia y Visibilidad",
+          "description": "Viento, turbulencia mecánica/térmica y condiciones de vuelo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Viento: causas, tipos y efecto en drones",
+            "Turbulencia mecánica y térmica",
+            "Visibilidad y condiciones para vuelo de drones"
+          ]
+        },
+        {
+          "id": "rpa-met-3",
+          "title": "Nubes y Reportes Meteorológicos",
+          "description": "Formación de nubes, precipitación y reportes básicos",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 3,
+          "topicsCovered": [
+            "Formación de nubes y precipitación",
+            "Interpretación básica de reportes meteorológicos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rpa-operaciones",
+      "name": "Operaciones y Procedimientos",
+      "icon": "🛸",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "rpa-ope-1",
+          "title": "Inspección y Planificación Pre-Vuelo",
+          "description": "Inspección del RPAS y planificación de la operación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Inspección pre-vuelo del RPAS",
+            "Planificación de la operación: zona, riesgos, meteorología"
+          ]
+        },
+        {
+          "id": "rpa-ope-2",
+          "title": "Emergencias y Mantenimiento",
+          "description": "Pérdida de señal, falla de batería y mantenimiento básico",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Procedimientos de emergencia: pérdida de señal, falla de batería",
+            "Mantenimiento básico del RPAS",
+            "Gestión de baterías y seguridad"
+          ]
+        },
+        {
+          "id": "rpa-ope-3",
+          "title": "Operaciones Cerca de Aeropuertos",
+          "description": "Operaciones nocturnas, cerca de aeropuertos y espacio aéreo tripulado",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Operaciones nocturnas (si aplica)",
+            "Operaciones cerca de aeropuertos y helipuertos",
+            "Interacción con el espacio aéreo tripulado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "rpa-seguridad",
+      "name": "Seguridad y Factores Humanos",
+      "icon": "🧠",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "rpa-seg-1",
+          "title": "Gestión de Riesgos y Factores Humanos",
+          "description": "Riesgos en RPAS, fatiga, distracción y conciencia situacional",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Gestión de riesgos en operaciones RPAS",
+            "Factores humanos: fatiga, distracción, estrés",
+            "Conciencia situacional del operador"
+          ]
+        },
+        {
+          "id": "rpa-seg-2",
+          "title": "Privacidad y Seguridad de Terceros",
+          "description": "Protección de datos, privacidad y seguridad en tierra",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 2,
+          "topicsCovered": [
+            "Privacidad y protección de datos",
+            "Seguridad de terceros en tierra"
+          ]
+        }
+      ]
+    }
+  ]
+}

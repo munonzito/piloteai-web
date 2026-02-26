@@ -1,0 +1,87 @@
+{
+  "id": "oce",
+  "code": "OCE",
+  "name": "Operador de Carga y Estiba",
+  "fullName": "Licencia de Operador de Carga y Estiba",
+  "description": "Licencia para desempeñarse como operador de carga y estiba de aeronaves. Cubre procedimientos de carga, peso y balance, mercancías peligrosas y reglamentación.",
+  "category": "personal_de_tierra",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 40,
+  "estimatedTimeMinutes": 60,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "oce-peso-balance",
+      "name": "Peso y Balance",
+      "description": "Cálculos de peso y balance para carga de aeronaves",
+      "icon": "⚖️",
+      "topics": [
+        "Conceptos de peso: BEW, ZFW, TOW, LW",
+        "Centro de gravedad: cálculo y límites",
+        "Hoja de carga y manifesto",
+        "Distribución de carga en compartimientos",
+        "Efectos del CG fuera de límites",
+        "Correcciones de último momento",
+        "Load sheet y trim sheet"
+      ]
+    },
+    {
+      "id": "oce-procedimientos-carga",
+      "name": "Procedimientos de Carga",
+      "description": "Técnicas y procedimientos para carga y descarga de aeronaves",
+      "icon": "📦",
+      "topics": [
+        "Tipos de carga: general, peligrosa, perecedera, viva",
+        "ULD (Unit Load Devices): tipos y uso",
+        "Sujeción y trincado de carga",
+        "Procedimientos de carga y descarga",
+        "Secuencia de carga por compartimiento",
+        "Equipos de handling y rampa",
+        "Seguridad en rampa y plataforma"
+      ]
+    },
+    {
+      "id": "oce-mercancias-peligrosas",
+      "name": "Mercancías Peligrosas",
+      "description": "Regulación y manejo de mercancías peligrosas en aeronaves",
+      "icon": "☢️",
+      "topics": [
+        "Clasificación de mercancías peligrosas (9 clases)",
+        "Etiquetado y marcado",
+        "Embalaje y cantidades permitidas",
+        "Documentación DGR",
+        "Mercancías prohibidas en aeronaves",
+        "Procedimientos de emergencia con DG",
+        "Separación y compatibilidad"
+      ]
+    },
+    {
+      "id": "oce-reglamentacion",
+      "name": "Reglamentación",
+      "description": "Normativa aplicable a operaciones de carga",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de licencia OCE",
+        "DAN 121: Operaciones de transporte aéreo",
+        "Responsabilidades del operador de carga",
+        "Normativa IATA de carga",
+        "Documentación de carga: AWB, manifesto",
+        "Código Aeronáutico aplicable"
+      ]
+    },
+    {
+      "id": "oce-aeronaves",
+      "name": "Conocimiento de Aeronaves",
+      "description": "Compartimientos de carga y limitaciones por tipo de aeronave",
+      "icon": "✈️",
+      "topics": [
+        "Configuración de compartimientos de carga",
+        "Limitaciones de peso por compartimiento",
+        "Piso de carga: limitaciones de carga por unidad de área",
+        "Puertas de carga y accesos",
+        "Tipos de aeronaves y sus características de carga"
+      ]
+    }
+  ]
+}

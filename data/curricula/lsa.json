@@ -1,0 +1,99 @@
+{
+  "id": "lsa",
+  "code": "LSA",
+  "name": "Piloto de LSA",
+  "fullName": "Licencia de Piloto de Aeronave Deportiva Liviana (LSA)",
+  "description": "Licencia para operar aeronaves deportivas livianas (Light Sport Aircraft). Cubre aerodinámica, meteorología, navegación y reglamentación específica.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 40,
+  "estimatedTimeMinutes": 60,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "lsa-aerodinamica",
+      "name": "Aerodinámica",
+      "description": "Principios de vuelo para aeronaves deportivas livianas",
+      "icon": "✈️",
+      "topics": [
+        "Principios básicos de sustentación y resistencia",
+        "Las cuatro fuerzas del vuelo",
+        "Estabilidad y control de aeronaves LSA",
+        "Pérdida aerodinámica y recuperación",
+        "Factores de carga y limitaciones",
+        "Superficies de control",
+        "Efectos de la configuración de flaps"
+      ]
+    },
+    {
+      "id": "lsa-meteorologia",
+      "name": "Meteorología",
+      "description": "Meteorología básica para operaciones VFR en aeronaves LSA",
+      "icon": "🌤️",
+      "topics": [
+        "Estructura de la atmósfera",
+        "Presión, temperatura y humedad",
+        "Formación de nubes y visibilidad",
+        "Viento y turbulencia",
+        "Frentes meteorológicos",
+        "Interpretación de METAR y TAF",
+        "Condiciones VFR mínimas"
+      ]
+    },
+    {
+      "id": "lsa-navegacion",
+      "name": "Navegación",
+      "description": "Navegación visual para vuelos en aeronaves LSA",
+      "icon": "🧭",
+      "topics": [
+        "Lectura de cartas aeronáuticas",
+        "Navegación visual y por estima",
+        "Uso de brújula y referencias terrestres",
+        "Planificación de rutas y combustible",
+        "Uso básico de GPS"
+      ]
+    },
+    {
+      "id": "lsa-reglamentacion",
+      "name": "Reglamentación",
+      "description": "Normativa aplicable a aeronaves LSA",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de licencia LSA",
+        "DAN 91: Reglas de operación",
+        "Definición y categorías de aeronaves LSA",
+        "Espacio aéreo permitido",
+        "Limitaciones operacionales",
+        "Documentación requerida",
+        "Requisitos médicos"
+      ]
+    },
+    {
+      "id": "lsa-motores",
+      "name": "Motores y Sistemas",
+      "description": "Conocimiento del motor y sistemas de aeronaves LSA",
+      "icon": "⚙️",
+      "topics": [
+        "Motor: tipos y funcionamiento básico",
+        "Sistema de combustible",
+        "Sistema eléctrico",
+        "Instrumentos de vuelo y motor",
+        "Inspección pre-vuelo",
+        "Hélice y su operación"
+      ]
+    },
+    {
+      "id": "lsa-performance",
+      "name": "Performance",
+      "description": "Cálculos básicos de performance para LSA",
+      "icon": "📊",
+      "topics": [
+        "Distancias de despegue y aterrizaje",
+        "Peso y balance",
+        "Efectos de altitud y temperatura",
+        "Velocidades operacionales"
+      ]
+    }
+  ]
+}

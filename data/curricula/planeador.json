@@ -1,0 +1,104 @@
+{
+  "id": "planeador",
+  "code": "PP",
+  "name": "Piloto de Planeador",
+  "fullName": "Licencia de Piloto de Planeador",
+  "description": "Licencia para operar planeadores. Evalúa aerodinámica de vuelo sin motor, meteorología aplicada, navegación y técnicas de vuelo a vela.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 40,
+  "estimatedTimeMinutes": 60,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "pp-aerodinamica",
+      "name": "Aerodinámica de Planeadores",
+      "description": "Sustentación, resistencia, eficiencia del ala y maniobras en planeador",
+      "icon": "🪂",
+      "topics": [
+        "Principios de sustentación sin motor",
+        "Resistencia parásita e inducida en planeadores",
+        "Eficiencia del ala y relación sustentación/resistencia (L/D)",
+        "Polar de velocidades del planeador",
+        "Velocidad de mejor planeo y velocidad de mínimo descenso",
+        "Perfiles alares y su eficiencia",
+        "Pérdida aerodinámica (stall) en planeador",
+        "Estabilidad y control del planeador",
+        "Maniobras básicas: virajes, descensos, aproximaciones"
+      ]
+    },
+    {
+      "id": "pp-meteorologia",
+      "name": "Meteorología Aplicada",
+      "description": "Fenómenos meteorológicos relevantes para vuelo a vela",
+      "icon": "🌤️",
+      "topics": [
+        "Corrientes térmicas: formación y uso",
+        "Corrientes de ladera y ondas de montaña",
+        "Capa límite atmosférica y inversión térmica",
+        "Nubes cúmulus y señales de actividad térmica",
+        "Viento y sus efectos en vuelo a vela",
+        "Condiciones meteorológicas favorables para vuelo a vela",
+        "Peligros meteorológicos: tormentas, cizalladura",
+        "Interpretación básica de reportes meteorológicos"
+      ]
+    },
+    {
+      "id": "pp-navegacion",
+      "name": "Navegación Aérea",
+      "description": "Navegación visual y planificación para vuelo a vela",
+      "icon": "🧭",
+      "topics": [
+        "Lectura de cartas aeronáuticas",
+        "Navegación visual y referencias terrestres",
+        "Planificación de vuelo a vela: ruta y alternativas",
+        "Cálculo de planeo y alcance",
+        "Selección de campos de aterrizaje fuera de aeródromo",
+        "Uso del varioeléctrico y computador de vuelo"
+      ]
+    },
+    {
+      "id": "pp-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "description": "Normativa aplicable a vuelo de planeadores",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de licencia de piloto de planeador",
+        "DAN 91: Reglas de operación aplicables",
+        "Espacio aéreo y restricciones para planeadores",
+        "Derechos de paso y prioridades",
+        "Documentación del planeador y del piloto",
+        "Requisitos médicos"
+      ]
+    },
+    {
+      "id": "pp-tecnicas-vuelo",
+      "name": "Técnicas de Vuelo a Vela",
+      "description": "Técnicas de lanzamiento, térmicas y aterrizaje",
+      "icon": "🪁",
+      "topics": [
+        "Métodos de lanzamiento: torno y remolque",
+        "Técnica de centrado de térmicas",
+        "Vuelo de ladera y ondas",
+        "Circuitos de tránsito para planeadores",
+        "Aproximación y aterrizaje sin motor",
+        "Aterrizaje fuera de aeródromo (precaución)",
+        "Señales de pista y comunicaciones"
+      ]
+    },
+    {
+      "id": "pp-factores-humanos",
+      "name": "Fisiología y Factores Humanos",
+      "description": "Factores humanos aplicados al vuelo de planeador",
+      "icon": "🧠",
+      "topics": [
+        "Hipoxia en vuelo de altitud",
+        "Desorientación espacial",
+        "Fatiga y deshidratación",
+        "Toma de decisiones en vuelo a vela",
+        "Estrés y gestión de la carga de trabajo"
+      ]
+    }
+  ]
+}

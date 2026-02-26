@@ -1,0 +1,91 @@
+{
+  "id": "rpa",
+  "code": "RPA",
+  "name": "Operador de RPA (Drones)",
+  "fullName": "Credencial de Operador de Aeronave Pilotada a Distancia (RPA/RPAS)",
+  "description": "Credencial que habilita para operar drones (RPAS) en condiciones VLOS. Evalúa normativa DAN 151, aerodinámica básica, meteorología y regulaciones.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 40,
+  "estimatedTimeMinutes": 60,
+  "regulation": "DAN 151",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "rpa-normativa",
+      "name": "Normativa RPAS",
+      "description": "Regulación de operaciones con drones según DAN 151 y normativa asociada",
+      "icon": "📋",
+      "topics": [
+        "DAN 151: Operaciones de sistemas de aeronaves pilotadas a distancia",
+        "DAN 91: Reglas de operación aplicables a RPAS",
+        "Credencial de operador RPA: requisitos y atribuciones",
+        "Clasificación de RPAS por peso y categoría",
+        "Condiciones VLOS (Visual Line of Sight)",
+        "Zonas permitidas y prohibidas para operaciones con drones",
+        "NOTAM y restricciones de espacio aéreo",
+        "Responsabilidades del operador",
+        "Registro de aeronaves no tripuladas",
+        "Seguros y responsabilidad civil"
+      ]
+    },
+    {
+      "id": "rpa-aerodinamica",
+      "name": "Aerodinámica Básica",
+      "description": "Principios de vuelo aplicados a aeronaves no tripuladas",
+      "icon": "✈️",
+      "topics": [
+        "Principios básicos de sustentación",
+        "Las cuatro fuerzas del vuelo aplicadas a drones",
+        "Tipos de aeronaves no tripuladas: multirrotor, ala fija, híbrido",
+        "Estabilidad y control de drones",
+        "Efecto del viento en operaciones con drones",
+        "Limitaciones de performance por altitud y temperatura"
+      ]
+    },
+    {
+      "id": "rpa-meteorologia",
+      "name": "Meteorología Básica",
+      "description": "Fenómenos meteorológicos relevantes para operaciones con drones",
+      "icon": "🌤️",
+      "topics": [
+        "Estructura básica de la atmósfera",
+        "Presión atmosférica y sus efectos",
+        "Viento: causas, tipos y efecto en drones",
+        "Turbulencia mecánica y térmica",
+        "Visibilidad y condiciones para vuelo de drones",
+        "Formación de nubes y precipitación",
+        "Interpretación básica de reportes meteorológicos"
+      ]
+    },
+    {
+      "id": "rpa-operaciones",
+      "name": "Operaciones y Procedimientos",
+      "description": "Procedimientos operacionales para vuelo seguro de drones",
+      "icon": "🛸",
+      "topics": [
+        "Inspección pre-vuelo del RPAS",
+        "Planificación de la operación: zona, riesgos, meteorología",
+        "Procedimientos de emergencia: pérdida de señal, falla de batería",
+        "Mantenimiento básico del RPAS",
+        "Gestión de baterías y seguridad",
+        "Operaciones nocturnas (si aplica)",
+        "Operaciones cerca de aeropuertos y helipuertos",
+        "Interacción con el espacio aéreo tripulado"
+      ]
+    },
+    {
+      "id": "rpa-seguridad",
+      "name": "Seguridad y Factores Humanos",
+      "description": "Seguridad operacional y factores humanos en operaciones con drones",
+      "icon": "🧠",
+      "topics": [
+        "Gestión de riesgos en operaciones RPAS",
+        "Factores humanos: fatiga, distracción, estrés",
+        "Conciencia situacional del operador",
+        "Privacidad y protección de datos",
+        "Seguridad de terceros en tierra"
+      ]
+    }
+  ]
+}

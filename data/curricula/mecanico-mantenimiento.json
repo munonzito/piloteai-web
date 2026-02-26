@@ -1,0 +1,134 @@
+{
+  "id": "mecanico-mantenimiento",
+  "code": "MM",
+  "name": "Mecánico de Mantenimiento",
+  "fullName": "Licencia de Mecánico de Mantenimiento Aeronáutico",
+  "description": "Licencia base para desempeñarse como mecánico de mantenimiento de aeronaves. Incluye examen base y habilitaciones específicas por especialidad.",
+  "category": "personal_de_tierra",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 66",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "mm-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "description": "Normativa aplicable al mantenimiento aeronáutico",
+      "icon": "📋",
+      "topics": [
+        "DAN 43: Tareas de mantenimiento",
+        "DAN 66: Licencias de mantenimiento",
+        "Código Aeronáutico aplicable",
+        "Responsabilidades del mecánico de mantenimiento",
+        "Certificación de conformidad de mantenimiento",
+        "Registros y documentación técnica",
+        "Aeronavegabilidad y sus requisitos",
+        "Directivas de aeronavegabilidad (AD)",
+        "Manuales de mantenimiento y sus tipos"
+      ]
+    },
+    {
+      "id": "mm-factores-humanos",
+      "name": "Factores Humanos en Mantenimiento",
+      "description": "Factores humanos aplicados al mantenimiento aeronáutico",
+      "icon": "🧠",
+      "topics": [
+        "Modelo SHELL en mantenimiento",
+        "Los 12 factores sucios (Dirty Dozen)",
+        "Fatiga y sus efectos en mantenimiento",
+        "Errores humanos y su prevención",
+        "Comunicación efectiva en mantenimiento",
+        "Trabajo en equipo y supervisión",
+        "Gestión del estrés y la presión",
+        "Cultura de seguridad en mantenimiento"
+      ]
+    },
+    {
+      "id": "mm-apoyo-general",
+      "name": "Apoyo General",
+      "description": "Conocimientos generales de mantenimiento aeronáutico",
+      "icon": "🔧",
+      "topics": [
+        "Matemáticas y física aplicada",
+        "Materiales aeronáuticos: metales, compuestos, sellantes",
+        "Herramientas y equipos de mantenimiento",
+        "Procedimientos de inspección visual",
+        "Seguridad en el taller y hangar",
+        "Corrosión: tipos, prevención y tratamiento",
+        "Peso y balance de aeronaves",
+        "Procedimientos de remolque y estacionamiento"
+      ]
+    },
+    {
+      "id": "mm-ingles-tecnico",
+      "name": "Inglés Técnico",
+      "description": "Inglés técnico aeronáutico para interpretación de manuales",
+      "icon": "🇬🇧",
+      "topics": [
+        "Terminología técnica aeronáutica en inglés",
+        "Lectura de manuales de mantenimiento en inglés",
+        "Interpretación de directivas de aeronavegabilidad",
+        "Boletines de servicio en inglés",
+        "Documentación técnica: AMM, IPC, SRM, CMM"
+      ]
+    }
+  ],
+  "habilitaciones": [
+    {
+      "id": "mm-ala-fija",
+      "name": "Habilitación Ala Fija",
+      "description": "Mantenimiento de aeronaves de ala fija"
+    },
+    {
+      "id": "mm-ala-rotatoria",
+      "name": "Habilitación Ala Rotatoria",
+      "description": "Mantenimiento de helicópteros"
+    },
+    {
+      "id": "mm-electricidad",
+      "name": "Especialista en Electricidad",
+      "description": "Sistemas eléctricos de aeronaves"
+    },
+    {
+      "id": "mm-electronica",
+      "name": "Especialista en Electrónica",
+      "description": "Sistemas electrónicos y aviónica"
+    },
+    {
+      "id": "mm-hidroneum",
+      "name": "Especialista en Hidroneumática",
+      "description": "Sistemas hidráulicos y neumáticos"
+    },
+    {
+      "id": "mm-inspecciones",
+      "name": "Especialista en Inspecciones No Destructivas",
+      "description": "NDI/NDT: inspecciones no destructivas"
+    },
+    {
+      "id": "mm-instrumentos",
+      "name": "Especialista en Instrumentos",
+      "description": "Instrumentos de vuelo y navegación"
+    },
+    {
+      "id": "mm-materiales-compuestos",
+      "name": "Especialista en Materiales Compuestos",
+      "description": "Reparación de estructuras de material compuesto"
+    },
+    {
+      "id": "mm-turbina",
+      "name": "Especialista en Motores de Turbina a Gas",
+      "description": "Motores turbofan, turboprop y turboshaft"
+    },
+    {
+      "id": "mm-reciprocos",
+      "name": "Especialista en Motores Recíprocos",
+      "description": "Motores de pistón aeronáuticos"
+    },
+    {
+      "id": "mm-recubrimiento",
+      "name": "Especialista en Recubrimiento Metálico",
+      "description": "Reparación de estructuras metálicas"
+    }
+  ]
+}

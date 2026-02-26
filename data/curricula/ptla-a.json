@@ -1,0 +1,140 @@
+{
+  "id": "ptla-a",
+  "code": "PTLA-A",
+  "name": "Piloto de Transporte de Línea Aérea (Avión)",
+  "fullName": "Licencia de Piloto de Transporte de Línea Aérea - Avión",
+  "description": "Máxima licencia de piloto en Chile. Permite operar como piloto al mando en aeronaves de transporte aéreo comercial. Examen extenso con enfoque en operaciones 119/121.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 150,
+  "estimatedTimeMinutes": 240,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "ptla-a-performance",
+      "name": "Performance Avanzada",
+      "description": "Performance de aeronaves de transporte, limitaciones comerciales y cálculos avanzados",
+      "icon": "📊",
+      "topics": [
+        "Cálculo de despegue y aterrizaje con limitaciones comerciales",
+        "Curvas de empuje reducido (derate y flex temp)",
+        "Limitaciones de peso: MTOW, MLW, MZFW",
+        "Requerimientos de drift-down y motor inoperativo (engine-out)",
+        "Rutas ETOPS y sus requisitos",
+        "Performance en aeronaves grandes (B737, A320, etc.)",
+        "FMS (Flight Management System) y su uso en performance",
+        "Masa y centrado en aeronaves de transporte",
+        "MEL (Minimum Equipment List) y su aplicación",
+        "Planificación de combustible comercial avanzada",
+        "Operaciones en pistas contaminadas"
+      ]
+    },
+    {
+      "id": "ptla-a-navegacion",
+      "name": "Navegación Avanzada",
+      "description": "Navegación RNAV/RNP, procedimientos instrumentales y PBN",
+      "icon": "🧭",
+      "topics": [
+        "RNAV (Area Navigation) y procedimientos",
+        "RNP (Required Navigation Performance)",
+        "PBN (Performance Based Navigation)",
+        "Procedimientos instrumentales avanzados: SID, STAR, IAP",
+        "Aproximaciones de precisión: ILS CAT I, II, III",
+        "Aproximaciones no precisión: VOR, NDB, RNAV",
+        "Holding patterns y procedimientos de espera",
+        "Cartas IFR: interpretación completa",
+        "Altitudes mínimas y sectores",
+        "Planificación de vuelo comercial de largo alcance"
+      ]
+    },
+    {
+      "id": "ptla-a-regulaciones",
+      "name": "Regulaciones Aeronáuticas",
+      "description": "Normativa completa para operaciones de transporte aéreo",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Licencias y habilitaciones PTLA",
+        "DAN 91: Reglas de operación general",
+        "DAN 119: Certificación de explotadores aéreos",
+        "DAN 121: Operaciones de transporte aéreo comercial",
+        "Normativa OACI aplicable",
+        "Requisitos operacionales de aerolíneas",
+        "Tiempos de vuelo, servicio y descanso",
+        "Procedimientos de despacho y control operacional",
+        "Mínimos operacionales IFR",
+        "Inglés aeronáutico e interpretación de textos OACI"
+      ]
+    },
+    {
+      "id": "ptla-a-meteorologia",
+      "name": "Meteorología Operacional",
+      "description": "Meteorología avanzada para operaciones de línea aérea",
+      "icon": "🌤️",
+      "topics": [
+        "Interpretación operacional de TAF y METAR",
+        "SIGMET, AIRMET y sus implicancias operacionales",
+        "Turbulencia severa y clear air turbulence (CAT)",
+        "Engelamiento y sus efectos en aeronaves de transporte",
+        "Fenómenos convectivos severos",
+        "Corriente en chorro (jet stream) y su uso operacional",
+        "Cizalladura del viento (wind shear) y microburst",
+        "Cartas de vientos y temperaturas en altitud",
+        "Volcanes y ceniza volcánica",
+        "Meteorología tropical: ciclones y ITCZ"
+      ]
+    },
+    {
+      "id": "ptla-a-factores-humanos",
+      "name": "Factores Humanos",
+      "description": "CRM avanzado, TEM y gestión multicrew",
+      "icon": "🧠",
+      "topics": [
+        "CRM (Crew Resource Management) avanzado",
+        "TEM (Threat and Error Management)",
+        "Gestión multicrew y liderazgo en cabina",
+        "Toma de decisiones bajo presión",
+        "Manejo de automatización (automation management)",
+        "Fatiga y gestión del sueño para tripulaciones",
+        "Estrés operacional en línea aérea",
+        "Conciencia situacional en operaciones complejas",
+        "Cultura de seguridad y reporte de eventos",
+        "Factores humanos en accidentes aéreos"
+      ]
+    },
+    {
+      "id": "ptla-a-sistemas",
+      "name": "Sistemas Avanzados de Aeronaves",
+      "description": "Sistemas complejos de aeronaves de transporte",
+      "icon": "⚙️",
+      "topics": [
+        "Fly-by-wire y leyes de control",
+        "Sistemas de presurización y aire acondicionado",
+        "Automatización de cabina: autopilot, autothrottle, FMS",
+        "Sistemas hidráulicos avanzados",
+        "Sistemas eléctricos de aeronaves de transporte",
+        "Motores turbofan: principios y operación",
+        "Sistemas de combustible en aeronaves grandes",
+        "TCAS (Traffic Collision Avoidance System)",
+        "EGPWS (Enhanced Ground Proximity Warning System)",
+        "Weather radar y su uso operacional"
+      ]
+    },
+    {
+      "id": "ptla-a-planificacion",
+      "name": "Planificación de Vuelo Comercial",
+      "description": "Planificación integral de vuelos de línea aérea",
+      "icon": "📝",
+      "topics": [
+        "Planificación de ruta comercial",
+        "Selección de altitud de crucero óptima",
+        "Cálculo de combustible: trip, contingency, alternate, final reserve, extra",
+        "NOTAM y su análisis operacional",
+        "Despacho de vuelo y documentación",
+        "Análisis meteorológico para planificación",
+        "Alternates de destino y en ruta",
+        "Peso y balance para carga y pasajeros"
+      ]
+    }
+  ]
+}

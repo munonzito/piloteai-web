@@ -1,0 +1,125 @@
+{
+  "id": "pca",
+  "code": "PCA",
+  "name": "Piloto Comercial de Avión",
+  "fullName": "Licencia de Piloto Comercial de Avión",
+  "description": "Licencia que permite operar aeronaves con fines comerciales. Requiere conocimientos avanzados en navegación, meteorología, performance y regulaciones.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "pca-meteorologia",
+      "name": "Meteorología Aeronáutica",
+      "description": "Meteorología avanzada aplicada a operaciones comerciales",
+      "icon": "🌤️",
+      "topics": [
+        "Formación de nubes y fenómenos peligrosos avanzados",
+        "Frentes meteorológicos y su evolución",
+        "Tormentas, engelamiento y turbulencia severa",
+        "Cizalladura del viento (wind shear) y microráfagas",
+        "Interpretación avanzada de reportes METAR",
+        "Interpretación avanzada de pronósticos TAF",
+        "SIGMET y GAMET: interpretación y uso operacional",
+        "Cartas de tiempo significativo en altitud",
+        "Corrientes en chorro (jet stream)",
+        "Meteorología tropical y de montaña",
+        "Visibilidad, techo y condiciones mínimas VFR/IFR"
+      ]
+    },
+    {
+      "id": "pca-navegacion",
+      "name": "Navegación Aérea",
+      "description": "Navegación avanzada con radioayudas y planificación de vuelo comercial",
+      "icon": "🧭",
+      "topics": [
+        "Cálculo avanzado de rumbos y deriva",
+        "Triángulo de velocidades y problemas de viento",
+        "Cálculo de combustible para vuelos comerciales",
+        "Cartas aeronáuticas VFR e IFR",
+        "Altitudes y niveles de vuelo",
+        "Sistemas de radioayudas: VOR, NDB, DME",
+        "Uso del GPS y navegación RNAV básica",
+        "Planificación de vuelo comercial",
+        "Rutas aéreas y procedimientos ATC",
+        "Espacio aéreo controlado y no controlado",
+        "Uso del computador de vuelo (E6B)"
+      ]
+    },
+    {
+      "id": "pca-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "description": "Normativa completa para operaciones comerciales",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Licencias y habilitaciones comerciales",
+        "DAN 91: Reglas de operación general",
+        "Requisitos y atribuciones del piloto comercial",
+        "Procedimientos IFR y VFR",
+        "Espacio aéreo: clasificación detallada",
+        "Comunicaciones aeronáuticas avanzadas",
+        "Reglas de separación y prioridad",
+        "Tiempos de vuelo y descanso para pilotos comerciales",
+        "Procedimientos de emergencia reglamentarios",
+        "Certificaciones y registros de aeronaves",
+        "Código Aeronáutico y responsabilidades legales"
+      ]
+    },
+    {
+      "id": "pca-performance",
+      "name": "Performance y Planeación",
+      "description": "Cálculos avanzados de performance, peso y balance para operaciones comerciales",
+      "icon": "📊",
+      "topics": [
+        "Cálculo de distancias de despegue y aterrizaje avanzado",
+        "Curvas de potencia y performance en altitud",
+        "Altitud densidad y correcciones",
+        "Peso y balance avanzado para aeronaves comerciales",
+        "Limitaciones de peso: MTOW, MLW, MZFW",
+        "Régimen de ascenso: mejores ángulos y velocidades",
+        "Planificación de combustible (trip, reserve, alternate)",
+        "Performance en ruta: velocidades de crucero y consumo",
+        "Cálculos de drift-down y motor inoperativo",
+        "Uso de tablas y gráficos del manual de vuelo"
+      ]
+    },
+    {
+      "id": "pca-sistemas",
+      "name": "Sistemas de Aeronave",
+      "description": "Conocimiento general avanzado de sistemas de aeronaves comerciales",
+      "icon": "⚙️",
+      "topics": [
+        "Motor y sistemas de propulsión avanzados",
+        "Sistema de combustible completo",
+        "Sistema eléctrico avanzado",
+        "Sistema hidráulico",
+        "Instrumentos de vuelo avanzados",
+        "Sistemas de control de vuelo",
+        "Aerodinámica avanzada y estabilidad",
+        "Sistemas de presurización (introducción)",
+        "Hélice de velocidad constante",
+        "Sistemas de emergencia y seguridad"
+      ]
+    },
+    {
+      "id": "pca-factores-humanos",
+      "name": "Factores Humanos y Seguridad",
+      "description": "Factores humanos avanzados y gestión de la seguridad operacional",
+      "icon": "🧠",
+      "topics": [
+        "CRM (Crew Resource Management) avanzado",
+        "Toma de decisiones aeronáuticas (ADM)",
+        "Gestión de amenazas y errores (TEM)",
+        "Fatiga y gestión del descanso",
+        "Estrés operacional",
+        "Conciencia situacional",
+        "Fisiología del vuelo en operaciones comerciales",
+        "Modelo SHELL y factores humanos",
+        "Cultura de seguridad y reporte de eventos"
+      ]
+    }
+  ]
+}

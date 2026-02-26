@@ -1,0 +1,240 @@
+{
+  "id": "planeador",
+  "licenseId": "planeador",
+  "name": "Piloto de Planeador",
+  "fullName": "Lecciones para Licencia de Piloto de Planeador",
+  "description": "Plan de lecciones para preparar el examen DGAC de Piloto de Planeador",
+  "totalLessons": 30,
+  "estimatedTotalHours": 6,
+  "subjects": [
+    {
+      "id": "pp-aerodinamica",
+      "name": "Aerodinámica de Planeadores",
+      "icon": "🪂",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "pp-aero-1",
+          "title": "Sustentación Sin Motor",
+          "description": "Principios de sustentación, resistencia y eficiencia del ala",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Principios de sustentación sin motor",
+            "Resistencia parásita e inducida en planeadores",
+            "Eficiencia del ala y relación sustentación/resistencia (L/D)"
+          ]
+        },
+        {
+          "id": "pp-aero-2",
+          "title": "Polar de Velocidades",
+          "description": "Polar del planeador, mejor planeo y mínimo descenso",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Polar de velocidades del planeador",
+            "Velocidad de mejor planeo y velocidad de mínimo descenso",
+            "Perfiles alares y su eficiencia"
+          ]
+        },
+        {
+          "id": "pp-aero-3",
+          "title": "Stall, Estabilidad y Maniobras",
+          "description": "Pérdida aerodinámica, estabilidad y maniobras básicas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Pérdida aerodinámica (stall) en planeador",
+            "Estabilidad y control del planeador",
+            "Maniobras básicas: virajes, descensos, aproximaciones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-meteorologia",
+      "name": "Meteorología Aplicada",
+      "icon": "🌤️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "pp-met-1",
+          "title": "Corrientes Térmicas y de Ladera",
+          "description": "Formación y uso de térmicas, corrientes de ladera y ondas",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Corrientes térmicas: formación y uso",
+            "Corrientes de ladera y ondas de montaña"
+          ]
+        },
+        {
+          "id": "pp-met-2",
+          "title": "Capa Límite y Nubes Indicadoras",
+          "description": "Inversión térmica, nubes cúmulus y señales de actividad",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Capa límite atmosférica y inversión térmica",
+            "Nubes cúmulus y señales de actividad térmica",
+            "Condiciones meteorológicas favorables para vuelo a vela"
+          ]
+        },
+        {
+          "id": "pp-met-3",
+          "title": "Viento y Peligros Meteorológicos",
+          "description": "Efectos del viento, tormentas, cizalladura y reportes",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Viento y sus efectos en vuelo a vela",
+            "Peligros meteorológicos: tormentas, cizalladura",
+            "Interpretación básica de reportes meteorológicos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-navegacion",
+      "name": "Navegación Aérea",
+      "icon": "🧭",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "pp-nav-1",
+          "title": "Cartas y Navegación Visual",
+          "description": "Cartas aeronáuticas, navegación visual y planificación de vuelo a vela",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Lectura de cartas aeronáuticas",
+            "Navegación visual y referencias terrestres",
+            "Planificación de vuelo a vela: ruta y alternativas"
+          ]
+        },
+        {
+          "id": "pp-nav-2",
+          "title": "Planeo, Alcance y Campos de Aterrizaje",
+          "description": "Cálculo de planeo, selección de campos y varioeléctrico",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Cálculo de planeo y alcance",
+            "Selección de campos de aterrizaje fuera de aeródromo",
+            "Uso del varioeléctrico y computador de vuelo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "icon": "📋",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "pp-reg-1",
+          "title": "Licencia de Planeador y DAN 91",
+          "description": "Requisitos DAN 61, reglas de operación y espacio aéreo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de licencia de piloto de planeador",
+            "DAN 91: Reglas de operación aplicables",
+            "Espacio aéreo y restricciones para planeadores"
+          ]
+        },
+        {
+          "id": "pp-reg-2",
+          "title": "Prioridades y Documentación",
+          "description": "Derechos de paso, documentación y requisitos médicos",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 2,
+          "topicsCovered": [
+            "Derechos de paso y prioridades",
+            "Documentación del planeador y del piloto",
+            "Requisitos médicos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-tecnicas-vuelo",
+      "name": "Técnicas de Vuelo a Vela",
+      "icon": "🪁",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "pp-tec-1",
+          "title": "Lanzamiento: Torno y Remolque",
+          "description": "Métodos de lanzamiento por torno y remolque",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Métodos de lanzamiento: torno y remolque"
+          ]
+        },
+        {
+          "id": "pp-tec-2",
+          "title": "Térmicas, Ladera y Ondas",
+          "description": "Centrado de térmicas, vuelo de ladera y ondas de montaña",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Técnica de centrado de térmicas",
+            "Vuelo de ladera y ondas"
+          ]
+        },
+        {
+          "id": "pp-tec-3",
+          "title": "Circuito, Aterrizaje y Emergencias",
+          "description": "Circuitos de tránsito, aterrizaje sin motor y fuera de aeródromo",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Circuitos de tránsito para planeadores",
+            "Aproximación y aterrizaje sin motor",
+            "Aterrizaje fuera de aeródromo (precaución)",
+            "Señales de pista y comunicaciones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pp-factores-humanos",
+      "name": "Fisiología y Factores Humanos",
+      "icon": "🧠",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "pp-fh-1",
+          "title": "Fisiología y Toma de Decisiones",
+          "description": "Hipoxia, desorientación, fatiga y toma de decisiones en vuelo a vela",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Hipoxia en vuelo de altitud",
+            "Desorientación espacial",
+            "Fatiga y deshidratación",
+            "Toma de decisiones en vuelo a vela",
+            "Estrés y gestión de la carga de trabajo"
+          ]
+        }
+      ]
+    }
+  ]
+}

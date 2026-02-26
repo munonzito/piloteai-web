@@ -1,0 +1,174 @@
+{
+  "id": "ulm",
+  "licenseId": "ulm",
+  "name": "Piloto de ULM",
+  "fullName": "Lecciones para Licencia de Piloto de Ultraliviano Motorizado",
+  "description": "Plan de lecciones para preparar el examen DGAC de Piloto de ULM",
+  "totalLessons": 24,
+  "estimatedTotalHours": 5,
+  "subjects": [
+    {
+      "id": "ulm-aerodinamica",
+      "name": "Aerodinámica",
+      "icon": "✈️",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "ulm-aero-1",
+          "title": "Fuerzas del Vuelo en Ultralivianos",
+          "description": "Sustentación, resistencia y fuerzas del vuelo en ULM",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Principios de sustentación y resistencia",
+            "Fuerzas del vuelo en ultralivianos"
+          ]
+        },
+        {
+          "id": "ulm-aero-2",
+          "title": "Estabilidad, Stall y Viento",
+          "description": "Estabilidad, pérdida aerodinámica, factores de carga y viento",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Estabilidad y control",
+            "Pérdida aerodinámica y recuperación",
+            "Factores de carga y limitaciones estructurales",
+            "Efectos del viento en aeronaves livianas",
+            "Superficies de control y flaps"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ulm-meteorologia",
+      "name": "Meteorología",
+      "icon": "🌤️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "ulm-met-1",
+          "title": "Atmósfera, Viento y Turbulencia",
+          "description": "Propiedades del aire, presión, temperatura y turbulencia en ULM",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Atmósfera y sus propiedades",
+            "Presión, temperatura y viento",
+            "Turbulencia y sus efectos en ultralivianos"
+          ]
+        },
+        {
+          "id": "ulm-met-2",
+          "title": "Nubes, Visibilidad y Reportes",
+          "description": "Formación de nubes, condiciones VFR y reportes meteorológicos",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 2,
+          "topicsCovered": [
+            "Formación de nubes y visibilidad",
+            "Condiciones VFR mínimas",
+            "Reportes meteorológicos básicos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ulm-navegacion",
+      "name": "Navegación",
+      "icon": "🧭",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "ulm-nav-1",
+          "title": "Cartas, Navegación Visual y GPS",
+          "description": "Lectura de cartas, navegación por estima, brújula y GPS",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Lectura de cartas aeronáuticas",
+            "Navegación visual y por estima",
+            "Brújula y referencias terrestres",
+            "Planificación de rutas y combustible",
+            "GPS básico"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ulm-reglamentacion",
+      "name": "Reglamentación",
+      "icon": "📋",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "ulm-reg-1",
+          "title": "Licencia ULM y Normativa",
+          "description": "DAN 61, definición de ULM, espacio aéreo y documentación",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de licencia ULM",
+            "DAN 91: Reglas de operación",
+            "Definición de aeronave ultraliviana motorizada",
+            "Espacio aéreo permitido para ULM",
+            "Limitaciones operacionales",
+            "Documentación y registros",
+            "Requisitos médicos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ulm-motores",
+      "name": "Motores y Sistemas",
+      "icon": "⚙️",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "ulm-mot-1",
+          "title": "Motor, Sistemas e Inspección ULM",
+          "description": "Motor, combustible, eléctrica, instrumentos e inspección",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Tipos de motor para ULM",
+            "Sistema de combustible",
+            "Sistema eléctrico básico",
+            "Instrumentos de vuelo",
+            "Inspección pre-vuelo",
+            "Hélice y su operación"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ulm-performance",
+      "name": "Performance",
+      "icon": "📊",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "ulm-perf-1",
+          "title": "Performance y Peso y Balance ULM",
+          "description": "Distancias, peso y balance, efectos de altitud y velocidades",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Distancias de despegue y aterrizaje",
+            "Peso y balance",
+            "Efectos de altitud y temperatura en performance",
+            "Velocidades operacionales"
+          ]
+        }
+      ]
+    }
+  ]
+}

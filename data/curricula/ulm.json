@@ -1,0 +1,98 @@
+{
+  "id": "ulm",
+  "code": "ULM",
+  "name": "Piloto de ULM",
+  "fullName": "Licencia de Piloto de Ultraliviano Motorizado (ULM)",
+  "description": "Licencia para operar aeronaves ultralivianas motorizadas. Similar al LSA pero con énfasis en operaciones de aeronaves ultralivianas.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 40,
+  "estimatedTimeMinutes": 60,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "ulm-aerodinamica",
+      "name": "Aerodinámica",
+      "description": "Principios de vuelo para aeronaves ultralivianas motorizadas",
+      "icon": "✈️",
+      "topics": [
+        "Principios de sustentación y resistencia",
+        "Fuerzas del vuelo en ultralivianos",
+        "Estabilidad y control",
+        "Pérdida aerodinámica y recuperación",
+        "Factores de carga y limitaciones estructurales",
+        "Efectos del viento en aeronaves livianas",
+        "Superficies de control y flaps"
+      ]
+    },
+    {
+      "id": "ulm-meteorologia",
+      "name": "Meteorología",
+      "description": "Meteorología relevante para operaciones ULM",
+      "icon": "🌤️",
+      "topics": [
+        "Atmósfera y sus propiedades",
+        "Presión, temperatura y viento",
+        "Turbulencia y sus efectos en ultralivianos",
+        "Formación de nubes y visibilidad",
+        "Condiciones VFR mínimas",
+        "Reportes meteorológicos básicos"
+      ]
+    },
+    {
+      "id": "ulm-navegacion",
+      "name": "Navegación",
+      "description": "Navegación visual para vuelos ULM",
+      "icon": "🧭",
+      "topics": [
+        "Lectura de cartas aeronáuticas",
+        "Navegación visual y por estima",
+        "Brújula y referencias terrestres",
+        "Planificación de rutas y combustible",
+        "GPS básico"
+      ]
+    },
+    {
+      "id": "ulm-reglamentacion",
+      "name": "Reglamentación",
+      "description": "Normativa aplicable a aeronaves ULM",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de licencia ULM",
+        "DAN 91: Reglas de operación",
+        "Definición de aeronave ultraliviana motorizada",
+        "Espacio aéreo permitido para ULM",
+        "Limitaciones operacionales",
+        "Documentación y registros",
+        "Requisitos médicos"
+      ]
+    },
+    {
+      "id": "ulm-motores",
+      "name": "Motores y Sistemas",
+      "description": "Motor y sistemas de aeronaves ULM",
+      "icon": "⚙️",
+      "topics": [
+        "Tipos de motor para ULM",
+        "Sistema de combustible",
+        "Sistema eléctrico básico",
+        "Instrumentos de vuelo",
+        "Inspección pre-vuelo",
+        "Hélice y su operación"
+      ]
+    },
+    {
+      "id": "ulm-performance",
+      "name": "Performance",
+      "description": "Performance básica de aeronaves ULM",
+      "icon": "📊",
+      "topics": [
+        "Distancias de despegue y aterrizaje",
+        "Peso y balance",
+        "Efectos de altitud y temperatura en performance",
+        "Velocidades operacionales"
+      ]
+    }
+  ]
+}

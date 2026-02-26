@@ -1,0 +1,91 @@
+{
+  "id": "globo",
+  "code": "PG",
+  "name": "Piloto de Globo/Dirigible",
+  "fullName": "Licencia de Piloto de Globo Libre o Dirigible",
+  "description": "Licencia para operar globos aerostáticos de aire caliente o dirigibles. Cubre aerostática, meteorología, navegación y reglamentación específica.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 40,
+  "estimatedTimeMinutes": 60,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "pg-aerostatica",
+      "name": "Aerostática y Principios de Vuelo",
+      "description": "Principios físicos del vuelo aerostático",
+      "icon": "🎈",
+      "topics": [
+        "Principio de Arquímedes aplicado al vuelo",
+        "Sustentación aerostática: aire caliente vs. gas",
+        "Relación temperatura-sustentación",
+        "Control de ascenso y descenso",
+        "Envolvente del globo: materiales y estructura",
+        "Quemador: funcionamiento y tipos de combustible",
+        "Estabilidad del globo en vuelo",
+        "Factores que afectan la performance"
+      ]
+    },
+    {
+      "id": "pg-meteorologia",
+      "name": "Meteorología",
+      "description": "Meteorología específica para operaciones de globo",
+      "icon": "🌤️",
+      "topics": [
+        "Viento en superficie y en altitud",
+        "Inversión térmica y capas de viento",
+        "Condiciones ideales para vuelo en globo",
+        "Turbulencia y sus efectos en globos",
+        "Actividad convectiva y riesgos",
+        "Pronósticos meteorológicos para vuelo de globo",
+        "Ventanas de vuelo: amanecer y atardecer"
+      ]
+    },
+    {
+      "id": "pg-navegacion",
+      "name": "Navegación",
+      "description": "Navegación para vuelo en globo: selección de zonas y aterrizaje",
+      "icon": "🧭",
+      "topics": [
+        "Lectura de cartas y mapas",
+        "Planificación del vuelo: zona de lanzamiento y aterrizaje",
+        "Uso del viento en diferentes altitudes para navegar",
+        "Selección de sitios de aterrizaje",
+        "Comunicación con equipo de tierra",
+        "GPS y seguimiento del vuelo"
+      ]
+    },
+    {
+      "id": "pg-reglamentacion",
+      "name": "Reglamentación",
+      "description": "Normativa aplicable a globos aerostáticos",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de licencia de piloto de globo",
+        "DAN 91: Reglas de operación aplicables",
+        "Espacio aéreo y restricciones para globos",
+        "Requisitos de seguridad y equipo obligatorio",
+        "Certificación del globo",
+        "Documentación y registros",
+        "Requisitos médicos"
+      ]
+    },
+    {
+      "id": "pg-operaciones",
+      "name": "Operaciones y Procedimientos",
+      "description": "Procedimientos de inflado, vuelo y aterrizaje",
+      "icon": "🎪",
+      "topics": [
+        "Preparación e inflado del globo",
+        "Procedimiento de despegue",
+        "Control del vuelo: uso del quemador y válvula",
+        "Procedimiento de aterrizaje normal",
+        "Aterrizaje en condiciones de viento",
+        "Desinflado y empaque",
+        "Procedimientos de emergencia",
+        "Coordinación con equipo de persecución"
+      ]
+    }
+  ]
+}

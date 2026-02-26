@@ -1,0 +1,409 @@
+{
+  "id": "pch",
+  "licenseId": "pch",
+  "name": "Piloto Comercial de Helicóptero",
+  "fullName": "Lecciones para Licencia de Piloto Comercial de Helicóptero",
+  "description": "Plan de lecciones para preparar el examen DGAC de Piloto Comercial de Helicóptero (PCH)",
+  "totalLessons": 55,
+  "estimatedTotalHours": 11,
+  "subjects": [
+    {
+      "id": "pch-aerodinamica-rotor",
+      "name": "Aerodinámica de Rotor",
+      "icon": "🚁",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "pch-aero-1",
+          "title": "Autorrotación Avanzada",
+          "description": "Autorrotación, régimen de potencia negativa y divergencia giroscópica",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Autorrotación y régimen de potencia negativa",
+            "Divergencia giroscópica y precesión"
+          ]
+        },
+        {
+          "id": "pch-aero-2",
+          "title": "VRS y LTE",
+          "description": "Vortex Ring State y pérdida de efectividad del rotor de cola",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "VRS (Vortex Ring State) - Estado de anillo de vórtice",
+            "LTE (Loss of Tail Rotor Effectiveness)"
+          ]
+        },
+        {
+          "id": "pch-aero-3",
+          "title": "ETL y Retreating Blade Stall",
+          "description": "Translational Lift avanzado y pérdida de pala en retroceso",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Translational Lift y Effective Translational Lift (ETL)",
+            "Retreating Blade Stall (pérdida de pala en retroceso)"
+          ]
+        },
+        {
+          "id": "pch-aero-4",
+          "title": "Disimetría, Efecto Suelo y Mast Bumping",
+          "description": "Disimetría avanzada, IGE/OGE avanzado y mast bumping",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Disimetría de sustentación avanzada",
+            "Efecto suelo IGE/OGE avanzado",
+            "Mast bumping y sus causas"
+          ]
+        },
+        {
+          "id": "pch-aero-5",
+          "title": "Dinámica del Rotor",
+          "description": "Vibración, dinámica del rotor y factores de carga",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 5,
+          "topicsCovered": [
+            "Dinámica del rotor y vibración"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pch-limitaciones",
+      "name": "Limitaciones de Helicópteros",
+      "icon": "⚠️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "pch-lim-1",
+          "title": "Charts de Potencia y Parámetros",
+          "description": "Torque, TOT, N1, N2 y RPM del rotor",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Charts de potencia y su interpretación",
+            "Torque, TOT, N1, N2 y RPM del rotor"
+          ]
+        },
+        {
+          "id": "pch-lim-2",
+          "title": "Curva H/V y Performance",
+          "description": "Diagrama altura-velocidad, DA y limitaciones de peso",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Curva altura-velocidad (H/V diagram)",
+            "Régimen de ascenso y techo operacional",
+            "Performance en alta densidad altitude (DA)"
+          ]
+        },
+        {
+          "id": "pch-lim-3",
+          "title": "Limitaciones Operacionales",
+          "description": "Limitaciones de peso, CG y viento para helicópteros",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 3,
+          "topicsCovered": [
+            "Limitaciones de peso y centro de gravedad",
+            "Limitaciones de viento para operaciones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pch-emergencias",
+      "name": "Emergencias Específicas",
+      "icon": "🆘",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "pch-emer-1",
+          "title": "Falla de Motor y Autorrotación",
+          "description": "Procedimientos inmediatos de falla de motor y autorrotaciones",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Autorrotaciones completas y parciales",
+            "Falla de motor: procedimiento inmediato",
+            "Aterrizaje de emergencia con motor inoperativo"
+          ]
+        },
+        {
+          "id": "pch-emer-2",
+          "title": "Falla de Rotor de Cola y Overtemp",
+          "description": "Falla del TR, sobretemperatura y emergencias en hover",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Falla del rotor de cola (TR failure)",
+            "Sobretemperatura (overtemp) del motor",
+            "Emergencias en hover y vuelo estacionario"
+          ]
+        },
+        {
+          "id": "pch-emer-3",
+          "title": "POH y Fuego en Vuelo",
+          "description": "Procedimientos del POH y combate de fuego",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Procedimientos del POH para fallas críticas",
+            "Fuego en motor y en vuelo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pch-sistemas",
+      "name": "Sistemas de Helicóptero",
+      "icon": "⚙️",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "pch-sis-1",
+          "title": "Transmisión y Rotores",
+          "description": "Caja de engranajes, rotor principal y rotor de cola",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Transmisión y caja de engranajes (gearbox)",
+            "Sistema de rotor principal y sus componentes",
+            "Sistema de rotor de cola"
+          ]
+        },
+        {
+          "id": "pch-sis-2",
+          "title": "Combustible, Hidráulica y Eléctrica",
+          "description": "Sistemas de combustible, hidráulico y eléctrico del helicóptero",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Sistema de combustible",
+            "Sistema hidráulico",
+            "Sistema eléctrico"
+          ]
+        },
+        {
+          "id": "pch-sis-3",
+          "title": "Motores y Control de Potencia",
+          "description": "Pistón vs turbina, governor e instrumentos específicos",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Control de potencia y governor",
+            "Motores a pistón vs. turbina (turboshaft)",
+            "Instrumentos específicos del helicóptero"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pch-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "icon": "📋",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "pch-reg-1",
+          "title": "Licencia Comercial de Helicóptero",
+          "description": "DAN 61, requisitos y atribuciones del PCH",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Licencias y habilitaciones comerciales",
+            "Requisitos y atribuciones del piloto comercial de helicóptero"
+          ]
+        },
+        {
+          "id": "pch-reg-2",
+          "title": "Reglas de Operación Comercial",
+          "description": "DAN 91, tiempos de vuelo, espacio aéreo y documentación",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "DAN 91: Reglas de operación",
+            "Tiempos de vuelo y descanso",
+            "Espacio aéreo y procedimientos ATC",
+            "Normativa para operaciones comerciales en helicóptero",
+            "Documentación y registros requeridos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pch-performance",
+      "name": "Performance y Planificación",
+      "icon": "📊",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "pch-perf-1",
+          "title": "Torque y Performance de Hover",
+          "description": "Cálculos de torque, hover IGE/OGE y carga útil",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Cálculo de torque requerido",
+            "Carga útil y rango disponible",
+            "Hover IGE y OGE: cálculos de performance"
+          ]
+        },
+        {
+          "id": "pch-perf-2",
+          "title": "Cartas de Performance y Peso y Balance",
+          "description": "Cartas de altitud/temperatura, peso y balance y combustible",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Cartas de altitud, temperatura y peso",
+            "Peso y balance avanzado",
+            "Planificación de combustible"
+          ]
+        },
+        {
+          "id": "pch-perf-3",
+          "title": "Operaciones en Espacios Confinados",
+          "description": "Performance y técnicas para espacios confinados",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 3,
+          "topicsCovered": [
+            "Operaciones en espacios confinados"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pch-meteorologia",
+      "name": "Meteorología Aplicada",
+      "icon": "🌤️",
+      "order": 7,
+      "lessons": [
+        {
+          "id": "pch-met-1",
+          "title": "Meteorología Avanzada para Helicópteros",
+          "description": "METAR/TAF avanzado, SIGMET y meteorología de montaña",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Interpretación avanzada de METAR y TAF",
+            "SIGMET y fenómenos peligrosos",
+            "Meteorología de montaña para helicópteros"
+          ]
+        },
+        {
+          "id": "pch-met-2",
+          "title": "Viento y Turbulencia en Helicópteros",
+          "description": "Efectos del viento, turbulencia y condiciones mínimas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Efectos del viento en operaciones de helicóptero",
+            "Turbulencia mecánica y orográfica",
+            "Visibilidad y condiciones mínimas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pch-navegacion",
+      "name": "Navegación y Comunicaciones",
+      "icon": "🧭",
+      "order": 8,
+      "lessons": [
+        {
+          "id": "pch-nav-1",
+          "title": "Navegación Comercial y Comunicaciones",
+          "description": "Radionavegación, planificación comercial y comunicaciones ATC",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Radionavegación: VOR, NDB, DME, GPS",
+            "Planificación de vuelo comercial",
+            "Cartas aeronáuticas y procedimientos",
+            "Comunicaciones ATC avanzadas"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pch-factores-humanos",
+      "name": "Factores Humanos y CRM",
+      "icon": "🧠",
+      "order": 9,
+      "lessons": [
+        {
+          "id": "pch-fh-1",
+          "title": "CRM y TEM para Helicópteros",
+          "description": "CRM, gestión de amenazas y toma de decisiones críticas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "CRM (Crew Resource Management)",
+            "Toma de decisiones en situaciones críticas",
+            "Gestión de amenazas y errores (TEM)",
+            "Fatiga y estrés operacional",
+            "Conciencia situacional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pch-operaciones-especiales",
+      "name": "Operaciones Especiales",
+      "icon": "🏔️",
+      "order": 10,
+      "lessons": [
+        {
+          "id": "pch-ope-1",
+          "title": "Vuelo de Montaña y Carga Externa",
+          "description": "Técnicas de montaña y operaciones con línea larga",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Vuelo de montaña",
+            "Carga externa y operaciones con línea larga (longline)"
+          ]
+        },
+        {
+          "id": "pch-ope-2",
+          "title": "Incendios, Rescate y Espacios Confinados",
+          "description": "Combate de incendios, HEMS y plataformas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Combate de incendios forestales",
+            "Rescate y evacuación aeromédica (HEMS)",
+            "Operaciones en espacios confinados y plataformas"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+{
+  "id": "pph",
+  "licenseId": "pph",
+  "name": "Piloto Privado de Helicóptero",
+  "fullName": "Lecciones para Licencia de Piloto Privado de Helicóptero",
+  "description": "Plan de lecciones para preparar el examen DGAC de Piloto Privado de Helicóptero (PPH)",
+  "totalLessons": 40,
+  "estimatedTotalHours": 8,
+  "subjects": [
+    {
+      "id": "pph-aerodinamica",
+      "name": "Aerodinámica de Helicópteros",
+      "icon": "🚁",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "pph-aero-1",
+          "title": "Sustentación por Rotor",
+          "description": "Cómo el rotor genera sustentación y el efecto suelo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Principios de sustentación por rotor",
+            "Efecto suelo (IGE y OGE)"
+          ]
+        },
+        {
+          "id": "pph-aero-2",
+          "title": "Autorrotación",
+          "description": "Principios de autorrotación y procedimiento de emergencia",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Autorrotación: principios y procedimiento"
+          ]
+        },
+        {
+          "id": "pph-aero-3",
+          "title": "ETL y Disimetría de Sustentación",
+          "description": "Translational Lift, disimetría de sustentación y efecto Coriolis",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Traslación y Effective Translational Lift (ETL)",
+            "Disimetría de sustentación",
+            "Efecto Coriolis y conservación del momento angular"
+          ]
+        },
+        {
+          "id": "pph-aero-4",
+          "title": "Controles del Helicóptero",
+          "description": "Cíclico, colectivo, pedales y estabilidad del helicóptero",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Control cíclico, colectivo y pedales antipar",
+            "Estabilidad del helicóptero"
+          ]
+        },
+        {
+          "id": "pph-aero-5",
+          "title": "Vórtice de Estela y Factores de Carga",
+          "description": "Vórtice del rotor y cargas en maniobras",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 5,
+          "topicsCovered": [
+            "Vórtice de estela del rotor",
+            "Factores de carga en maniobras"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pph-meteorologia",
+      "name": "Meteorología Aeronáutica",
+      "icon": "🌤️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "pph-met-1",
+          "title": "Atmósfera y Presión para Helicópteros",
+          "description": "Propiedades del aire, presión y altimetría",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Estructura de la atmósfera y propiedades del aire",
+            "Presión atmosférica y altimetría"
+          ]
+        },
+        {
+          "id": "pph-met-2",
+          "title": "Nubes, Frentes y Precipitación",
+          "description": "Tipos de nubes, frentes meteorológicos y precipitación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Formación de nubes y tipos de precipitación",
+            "Frentes meteorológicos"
+          ]
+        },
+        {
+          "id": "pph-met-3",
+          "title": "Fenómenos Peligrosos y Viento",
+          "description": "Turbulencia, cizalladura, engelamiento y viento en helicópteros",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Fenómenos peligrosos: turbulencia, cizalladura, engelamiento",
+            "Efectos del viento en operaciones de helicóptero"
+          ]
+        },
+        {
+          "id": "pph-met-4",
+          "title": "METAR, TAF y Condiciones VFR",
+          "description": "Interpretación de reportes meteorológicos para vuelo VFR",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Interpretación de METAR y TAF",
+            "Visibilidad y condiciones VFR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pph-navegacion",
+      "name": "Navegación Aérea",
+      "icon": "🧭",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "pph-nav-1",
+          "title": "Coordenadas y Cartas para Helicópteros",
+          "description": "Coordenadas geográficas, variación magnética y cartas VFR",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Coordenadas geográficas y cartas aeronáuticas",
+            "Norte verdadero y magnético, variación magnética",
+            "Lectura de cartas VFR"
+          ]
+        },
+        {
+          "id": "pph-nav-2",
+          "title": "Planificación de Ruta y Combustible",
+          "description": "Planificación de rutas para helicópteros, combustible y autonomía",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Planificación de rutas para helicópteros",
+            "Cálculo de combustible y autonomía"
+          ]
+        },
+        {
+          "id": "pph-nav-3",
+          "title": "Radionavegación y Plan de Vuelo",
+          "description": "VOR, NDB, plan de vuelo y AIP Chile",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Radionavegación básica: VOR, NDB",
+            "Plan de vuelo y uso del AIP Chile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pph-reglamentacion",
+      "name": "Reglamentación Aérea",
+      "icon": "📋",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "pph-reg-1",
+          "title": "Licencia PPH y Normativa DGAC",
+          "description": "DAN 61, requisitos y atribuciones del piloto privado de helicóptero",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de licencia PPH",
+            "Atribuciones y limitaciones del piloto privado de helicóptero"
+          ]
+        },
+        {
+          "id": "pph-reg-2",
+          "title": "Reglas de Operación y Espacio Aéreo",
+          "description": "DAN 91, espacio aéreo y normativa para helicópteros",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "DAN 91: Reglas de operación general",
+            "Espacio aéreo y requisitos de operación",
+            "Normativa específica para operaciones de helicóptero"
+          ]
+        },
+        {
+          "id": "pph-reg-3",
+          "title": "Comunicaciones y Documentación",
+          "description": "Procedimientos ATC, documentación y regulaciones OACI",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Procedimientos de comunicaciones ATC",
+            "Documentación requerida: aeronave y piloto",
+            "Regulaciones internacionales OACI aplicables"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pph-factores-humanos",
+      "name": "Factores Humanos",
+      "icon": "🧠",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "pph-fh-1",
+          "title": "Fisiología del Vuelo en Helicóptero",
+          "description": "Hipoxia, desorientación espacial y visión nocturna",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Hipoxia y sus efectos",
+            "Desorientación espacial e ilusiones",
+            "Visión nocturna y adaptación visual"
+          ]
+        },
+        {
+          "id": "pph-fh-2",
+          "title": "Fatiga, Estrés y Toma de Decisiones",
+          "description": "Gestión de fatiga, alcohol, medicamentos y CRM básico",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Fatiga y estrés en vuelo",
+            "Efectos del alcohol y medicamentos",
+            "Toma de decisiones aeronáuticas",
+            "CRM básico"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pph-comunicaciones",
+      "name": "Comunicaciones Aeronáuticas",
+      "icon": "📻",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "pph-com-1",
+          "title": "Fraseología y Radio en Helicóptero",
+          "description": "Fraseología ATC, procedimientos de radio y emergencias",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Fraseología ATC estándar",
+            "Procedimientos de radio en operaciones de helicóptero",
+            "Comunicaciones en emergencia",
+            "Uso de frecuencias y transponder"
+          ]
+        }
+      ]
+    }
+  ]
+}

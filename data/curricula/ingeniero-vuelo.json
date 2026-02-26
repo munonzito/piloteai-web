@@ -1,0 +1,73 @@
+{
+  "id": "ingeniero-vuelo",
+  "code": "IV",
+  "name": "Ingeniero de Vuelo",
+  "fullName": "Licencia de Ingeniero de Vuelo",
+  "description": "Licencia para desempeñarse como ingeniero de vuelo en aeronaves que requieren esta posición. Evalúa reglamentación, factores humanos e inglés técnico.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "ing-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "description": "Normativa aeronáutica para ingenieros de vuelo",
+      "icon": "📋",
+      "topics": [
+        "DAR 01 y DAR 06: Certificaciones y normativa",
+        "DAR 08: Requisitos operacionales",
+        "DAN 61: Requisitos de licencia de ingeniero",
+        "Código Aeronáutico aplicable",
+        "Responsabilidades del ingeniero de vuelo",
+        "Normativa OACI y DGAC aplicable",
+        "Documentación técnica y operacional"
+      ]
+    },
+    {
+      "id": "ing-factores-humanos",
+      "name": "Factores Humanos",
+      "description": "Ergonomía, error humano y seguridad en aviación",
+      "icon": "🧠",
+      "topics": [
+        "Ergonomía en la cabina de vuelo",
+        "Error humano: modelos y prevención",
+        "CRM para ingenieros de vuelo",
+        "Fatiga y gestión del descanso",
+        "Estrés y toma de decisiones",
+        "Comunicación efectiva en crew de tres",
+        "Conciencia situacional",
+        "Automatización y complacencia"
+      ]
+    },
+    {
+      "id": "ing-ingles-tecnico",
+      "name": "Inglés Técnico",
+      "description": "Inglés técnico aeronáutico para ingenieros",
+      "icon": "🇬🇧",
+      "topics": [
+        "Terminología técnica aeronáutica",
+        "Lectura de manuales técnicos en inglés",
+        "Comunicaciones técnicas en inglés",
+        "Documentación operacional en inglés"
+      ]
+    },
+    {
+      "id": "ing-sistemas",
+      "name": "Sistemas de Aeronaves",
+      "description": "Sistemas de aeronaves de transporte gestionados por el ingeniero de vuelo",
+      "icon": "⚙️",
+      "topics": [
+        "Sistemas de propulsión",
+        "Sistemas de combustible y gestión",
+        "Sistemas eléctricos e hidráulicos",
+        "Sistema de presurización y aire acondicionado",
+        "Sistemas de protección contra hielo",
+        "Monitoreo de parámetros de motor",
+        "Procedimientos de emergencia de sistemas"
+      ]
+    }
+  ]
+}

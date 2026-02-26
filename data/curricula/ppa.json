@@ -1,0 +1,164 @@
+{
+  "id": "ppa",
+  "code": "PPA",
+  "name": "Piloto Privado de Avión",
+  "fullName": "Licencia de Piloto Privado de Avión",
+  "description": "Licencia para volar aeronaves pequeñas de forma privada, sin fines comerciales. Es el primer paso en la carrera de aviación.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "ppa-aerodinamica",
+      "name": "Aerodinámica",
+      "description": "Principios del vuelo, fuerzas aerodinámicas y control de la aeronave",
+      "icon": "✈️",
+      "topics": [
+        "Las cuatro fuerzas del vuelo: sustentación, peso, empuje y resistencia",
+        "Ángulo de ataque y ángulo de ataque crítico",
+        "Pérdida aerodinámica (stall) y recuperación",
+        "Estabilidad estática y dinámica",
+        "Superficies de control: alerones, elevador, timón de dirección",
+        "Flaps y dispositivos hipersustentadores",
+        "Sustentación y el principio de Bernoulli",
+        "Resistencia parásita e inducida",
+        "Factores de carga y maniobras",
+        "Efectos de la configuración en el vuelo"
+      ]
+    },
+    {
+      "id": "ppa-meteorologia",
+      "name": "Meteorología Aeronáutica",
+      "description": "Clima, fenómenos atmosféricos e informes meteorológicos para vuelos VFR",
+      "icon": "🌤️",
+      "topics": [
+        "Estructura de la atmósfera y propiedades del aire",
+        "Presión atmosférica y altimetría",
+        "Temperatura, humedad y punto de rocío",
+        "Formación de nubes y tipos de nubes",
+        "Frentes fríos, cálidos, estacionarios y ocluidos",
+        "Fenómenos peligrosos: turbulencia, engelamiento, cizalladura del viento",
+        "Tormentas eléctricas y fenómenos convectivos",
+        "Interpretación de reportes METAR",
+        "Interpretación de pronósticos TAF",
+        "Cartas de tiempo significativo y vientos en altitud",
+        "Visibilidad y techo de nubes"
+      ]
+    },
+    {
+      "id": "ppa-navegacion",
+      "name": "Navegación Aérea",
+      "description": "Cartas aeronáuticas, planificación de vuelo y radionavegación básica",
+      "icon": "🧭",
+      "topics": [
+        "Coordenadas geográficas: latitud y longitud",
+        "Norte verdadero, norte magnético y variación magnética",
+        "Desviación de la brújula y corrección",
+        "Lectura de cartas aeronáuticas VFR",
+        "Planificación de rutas y cálculo de rumbos",
+        "Cálculo de deriva por viento (triángulo de velocidades)",
+        "Cálculo de consumo de combustible y autonomía",
+        "Radionavegación básica: VOR, NDB",
+        "Uso del GPS en aviación",
+        "Plan de vuelo ATC y formulario ATC-1",
+        "Rutas visuales publicadas",
+        "Uso del AIP Chile"
+      ]
+    },
+    {
+      "id": "ppa-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "description": "Normativa DGAC, reglas de vuelo VFR y responsabilidades del piloto",
+      "icon": "📋",
+      "topics": [
+        "Estructura de la DGAC y su rol regulador",
+        "Código Aeronáutico de Chile",
+        "Marco regulatorio: DAR y DAN",
+        "DAR 01: Certificaciones Médicas",
+        "DAR/DAN 61: Licencias para Pilotos y sus Habilitaciones",
+        "DAN 91: Reglas de Operación y reglas del aire",
+        "Requisitos para licencia PPL: edad, horas, médico",
+        "Atribuciones y limitaciones del piloto privado",
+        "Espacio aéreo: clasificación y requisitos",
+        "Reglas de vuelo visual (VFR)",
+        "Procedimientos de comunicaciones ATC",
+        "Señales visuales y de emergencia",
+        "Documentación de la aeronave y del piloto"
+      ]
+    },
+    {
+      "id": "ppa-instrumentos",
+      "name": "Instrumentos de Vuelo",
+      "description": "Instrumentos de cabina y sus principios de funcionamiento",
+      "icon": "🎛️",
+      "topics": [
+        "Sistema pitot-estático: altímetro, velocímetro, variómetro",
+        "Altímetro: ajuste QNH, QFE, QNE y errores",
+        "Velocímetro: IAS, CAS, TAS y marcas del arco",
+        "Variómetro y uso en vuelo",
+        "Instrumentos giroscópicos: horizonte artificial, giro direccional, coordinador de giro",
+        "Brújula magnética: errores y uso",
+        "Indicadores de motor: RPM, presión de aceite, temperatura",
+        "Indicadores de combustible y sistemas eléctricos",
+        "Fallas de instrumentos y diagnóstico"
+      ]
+    },
+    {
+      "id": "ppa-motores",
+      "name": "Motores y Sistemas de la Aeronave",
+      "description": "Motor de pistón, sistemas del avión y procedimientos de inspección",
+      "icon": "⚙️",
+      "topics": [
+        "Principios del motor de pistón (ciclo Otto)",
+        "Sistema de encendido: magnetos y bujías",
+        "Sistema de combustible: tipos, tanques, bombas y carburador",
+        "Engelamiento del carburador y uso del calor",
+        "Sistema de lubricación",
+        "Sistema eléctrico de la aeronave",
+        "Sistema de vacío",
+        "Hélice de paso fijo y variable",
+        "Inspección preflight y postflight",
+        "Estructura de la aeronave: fuselaje, alas, empenaje, tren de aterrizaje"
+      ]
+    },
+    {
+      "id": "ppa-performance",
+      "name": "Performance y Peso y Balance",
+      "description": "Cálculos de rendimiento, peso y balance de la aeronave",
+      "icon": "📊",
+      "topics": [
+        "Altitud densidad y sus efectos en performance",
+        "Distancia de despegue y factores que la afectan",
+        "Distancia de aterrizaje y factores que la afectan",
+        "Régimen de ascenso: Vx y Vy",
+        "Peso máximo de despegue, aterrizaje y rampa",
+        "Centro de gravedad: cálculo y límites",
+        "Envolvente de peso y balance",
+        "Curvas de performance del POH",
+        "Efectos de la temperatura y altitud en el rendimiento",
+        "Carga útil y cálculo de payload"
+      ]
+    },
+    {
+      "id": "ppa-factores-humanos",
+      "name": "Factores Humanos y Fisiología del Vuelo",
+      "description": "Fisiología aeronáutica, toma de decisiones y seguridad",
+      "icon": "🧠",
+      "topics": [
+        "Hipoxia: tipos, síntomas y prevención",
+        "Hiperventilación",
+        "Visión nocturna y adaptación visual",
+        "Desorientación espacial e ilusiones sensoriales",
+        "Fatiga y sus efectos en el rendimiento",
+        "Estrés y toma de decisiones",
+        "Efectos del alcohol, medicamentos y drogas",
+        "Efecto de la altitud en el cuerpo humano",
+        "CRM básico (Crew Resource Management)",
+        "Modelo DECIDE para toma de decisiones aeronáuticas"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "id": "pca",
+  "licenseId": "pca",
+  "name": "Piloto Comercial de Avión",
+  "fullName": "Lecciones para Licencia de Piloto Comercial de Avión",
+  "description": "Plan de lecciones para preparar el examen DGAC de Piloto Comercial de Avión (PCA)",
+  "totalLessons": 48,
+  "estimatedTotalHours": 10,
+  "subjects": [
+    {
+      "id": "pca-meteorologia",
+      "name": "Meteorología Aeronáutica",
+      "icon": "🌤️",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "pca-met-1",
+          "title": "Nubes y Fenómenos Peligrosos Avanzados",
+          "description": "Formación avanzada de nubes, tormentas y fenómenos convectivos",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Formación de nubes y fenómenos peligrosos avanzados",
+            "Tormentas, engelamiento y turbulencia severa"
+          ]
+        },
+        {
+          "id": "pca-met-2",
+          "title": "Frentes y Cizalladura del Viento",
+          "description": "Evolución de frentes, wind shear y microráfagas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Frentes meteorológicos y su evolución",
+            "Cizalladura del viento (wind shear) y microráfagas"
+          ]
+        },
+        {
+          "id": "pca-met-3",
+          "title": "METAR y TAF Avanzado",
+          "description": "Interpretación avanzada de reportes meteorológicos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Interpretación avanzada de reportes METAR",
+            "Interpretación avanzada de pronósticos TAF"
+          ]
+        },
+        {
+          "id": "pca-met-4",
+          "title": "SIGMET, GAMET y Cartas de Altura",
+          "description": "Avisos meteorológicos y cartas de tiempo significativo",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "SIGMET y GAMET: interpretación y uso operacional",
+            "Cartas de tiempo significativo en altitud"
+          ]
+        },
+        {
+          "id": "pca-met-5",
+          "title": "Jet Stream y Meteorología Especial",
+          "description": "Corrientes en chorro, meteorología tropical y de montaña",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 5,
+          "topicsCovered": [
+            "Corrientes en chorro (jet stream)",
+            "Meteorología tropical y de montaña",
+            "Visibilidad, techo y condiciones mínimas VFR/IFR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pca-navegacion",
+      "name": "Navegación Aérea",
+      "icon": "🧭",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "pca-nav-1",
+          "title": "Cálculos Avanzados de Rumbo y Viento",
+          "description": "Triángulo de velocidades y problemas de viento complejos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Cálculo avanzado de rumbos y deriva",
+            "Triángulo de velocidades y problemas de viento",
+            "Uso del computador de vuelo (E6B)"
+          ]
+        },
+        {
+          "id": "pca-nav-2",
+          "title": "Combustible para Vuelos Comerciales",
+          "description": "Planificación de combustible con reservas y alternates",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Cálculo de combustible para vuelos comerciales"
+          ]
+        },
+        {
+          "id": "pca-nav-3",
+          "title": "Cartas VFR e IFR",
+          "description": "Lectura de cartas aeronáuticas y altitudes de vuelo",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Cartas aeronáuticas VFR e IFR",
+            "Altitudes y niveles de vuelo"
+          ]
+        },
+        {
+          "id": "pca-nav-4",
+          "title": "Radioayudas: VOR, NDB y DME",
+          "description": "Sistemas de radionavegación para vuelo comercial",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Sistemas de radioayudas: VOR, NDB, DME",
+            "Uso del GPS y navegación RNAV básica"
+          ]
+        },
+        {
+          "id": "pca-nav-5",
+          "title": "Planificación Comercial y ATC",
+          "description": "Planificación de vuelo comercial, rutas aéreas y espacio aéreo",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 5,
+          "topicsCovered": [
+            "Planificación de vuelo comercial",
+            "Rutas aéreas y procedimientos ATC",
+            "Espacio aéreo controlado y no controlado"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pca-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "icon": "📋",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "pca-reg-1",
+          "title": "Licencia Comercial: Requisitos y Atribuciones",
+          "description": "DAN 61 para pilotos comerciales y sus habilitaciones",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Licencias y habilitaciones comerciales",
+            "Requisitos y atribuciones del piloto comercial"
+          ]
+        },
+        {
+          "id": "pca-reg-2",
+          "title": "Reglas de Operación y Espacio Aéreo",
+          "description": "DAN 91, procedimientos IFR/VFR y clasificación del espacio aéreo",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "DAN 91: Reglas de operación general",
+            "Procedimientos IFR y VFR",
+            "Espacio aéreo: clasificación detallada"
+          ]
+        },
+        {
+          "id": "pca-reg-3",
+          "title": "Comunicaciones y Separación",
+          "description": "Comunicaciones avanzadas, reglas de separación y prioridad",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Comunicaciones aeronáuticas avanzadas",
+            "Reglas de separación y prioridad"
+          ]
+        },
+        {
+          "id": "pca-reg-4",
+          "title": "Tiempos de Vuelo y Emergencias",
+          "description": "Límites de vuelo y descanso, procedimientos de emergencia",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Tiempos de vuelo y descanso para pilotos comerciales",
+            "Procedimientos de emergencia reglamentarios"
+          ]
+        },
+        {
+          "id": "pca-reg-5",
+          "title": "Certificaciones y Responsabilidades",
+          "description": "Certificaciones de aeronaves y responsabilidades legales",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 5,
+          "topicsCovered": [
+            "Certificaciones y registros de aeronaves",
+            "Código Aeronáutico y responsabilidades legales"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pca-performance",
+      "name": "Performance y Planeación",
+      "icon": "📊",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "pca-perf-1",
+          "title": "Despegue y Aterrizaje Avanzado",
+          "description": "Cálculos avanzados de distancias y correcciones",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Cálculo de distancias de despegue y aterrizaje avanzado",
+            "Altitud densidad y correcciones"
+          ]
+        },
+        {
+          "id": "pca-perf-2",
+          "title": "Curvas de Potencia y Ascenso",
+          "description": "Performance en altitud, velocidades de ascenso óptimas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Curvas de potencia y performance en altitud",
+            "Régimen de ascenso: mejores ángulos y velocidades"
+          ]
+        },
+        {
+          "id": "pca-perf-3",
+          "title": "Peso y Balance Comercial",
+          "description": "MTOW, MLW, MZFW y peso y balance para aeronaves comerciales",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Peso y balance avanzado para aeronaves comerciales",
+            "Limitaciones de peso: MTOW, MLW, MZFW"
+          ]
+        },
+        {
+          "id": "pca-perf-4",
+          "title": "Combustible y Performance en Ruta",
+          "description": "Planificación de combustible, velocidades de crucero y drift-down",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 4,
+          "topicsCovered": [
+            "Planificación de combustible (trip, reserve, alternate)",
+            "Performance en ruta: velocidades de crucero y consumo",
+            "Cálculos de drift-down y motor inoperativo"
+          ]
+        },
+        {
+          "id": "pca-perf-5",
+          "title": "Tablas y Gráficos del Manual",
+          "description": "Cómo usar las tablas y gráficos del manual de vuelo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 5,
+          "topicsCovered": [
+            "Uso de tablas y gráficos del manual de vuelo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pca-sistemas",
+      "name": "Sistemas de Aeronave",
+      "icon": "⚙️",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "pca-sis-1",
+          "title": "Motor y Propulsión Avanzada",
+          "description": "Motores avanzados, combustible y sistema eléctrico",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Motor y sistemas de propulsión avanzados",
+            "Sistema de combustible completo",
+            "Sistema eléctrico avanzado"
+          ]
+        },
+        {
+          "id": "pca-sis-2",
+          "title": "Hidráulica e Instrumentos Avanzados",
+          "description": "Sistema hidráulico y instrumentos de vuelo avanzados",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Sistema hidráulico",
+            "Instrumentos de vuelo avanzados"
+          ]
+        },
+        {
+          "id": "pca-sis-3",
+          "title": "Control de Vuelo y Aerodinámica Avanzada",
+          "description": "Sistemas de control, estabilidad y hélice de velocidad constante",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Sistemas de control de vuelo",
+            "Aerodinámica avanzada y estabilidad",
+            "Hélice de velocidad constante"
+          ]
+        },
+        {
+          "id": "pca-sis-4",
+          "title": "Presurización y Emergencias",
+          "description": "Introducción a presurización y sistemas de emergencia",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Sistemas de presurización (introducción)",
+            "Sistemas de emergencia y seguridad"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pca-factores-humanos",
+      "name": "Factores Humanos y Seguridad",
+      "icon": "🧠",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "pca-fh-1",
+          "title": "CRM y Toma de Decisiones",
+          "description": "CRM avanzado y toma de decisiones aeronáuticas (ADM)",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "CRM (Crew Resource Management) avanzado",
+            "Toma de decisiones aeronáuticas (ADM)"
+          ]
+        },
+        {
+          "id": "pca-fh-2",
+          "title": "TEM y Conciencia Situacional",
+          "description": "Gestión de amenazas y errores, conciencia situacional",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Gestión de amenazas y errores (TEM)",
+            "Conciencia situacional"
+          ]
+        },
+        {
+          "id": "pca-fh-3",
+          "title": "Fatiga, Estrés y Fisiología",
+          "description": "Gestión de fatiga, estrés operacional y fisiología del vuelo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Fatiga y gestión del descanso",
+            "Estrés operacional",
+            "Fisiología del vuelo en operaciones comerciales"
+          ]
+        },
+        {
+          "id": "pca-fh-4",
+          "title": "Modelo SHELL y Cultura de Seguridad",
+          "description": "Modelo SHELL, cultura de seguridad y reporte de eventos",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Modelo SHELL y factores humanos",
+            "Cultura de seguridad y reporte de eventos"
+          ]
+        }
+      ]
+    }
+  ]
+}

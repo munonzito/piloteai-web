@@ -1,0 +1,87 @@
+{
+  "id": "ultraliviano",
+  "code": "UL",
+  "name": "Piloto Ultraliviano",
+  "fullName": "Licencia de Piloto Ultraliviano (Parapente / Ala Delta)",
+  "description": "Licencia para operar aeronaves ultralivianas no motorizadas como parapente y ala delta. Cubre aerodinámica específica, meteorología y técnicas de vuelo.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 40,
+  "estimatedTimeMinutes": 60,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "ul-aerodinamica",
+      "name": "Aerodinámica",
+      "description": "Principios de vuelo para parapente y ala delta",
+      "icon": "🪂",
+      "topics": [
+        "Principios de sustentación en parapente/ala delta",
+        "Resistencia y eficiencia aerodinámica",
+        "Control de la aeronave: peso del piloto y frenos",
+        "Estabilidad y comportamiento en vuelo",
+        "Pérdida aerodinámica y plegada",
+        "Polar de velocidades",
+        "Efectos del viento en vuelo"
+      ]
+    },
+    {
+      "id": "ul-meteorologia",
+      "name": "Meteorología",
+      "description": "Meteorología aplicada a vuelo libre",
+      "icon": "🌤️",
+      "topics": [
+        "Corrientes térmicas y su formación",
+        "Corrientes de ladera (dynamic soaring)",
+        "Inversión térmica y capa límite",
+        "Viento: gradiente, ráfagas y rotores",
+        "Nubes indicadoras de actividad térmica",
+        "Condiciones peligrosas: tormentas, viento fuerte",
+        "Lectura del cielo y predicción local"
+      ]
+    },
+    {
+      "id": "ul-reglamentacion",
+      "name": "Reglamentación",
+      "description": "Normativa aplicable a vuelo ultraliviano",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de licencia ultraliviano",
+        "DAN 91: Reglas de operación",
+        "Espacio aéreo y restricciones",
+        "Zonas permitidas para vuelo libre",
+        "Prioridades y reglas de derecho de paso",
+        "Documentación y seguro"
+      ]
+    },
+    {
+      "id": "ul-tecnicas",
+      "name": "Técnicas de Vuelo",
+      "description": "Técnicas de despegue, vuelo y aterrizaje en parapente/ala delta",
+      "icon": "🪁",
+      "topics": [
+        "Técnicas de despegue: frontal y reverso",
+        "Control en vuelo: virajes, aceleración",
+        "Centrado de térmicas",
+        "Vuelo de ladera",
+        "Aproximación y aterrizaje",
+        "Maniobras de emergencia: plegada, barrena",
+        "Uso del paracaídas de emergencia"
+      ]
+    },
+    {
+      "id": "ul-factores-humanos",
+      "name": "Factores Humanos y Seguridad",
+      "description": "Seguridad, fisiología y toma de decisiones",
+      "icon": "🧠",
+      "topics": [
+        "Hipoxia en vuelo de altitud",
+        "Fatiga y deshidratación",
+        "Toma de decisiones: volar o no volar",
+        "Evaluación de condiciones del sitio de vuelo",
+        "Equipamiento de seguridad obligatorio"
+      ]
+    }
+  ]
+}

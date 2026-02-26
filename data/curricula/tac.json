@@ -1,0 +1,99 @@
+{
+  "id": "tac",
+  "code": "TAC",
+  "name": "Tripulante de Cabina de Aeronaves",
+  "fullName": "Licencia de Tripulante Auxiliar de Cabina",
+  "description": "Licencia para desempeñarse como tripulante de cabina en aeronaves de transporte público. Incluye reglamentación, emergencias generales y habilitaciones por tipo de aeronave.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "tac-reglamentacion",
+      "name": "Reglamentación TAC",
+      "description": "Normativa aplicable a tripulantes de cabina",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Requisitos de licencia TAC",
+        "DAN 121: Operaciones de transporte aéreo",
+        "Responsabilidades del tripulante de cabina",
+        "Atribuciones y limitaciones de la licencia",
+        "Tiempos de vuelo, servicio y descanso",
+        "Código Aeronáutico aplicable",
+        "Normativa de seguridad aérea",
+        "Normativa de sustancias peligrosas en vuelo"
+      ]
+    },
+    {
+      "id": "tac-emergencias",
+      "name": "Emergencias Generales",
+      "description": "Procedimientos de emergencia y seguridad en cabina",
+      "icon": "🆘",
+      "topics": [
+        "Evacuación de emergencia: procedimientos y comandos",
+        "Fuego a bordo: detección y combate",
+        "Descompresión de cabina: tipos y procedimientos",
+        "Aterrizaje de emergencia: en tierra y en agua (ditching)",
+        "Uso de equipos de emergencia: toboganes, chalecos, balsas",
+        "Primeros auxilios a bordo",
+        "Oxígeno de emergencia y máscaras",
+        "Procedimientos de supervivencia",
+        "Mercancías peligrosas y su manejo"
+      ]
+    },
+    {
+      "id": "tac-seguridad",
+      "name": "Seguridad de Cabina",
+      "description": "Procedimientos de seguridad durante el vuelo",
+      "icon": "🛡️",
+      "topics": [
+        "Briefing a pasajeros",
+        "Inspección de cabina pre-vuelo",
+        "Seguridad en puertas y ventanas de emergencia",
+        "Manejo de pasajeros conflictivos",
+        "Turbulencia: procedimientos de seguridad",
+        "Servicio médico a bordo",
+        "Comunicación con cockpit"
+      ]
+    },
+    {
+      "id": "tac-factores-humanos",
+      "name": "Factores Humanos y CRM",
+      "description": "CRM de cabina, fatiga y gestión de amenazas",
+      "icon": "🧠",
+      "topics": [
+        "CRM para tripulantes de cabina",
+        "Gestión de la fatiga",
+        "Comunicación efectiva en crew",
+        "Toma de decisiones bajo presión",
+        "Conciencia situacional en cabina",
+        "Estrés y manejo emocional"
+      ]
+    }
+  ],
+  "habilitaciones": [
+    {
+      "id": "tac-a320-latam",
+      "name": "Habilitación A320/A321 LATAM Airlines",
+      "description": "Habilitación de tipo para aeronaves A320/A321 en LATAM"
+    },
+    {
+      "id": "tac-a320-sky",
+      "name": "Habilitación A320 SKY Airline",
+      "description": "Habilitación de tipo para aeronaves A320 en SKY"
+    },
+    {
+      "id": "tac-a320-jetsmart",
+      "name": "Habilitación A320 JetSMART",
+      "description": "Habilitación de tipo para aeronaves A320 en JetSMART"
+    },
+    {
+      "id": "tac-dash8",
+      "name": "Habilitación DASH 8",
+      "description": "Habilitación de tipo para aeronaves DASH 8"
+    }
+  ]
+}

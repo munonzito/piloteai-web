@@ -1,0 +1,197 @@
+{
+  "id": "instructor-vuelo",
+  "licenseId": "instructor-vuelo",
+  "name": "Instructor de Vuelo",
+  "fullName": "Lecciones para Habilitación de Instructor de Vuelo",
+  "description": "Plan de lecciones para preparar el examen DGAC de Instructor de Vuelo",
+  "totalLessons": 28,
+  "estimatedTotalHours": 6,
+  "subjects": [
+    {
+      "id": "iv-tecnica-instruccion",
+      "name": "Técnicas de Instrucción",
+      "icon": "📚",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "iv-tec-1",
+          "title": "Principios del Aprendizaje",
+          "description": "Cómo aprenden los alumnos pilotos y estilos de aprendizaje",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Principios del aprendizaje",
+            "Estilos de aprendizaje y adaptación de la enseñanza"
+          ]
+        },
+        {
+          "id": "iv-tec-2",
+          "title": "Métodos de Instrucción",
+          "description": "Demostración, práctica, briefing/debriefing y planificación de lecciones",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Métodos de instrucción: demostración, práctica, briefing/debriefing",
+            "Planificación de lecciones de vuelo"
+          ]
+        },
+        {
+          "id": "iv-tec-3",
+          "title": "Retroalimentación y Evaluación",
+          "description": "Feedback efectivo, evaluación del progreso y motivación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Retroalimentación efectiva al alumno",
+            "Evaluación del progreso del alumno",
+            "Motivación y gestión del alumno"
+          ]
+        },
+        {
+          "id": "iv-tec-4",
+          "title": "Comunicación y Situaciones Difíciles",
+          "description": "Comunicación efectiva y manejo de alumnos difíciles",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Comunicación efectiva en instrucción",
+            "Manejo de situaciones difíciles con alumnos",
+            "Desarrollo de habilidades de decisión en alumnos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iv-normativa",
+      "name": "Normativa Aeronáutica",
+      "icon": "📋",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "iv-norm-1",
+          "title": "Habilitación de Instructor",
+          "description": "DAN 61, requisitos y atribuciones del instructor de vuelo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de habilitación de instructor",
+            "Atribuciones y limitaciones del instructor de vuelo",
+            "Responsabilidades legales del instructor"
+          ]
+        },
+        {
+          "id": "iv-norm-2",
+          "title": "Escuelas de Vuelo y Formación",
+          "description": "Requisitos para CIACs, programa de formación y normativa OACI",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "DAR/DAN aplicables a instrucción de vuelo",
+            "Requisitos para escuelas de vuelo y CIACs",
+            "Normativa OACI sobre formación de pilotos",
+            "Programa de formación: contenidos mínimos",
+            "Registros y documentación de instrucción"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iv-factores-humanos",
+      "name": "Factores Humanos",
+      "icon": "🧠",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "iv-fh-1",
+          "title": "Fatiga, CRM y Toma de Decisiones",
+          "description": "Gestión de fatiga, CRM aplicado y modelo DECIDE",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Gestión de la fatiga en instrucción",
+            "Toma de decisiones: modelo DECIDE",
+            "CRM aplicado a la instrucción"
+          ]
+        },
+        {
+          "id": "iv-fh-2",
+          "title": "Estrés y Conciencia Situacional",
+          "description": "Estrés, conciencia situacional y manejo del riesgo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Estrés y sus efectos en instructor y alumno",
+            "Conciencia situacional durante la instrucción",
+            "Manejo del riesgo en vuelos de instrucción"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iv-seguridad",
+      "name": "Seguridad Operacional",
+      "icon": "🛡️",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "iv-seg-1",
+          "title": "SMS y Gestión de Riesgos",
+          "description": "Safety Management System, riesgos y análisis de accidentes",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "SMS (Safety Management System) aplicado a instrucción",
+            "Gestión de riesgos en vuelos de entrenamiento",
+            "Análisis de accidentes e incidentes en instrucción",
+            "Cultura de seguridad y reporte de eventos",
+            "Manejo de amenazas y errores (TEM) en instrucción"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "iv-procedimientos",
+      "name": "Procedimientos de Vuelo",
+      "icon": "✈️",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "iv-proc-1",
+          "title": "Maniobras Básicas y Avanzadas",
+          "description": "Virajes, stalls, slow flight y steep turns para enseñanza",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Maniobras básicas: virajes, ascensos, descensos",
+            "Maniobras avanzadas: stalls, slow flight, steep turns",
+            "Demostración de maniobras al alumno"
+          ]
+        },
+        {
+          "id": "iv-proc-2",
+          "title": "Emergencias y Transferencia de Control",
+          "description": "Enseñanza de emergencias, transferencia progresiva y circuitos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Procedimientos de emergencia y su enseñanza",
+            "Transferencia progresiva de control",
+            "Circuitos de tránsito y operaciones en aeródromo",
+            "Vuelos de navegación de entrenamiento"
+          ]
+        }
+      ]
+    }
+  ]
+}

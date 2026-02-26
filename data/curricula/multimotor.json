@@ -1,0 +1,92 @@
+{
+  "id": "multimotor",
+  "code": "MM",
+  "name": "Habilitación Multimotor",
+  "fullName": "Habilitación de Aeronave Multimotor",
+  "description": "Habilitación que permite operar aeronaves con más de un motor. Cubre procedimientos normales, emergencias y vuelo con motor inoperativo.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 40,
+  "estimatedTimeMinutes": 60,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "mm-aerodinamica",
+      "name": "Aerodinámica Multimotor",
+      "description": "Aerodinámica específica de aeronaves con más de un motor",
+      "icon": "✈️",
+      "topics": [
+        "Asimetría de empuje y sus efectos",
+        "VMC (Velocidad Mínima de Control) y factores que la afectan",
+        "Motor crítico: concepto y determinación",
+        "P-factor, torque y precesión giroscópica con un motor inoperativo",
+        "Yaw y roll causados por falla de motor",
+        "Vuelo con motor inoperativo (OEI)",
+        "Vy SE (Best Rate of Climb Single Engine)",
+        "Blue line speed y red radial line"
+      ]
+    },
+    {
+      "id": "mm-procedimientos",
+      "name": "Procedimientos Normales y de Emergencia",
+      "description": "Procedimientos para operaciones normales y falla de motor",
+      "icon": "📝",
+      "topics": [
+        "Inspección pre-vuelo de aeronave multimotor",
+        "Procedimientos de arranque y taxi",
+        "Despegue normal y con viento cruzado",
+        "Peso y balance para multimotor",
+        "Falla de motor en despegue: procedimiento",
+        "Falla de motor en vuelo: identificar, verificar, feather",
+        "Asegurar motor inoperativo (feathering)",
+        "Reinicio de motor en vuelo",
+        "Descenso y aproximación con un motor",
+        "Aterrizaje con motor inoperativo",
+        "Go-around con motor inoperativo"
+      ]
+    },
+    {
+      "id": "mm-performance",
+      "name": "Performance Multimotor",
+      "description": "Cálculos de performance con ambos motores y con motor inoperativo",
+      "icon": "📊",
+      "topics": [
+        "Performance de despegue y ascenso multimotor",
+        "Performance con motor inoperativo (SE performance)",
+        "Distancias de despegue y aterrizaje",
+        "Régimen de ascenso y descenso OEI",
+        "Drift-down con motor inoperativo",
+        "Techo de servicio con un motor",
+        "Curvas de performance del POH multimotor"
+      ]
+    },
+    {
+      "id": "mm-sistemas",
+      "name": "Sistemas de Aeronave Multimotor",
+      "description": "Sistemas específicos de aeronaves multimotor",
+      "icon": "⚙️",
+      "topics": [
+        "Sistemas de propulsión: motores y hélices",
+        "Hélices de paso variable y feathering",
+        "Sistema de combustible: crossfeed y gestión",
+        "Sistema eléctrico con generadores múltiples",
+        "Sistemas de presurización (si aplica)",
+        "Tren de aterrizaje retráctil",
+        "Instrumentos de monitoreo de motor"
+      ]
+    },
+    {
+      "id": "mm-maniobras-ifr",
+      "name": "Maniobras IFR Básicas",
+      "description": "Procedimientos instrumentales básicos en aeronave multimotor",
+      "icon": "🎛️",
+      "topics": [
+        "Aproximaciones IFR con ambos motores",
+        "Aproximaciones IFR con motor inoperativo",
+        "Holding con motor inoperativo",
+        "Procedimientos de escape OEI"
+      ]
+    }
+  ]
+}

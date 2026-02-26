@@ -1,0 +1,127 @@
+{
+  "id": "ptla-h",
+  "code": "PTLA-H",
+  "name": "Piloto de Transporte de Línea Aérea (Helicóptero)",
+  "fullName": "Licencia de Piloto de Transporte de Línea Aérea - Helicóptero",
+  "description": "Máxima licencia para pilotos de helicóptero. Evaluación avanzada que exige dominio profundo de IFR, performance, normativa y toma de decisiones para operaciones críticas.",
+  "category": "personal_de_vuelo",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 60,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 61",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "ptla-h-navegacion-ifr",
+      "name": "Navegación IFR",
+      "description": "Procedimientos instrumentales avanzados para helicóptero",
+      "icon": "🧭",
+      "topics": [
+        "SID, STAR y aproximaciones instrumentales (ILS, VOR, RNAV)",
+        "Holding patterns y procedimientos de espera",
+        "Interpretación completa de cartas IFR",
+        "Altitudes mínimas, sectores y procedimientos de escape",
+        "Procedimientos de aproximación frustrada",
+        "Mínimos operacionales IFR para helicóptero",
+        "Planificación de vuelo IFR"
+      ]
+    },
+    {
+      "id": "ptla-h-pbn",
+      "name": "PBN (Performance Based Navigation)",
+      "description": "Navegación basada en performance y requerimientos de equipo",
+      "icon": "📡",
+      "topics": [
+        "RNAV 1 y RNAV 5",
+        "RNP APCH y BARO-VNAV",
+        "Requerimientos de equipo y precisión",
+        "Especificaciones de navegación PBN",
+        "Monitoreo de performance de navegación"
+      ]
+    },
+    {
+      "id": "ptla-h-performance",
+      "name": "Performance y Multimotor",
+      "description": "Performance avanzada y operaciones con motor inoperativo",
+      "icon": "📊",
+      "topics": [
+        "Performance Clase 1 vs. Clase 2",
+        "Falla de motor OEI (One Engine Inoperative)",
+        "Perfiles de despegue y aterrizaje con limitaciones",
+        "Curvas Height/Velocity (H/V diagram)",
+        "Drift-down y procedimientos engine-out",
+        "Limitaciones de peso para operaciones IFR",
+        "Cálculos de torque y potencia disponible"
+      ]
+    },
+    {
+      "id": "ptla-h-meteorologia",
+      "name": "Meteorología Avanzada",
+      "description": "Meteorología operacional para vuelos IFR en helicóptero",
+      "icon": "🌤️",
+      "topics": [
+        "Mínimos instrumentales para operaciones IFR",
+        "Engelamiento (icing) y sus efectos en helicópteros",
+        "Cizalladura del viento (wind shear) y microburst",
+        "Interpretación de TAF, METAR, GAMET y SIGMET",
+        "Fenómenos peligrosos en operaciones IFR",
+        "Visibilidad y techo para aproximaciones"
+      ]
+    },
+    {
+      "id": "ptla-h-normativa",
+      "name": "Normativa DGAC",
+      "description": "Regulaciones para operaciones de transporte en helicóptero",
+      "icon": "📋",
+      "topics": [
+        "DAN 61: Licencias y habilitaciones PTLA-H",
+        "DAN 91: Reglas de vuelo IFR y VFR",
+        "DAN 119 y 121: Operaciones de transporte aéreo",
+        "DAN 137: Operaciones agrícolas (si aplica)",
+        "Requisitos y atribuciones del PTLA-H",
+        "Tiempos de vuelo y descanso",
+        "Mínimos operacionales y alternates"
+      ]
+    },
+    {
+      "id": "ptla-h-factores-humanos",
+      "name": "Factores Humanos",
+      "description": "CRM avanzado, toma de decisiones y gestión de errores",
+      "icon": "🧠",
+      "topics": [
+        "CRM avanzado para operaciones multicrew",
+        "Toma de decisiones bajo presión",
+        "Fatiga, estrés y gestión de errores",
+        "Conciencia situacional en IFR",
+        "Gestión de automatización",
+        "TEM (Threat and Error Management)"
+      ]
+    },
+    {
+      "id": "ptla-h-emergencias",
+      "name": "Procedimientos de Emergencia",
+      "description": "Emergencias complejas en operaciones IFR de helicóptero",
+      "icon": "🆘",
+      "topics": [
+        "Falla de motor en IMC",
+        "Falla de instrumentos en vuelo IFR",
+        "Emergencias de comunicaciones",
+        "Procedimientos de aproximación de emergencia",
+        "Manejo de fallas de sistemas en helicópteros IFR"
+      ]
+    },
+    {
+      "id": "ptla-h-manual",
+      "name": "Manual del Helicóptero y SOP",
+      "description": "RFM (Rotorcraft Flight Manual) y procedimientos operacionales estándar",
+      "icon": "📖",
+      "topics": [
+        "Interpretación del RFM (Rotorcraft Flight Manual)",
+        "SOP (Standard Operating Procedures)",
+        "Limitaciones operacionales del manual",
+        "Procedimientos normales y anormales",
+        "Listas de chequeo y su aplicación"
+      ]
+    }
+  ]
+}

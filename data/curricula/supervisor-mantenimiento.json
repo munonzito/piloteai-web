@@ -1,0 +1,150 @@
+{
+  "id": "supervisor-mantenimiento",
+  "code": "SM",
+  "name": "Supervisor de Mantenimiento",
+  "fullName": "Licencia de Supervisor de Mantenimiento Aeronáutico",
+  "description": "Licencia para supervisar actividades de mantenimiento aeronáutico. Requiere conocimientos avanzados de reglamentación, gestión de mantenimiento y habilitaciones técnicas.",
+  "category": "personal_de_tierra",
+  "approvalThreshold": 75,
+  "estimatedQuestions": 50,
+  "estimatedTimeMinutes": 90,
+  "regulation": "DAN 66",
+  "sourceUrl": "https://www.dgac.gob.cl/banco-de-preguntas-para-examenes/",
+  "subjects": [
+    {
+      "id": "sm-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "description": "Normativa avanzada de mantenimiento y supervisión",
+      "icon": "📋",
+      "topics": [
+        "DAN 43: Tareas de mantenimiento avanzadas",
+        "DAN 66: Licencias de supervisión",
+        "DAN 145: Organizaciones de mantenimiento aprobadas",
+        "Código Aeronáutico y legislación",
+        "Responsabilidades del supervisor de mantenimiento",
+        "Gestión de la aeronavegabilidad continuada",
+        "Sistema de calidad en mantenimiento",
+        "Auditorías internas y externas",
+        "Directivas de aeronavegabilidad y cumplimiento"
+      ]
+    },
+    {
+      "id": "sm-factores-humanos",
+      "name": "Factores Humanos",
+      "description": "Gestión de factores humanos y liderazgo en mantenimiento",
+      "icon": "🧠",
+      "topics": [
+        "Liderazgo y supervisión de equipos",
+        "Gestión de errores humanos en mantenimiento",
+        "Los 12 factores sucios (Dirty Dozen)",
+        "Comunicación y coordinación de equipos",
+        "Gestión de la fatiga en personal de mantenimiento",
+        "Cultura de seguridad y reporte de eventos",
+        "Modelo SHELL aplicado a supervisión"
+      ]
+    },
+    {
+      "id": "sm-apoyo-general",
+      "name": "Base y Apoyo General",
+      "description": "Conocimientos técnicos generales de supervisión",
+      "icon": "🔧",
+      "topics": [
+        "Planificación de mantenimiento",
+        "Control de materiales y repuestos",
+        "Documentación técnica y registros",
+        "Procedimientos de inspección",
+        "Gestión de herramientas calibradas",
+        "Condiciones de almacenamiento y preservación",
+        "Peso y balance en mantenimiento"
+      ]
+    },
+    {
+      "id": "sm-habilitacion-profesional",
+      "name": "Habilitación Profesional",
+      "description": "Conocimientos específicos para la habilitación profesional de supervisor",
+      "icon": "🎓",
+      "topics": [
+        "Gestión de programas de mantenimiento",
+        "Control de calidad y aseguramiento",
+        "Investigación de eventos de mantenimiento",
+        "Análisis de confiabilidad",
+        "Gestión de proveedores y talleres externos",
+        "Certificación de aeronaves después de mantenimiento"
+      ]
+    },
+    {
+      "id": "sm-ingles-tecnico",
+      "name": "Inglés Técnico",
+      "description": "Inglés técnico para supervisión de mantenimiento",
+      "icon": "🇬🇧",
+      "topics": [
+        "Terminología técnica aeronáutica avanzada",
+        "Lectura de manuales y documentos técnicos en inglés",
+        "Directivas de aeronavegabilidad en inglés",
+        "Comunicación técnica en inglés"
+      ]
+    }
+  ],
+  "habilitaciones": [
+    {
+      "id": "sm-ala-fija",
+      "name": "Habilitación Ala Fija",
+      "description": "Supervisión de mantenimiento de aviones"
+    },
+    {
+      "id": "sm-ala-rotatoria",
+      "name": "Habilitación Ala Rotatoria",
+      "description": "Supervisión de mantenimiento de helicópteros"
+    },
+    {
+      "id": "sm-globo",
+      "name": "Habilitación Globo Libre (Aire Caliente)",
+      "description": "Supervisión de mantenimiento de globos"
+    },
+    {
+      "id": "sm-electricidad",
+      "name": "Especialista en Electricidad",
+      "description": "Supervisión de sistemas eléctricos"
+    },
+    {
+      "id": "sm-electronica",
+      "name": "Especialista en Electrónica",
+      "description": "Supervisión de sistemas electrónicos"
+    },
+    {
+      "id": "sm-hidroneum",
+      "name": "Especialista en Hidroneumática",
+      "description": "Supervisión de sistemas hidráulicos y neumáticos"
+    },
+    {
+      "id": "sm-inspecciones",
+      "name": "Especialista en Inspecciones No Destructivas",
+      "description": "Supervisión de inspecciones NDI/NDT"
+    },
+    {
+      "id": "sm-instrumentos",
+      "name": "Especialista en Instrumentos",
+      "description": "Supervisión de instrumentos"
+    },
+    {
+      "id": "sm-materiales-compuestos",
+      "name": "Especialista en Materiales Compuestos",
+      "description": "Supervisión de reparaciones en compuestos"
+    },
+    {
+      "id": "sm-turbina",
+      "name": "Especialista en Motores de Turbina a Gas",
+      "description": "Supervisión de motores de turbina"
+    },
+    {
+      "id": "sm-reciprocos",
+      "name": "Especialista en Motores Recíprocos",
+      "description": "Supervisión de motores recíprocos"
+    },
+    {
+      "id": "sm-recubrimiento",
+      "name": "Especialista en Recubrimiento Metálico",
+      "description": "Supervisión de estructuras metálicas"
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "id": "ptla-h",
+  "licenseId": "ptla-h",
+  "name": "PTLA Helicóptero",
+  "fullName": "Lecciones para Licencia de Piloto de Transporte de Línea Aérea - Helicóptero",
+  "description": "Plan de lecciones para preparar el examen DGAC de PTLA-H",
+  "totalLessons": 42,
+  "estimatedTotalHours": 9,
+  "subjects": [
+    {
+      "id": "ptla-h-navegacion-ifr",
+      "name": "Navegación IFR",
+      "icon": "🧭",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "ptlah-nav-1",
+          "title": "SID, STAR y Aproximaciones IFR",
+          "description": "Procedimientos instrumentales avanzados para helicóptero",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "SID, STAR y aproximaciones instrumentales (ILS, VOR, RNAV)",
+            "Holding patterns y procedimientos de espera"
+          ]
+        },
+        {
+          "id": "ptlah-nav-2",
+          "title": "Cartas IFR y Altitudes Mínimas",
+          "description": "Interpretación de cartas IFR, sectores y procedimientos de escape",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Interpretación completa de cartas IFR",
+            "Altitudes mínimas, sectores y procedimientos de escape"
+          ]
+        },
+        {
+          "id": "ptlah-nav-3",
+          "title": "Missed Approach y Mínimos IFR",
+          "description": "Aproximación frustrada, mínimos operacionales y planificación IFR",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Procedimientos de aproximación frustrada",
+            "Mínimos operacionales IFR para helicóptero",
+            "Planificación de vuelo IFR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-h-pbn",
+      "name": "PBN",
+      "icon": "📡",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "ptlah-pbn-1",
+          "title": "RNAV, RNP y PBN para Helicópteros",
+          "description": "Navegación basada en performance, especificaciones y monitoreo",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "RNAV 1 y RNAV 5",
+            "RNP APCH y BARO-VNAV",
+            "Requerimientos de equipo y precisión",
+            "Especificaciones de navegación PBN",
+            "Monitoreo de performance de navegación"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-h-performance",
+      "name": "Performance y Multimotor",
+      "icon": "📊",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "ptlah-perf-1",
+          "title": "Performance Clase 1 y Clase 2",
+          "description": "Diferencias entre Clase 1 y 2, perfiles de despegue y aterrizaje",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Performance Clase 1 vs. Clase 2",
+            "Perfiles de despegue y aterrizaje con limitaciones"
+          ]
+        },
+        {
+          "id": "ptlah-perf-2",
+          "title": "Falla de Motor OEI",
+          "description": "One Engine Inoperative, H/V diagram y drift-down",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Falla de motor OEI (One Engine Inoperative)",
+            "Curvas Height/Velocity (H/V diagram)",
+            "Drift-down y procedimientos engine-out"
+          ]
+        },
+        {
+          "id": "ptlah-perf-3",
+          "title": "Peso y Potencia en IFR",
+          "description": "Limitaciones de peso para IFR y cálculos de potencia",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Limitaciones de peso para operaciones IFR",
+            "Cálculos de torque y potencia disponible"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-h-meteorologia",
+      "name": "Meteorología Avanzada",
+      "icon": "🌤️",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "ptlah-met-1",
+          "title": "Mínimos IFR y Engelamiento",
+          "description": "Mínimos instrumentales, icing y sus efectos en helicópteros",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Mínimos instrumentales para operaciones IFR",
+            "Engelamiento (icing) y sus efectos en helicópteros"
+          ]
+        },
+        {
+          "id": "ptlah-met-2",
+          "title": "Wind Shear y Reportes Avanzados",
+          "description": "Cizalladura, microburst e interpretación de TAF/METAR/SIGMET",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Cizalladura del viento (wind shear) y microburst",
+            "Interpretación de TAF, METAR, GAMET y SIGMET",
+            "Fenómenos peligrosos en operaciones IFR",
+            "Visibilidad y techo para aproximaciones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-h-normativa",
+      "name": "Normativa DGAC",
+      "icon": "📋",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "ptlah-norm-1",
+          "title": "DAN 61 y Requisitos PTLA-H",
+          "description": "Licencias, habilitaciones y atribuciones del PTLA-H",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Licencias y habilitaciones PTLA-H",
+            "Requisitos y atribuciones del PTLA-H"
+          ]
+        },
+        {
+          "id": "ptlah-norm-2",
+          "title": "Operaciones de Transporte en Helicóptero",
+          "description": "DAN 91, 119, 121, tiempos de vuelo y mínimos operacionales",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "DAN 91: Reglas de vuelo IFR y VFR",
+            "DAN 119 y 121: Operaciones de transporte aéreo",
+            "DAN 137: Operaciones agrícolas (si aplica)",
+            "Tiempos de vuelo y descanso",
+            "Mínimos operacionales y alternates"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-h-factores-humanos",
+      "name": "Factores Humanos",
+      "icon": "🧠",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "ptlah-fh-1",
+          "title": "CRM Avanzado y TEM",
+          "description": "CRM multicrew, TEM, automatización y conciencia situacional",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "CRM avanzado para operaciones multicrew",
+            "Toma de decisiones bajo presión",
+            "Fatiga, estrés y gestión de errores",
+            "Conciencia situacional en IFR",
+            "Gestión de automatización",
+            "TEM (Threat and Error Management)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-h-emergencias",
+      "name": "Procedimientos de Emergencia",
+      "icon": "🆘",
+      "order": 7,
+      "lessons": [
+        {
+          "id": "ptlah-emer-1",
+          "title": "Falla de Motor en IMC",
+          "description": "Emergencias de motor y instrumentos en condiciones IMC",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Falla de motor en IMC",
+            "Falla de instrumentos en vuelo IFR"
+          ]
+        },
+        {
+          "id": "ptlah-emer-2",
+          "title": "Comunicaciones y Aproximaciones de Emergencia",
+          "description": "Emergencias de comunicaciones, aproximación de emergencia y fallas de sistemas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Emergencias de comunicaciones",
+            "Procedimientos de aproximación de emergencia",
+            "Manejo de fallas de sistemas en helicópteros IFR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ptla-h-manual",
+      "name": "Manual del Helicóptero y SOP",
+      "icon": "📖",
+      "order": 8,
+      "lessons": [
+        {
+          "id": "ptlah-man-1",
+          "title": "RFM y Procedimientos Estándar",
+          "description": "Rotorcraft Flight Manual, SOP, limitaciones y checklists",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Interpretación del RFM (Rotorcraft Flight Manual)",
+            "SOP (Standard Operating Procedures)",
+            "Limitaciones operacionales del manual",
+            "Procedimientos normales y anormales",
+            "Listas de chequeo y su aplicación"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "id": "ifr",
+  "licenseId": "ifr",
+  "name": "Habilitación IFR",
+  "fullName": "Lecciones para Habilitación de Vuelo por Instrumentos",
+  "description": "Plan de lecciones para preparar el examen DGAC de Habilitación IFR",
+  "totalLessons": 42,
+  "estimatedTotalHours": 9,
+  "subjects": [
+    {
+      "id": "ifr-reglamentacion",
+      "name": "Reglamentación IFR",
+      "icon": "📋",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "ifr-reg-1",
+          "title": "Reglas de Vuelo IFR",
+          "description": "DAN 91, requisitos de habilitación y espacio aéreo IFR",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Reglas de vuelo IFR según DAN 91",
+            "Requisitos para habilitación IFR (DAN 61)",
+            "Espacio aéreo controlado y requisitos IFR"
+          ]
+        },
+        {
+          "id": "ifr-reg-2",
+          "title": "Plan de Vuelo IFR y ATC",
+          "description": "Plan de vuelo IFR, procedimientos ATC y comunicaciones",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Procedimientos ATC para vuelos IFR",
+            "Plan de vuelo IFR: requisitos y formulario",
+            "Comunicaciones obligatorias en vuelo IFR"
+          ]
+        },
+        {
+          "id": "ifr-reg-3",
+          "title": "Mínimos y Alternates IFR",
+          "description": "Mínimos meteorológicos, requisitos de alternates y separación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Mínimos meteorológicos para operaciones IFR",
+            "Alternates de destino y en ruta: requisitos",
+            "Separación vertical y lateral"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ifr-meteorologia",
+      "name": "Meteorología Avanzada",
+      "icon": "🌤️",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "ifr-met-1",
+          "title": "Fenómenos Complejos en IFR",
+          "description": "Engelamiento, turbulencia y condiciones IMC",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Fenómenos meteorológicos complejos en vuelo IFR",
+            "Engelamiento y sus niveles de severidad",
+            "Turbulencia en vuelo IFR"
+          ]
+        },
+        {
+          "id": "ifr-met-2",
+          "title": "Wind Shear y Microburst",
+          "description": "Cizalladura del viento y sus peligros para la aviación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Cizalladura del viento y microburst",
+            "Visibilidad, techo y condiciones IMC"
+          ]
+        },
+        {
+          "id": "ifr-met-3",
+          "title": "METAR, TAF y SIGMET para IFR",
+          "description": "Interpretación avanzada de reportes y avisos meteorológicos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Interpretación avanzada de METAR y TAF",
+            "SIGMET, GAMET y avisos meteorológicos",
+            "Toma de decisiones meteorológicas para IFR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ifr-radionavegacion",
+      "name": "Radionavegación y Aproximaciones",
+      "icon": "📡",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "ifr-rnav-1",
+          "title": "VOR: Principios e Interceptación",
+          "description": "Funcionamiento del VOR e interceptación de radiales",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "VOR: principios, uso e interceptación de radiales"
+          ]
+        },
+        {
+          "id": "ifr-rnav-2",
+          "title": "ILS: El Sistema de Aterrizaje Instrumental",
+          "description": "Localizer, glide slope, markers y categorías ILS",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "ILS: localizer, glide slope, markers y categorías"
+          ]
+        },
+        {
+          "id": "ifr-rnav-3",
+          "title": "NDB, ADF y DME",
+          "description": "Principios y uso de NDB, ADF y DME",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "NDB y ADF: principios y uso",
+            "DME: funcionamiento y aplicación"
+          ]
+        },
+        {
+          "id": "ifr-rnav-4",
+          "title": "GNSS/GPS en Navegación IFR",
+          "description": "Uso del GPS para navegación instrumental",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 4,
+          "topicsCovered": [
+            "GNSS/GPS en navegación IFR"
+          ]
+        },
+        {
+          "id": "ifr-rnav-5",
+          "title": "SID y STAR",
+          "description": "Procedimientos de salida y llegada instrumental estándar",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 5,
+          "topicsCovered": [
+            "Procedimientos SID (Standard Instrument Departure)",
+            "Procedimientos STAR (Standard Terminal Arrival Route)"
+          ]
+        },
+        {
+          "id": "ifr-rnav-6",
+          "title": "Aproximaciones de Precisión",
+          "description": "ILS CAT I, II, III y sus requisitos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 6,
+          "topicsCovered": [
+            "Aproximaciones de precisión (ILS CAT I, II, III)"
+          ]
+        },
+        {
+          "id": "ifr-rnav-7",
+          "title": "Aproximaciones de No Precisión",
+          "description": "Aproximaciones VOR, NDB, RNAV y circling",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 7,
+          "topicsCovered": [
+            "Aproximaciones de no precisión (VOR, NDB, RNAV)",
+            "Circling approach"
+          ]
+        },
+        {
+          "id": "ifr-rnav-8",
+          "title": "Missed Approach y Holdings",
+          "description": "Aproximación frustrada y procedimientos de espera",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 8,
+          "topicsCovered": [
+            "Aproximación frustrada (missed approach)",
+            "Holding patterns: entrada y procedimiento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ifr-planificacion",
+      "name": "Planificación de Vuelo IFR",
+      "icon": "📝",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "ifr-plan-1",
+          "title": "Plan de Vuelo y Combustible IFR",
+          "description": "Preparación del plan de vuelo y cálculo de combustible",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Preparación del plan de vuelo IFR",
+            "Cálculo de combustible: mínimo, reserva, alternate"
+          ]
+        },
+        {
+          "id": "ifr-plan-2",
+          "title": "Cartas IFR y NOTAM",
+          "description": "Cartas enroute, approach, SID/STAR y análisis de NOTAM",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Cartas aeronáuticas IFR: enroute, approach, SID, STAR",
+            "NOTAM y su análisis para vuelos IFR"
+          ]
+        },
+        {
+          "id": "ifr-plan-3",
+          "title": "Altitudes, Alternates y AIP",
+          "description": "Selección de altitudes, gestión de alternates y uso del AIP",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Selección de altitudes y niveles de vuelo IFR",
+            "Uso del AIP Chile para planificación IFR",
+            "Gestión de alternates",
+            "Performance en vuelo IFR"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ifr-instrumentos",
+      "name": "Instrumentos de Vuelo IFR",
+      "icon": "🎛️",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "ifr-inst-1",
+          "title": "Instrumentos Giroscópicos Avanzados",
+          "description": "Horizonte artificial, HSI, giro direccional y errores",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Instrumentos giroscópicos: horizonte artificial, HSI, giro direccional",
+            "Instrumentos de vuelo primarios y de apoyo",
+            "Errores de instrumentos y limitaciones"
+          ]
+        },
+        {
+          "id": "ifr-inst-2",
+          "title": "Fallas de Instrumentos en IMC",
+          "description": "Diagnóstico de fallas, pitot-estático en IMC y altímetro IFR",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Fallas de instrumentos: diagnóstico y procedimiento",
+            "Altímetro: ajustes QNH/QFE en vuelo IFR",
+            "Sistemas pitot-estáticos en IMC"
+          ]
+        },
+        {
+          "id": "ifr-inst-3",
+          "title": "Autopilot y Flight Director",
+          "description": "Uso del autopilot y flight director en vuelo IFR",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Uso del autopilot en vuelo IFR",
+            "Flight director y su interpretación"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ifr-emergencias",
+      "name": "Emergencias IFR",
+      "icon": "🆘",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "ifr-emer-1",
+          "title": "Falla de Comunicaciones IFR",
+          "description": "Procedimientos ante pérdida de comunicaciones en vuelo IFR",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Falla de comunicaciones en IFR"
+          ]
+        },
+        {
+          "id": "ifr-emer-2",
+          "title": "Fallas de Instrumentos y Navegación",
+          "description": "Cómo actuar ante fallas de instrumentos o sistemas de navegación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Falla de instrumentos de vuelo",
+            "Falla de sistemas de navegación"
+          ]
+        },
+        {
+          "id": "ifr-emer-3",
+          "title": "Emergencias en Condiciones IMC",
+          "description": "Procedimientos de emergencia y descenso en IMC",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Procedimientos de emergencia en IMC",
+            "Descenso de emergencia en IFR",
+            "Pérdida de orientación en condiciones IMC"
+          ]
+        }
+      ]
+    }
+  ]
+}
