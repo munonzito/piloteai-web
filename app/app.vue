@@ -6,14 +6,25 @@
 
 <style>
 :root {
-  --bg-dark: #0A1929;
-  --bg-surface: #1A2B42;
-  --bg-surface-light: #243B55;
-  --accent: #4CAF50;
-  --accent-light: #81C784;
-  --text-primary: #FFFFFF;
-  --text-secondary: #B0C4DE;
-  --text-muted: #6B7C93;
+  --bg-dark: #060E1A;
+  --bg-surface: #0C1A2E;
+  --bg-surface-light: #152238;
+  --bg-elevated: #1A2B45;
+  --accent: #3EBD4F;
+  --accent-hover: #35A845;
+  --accent-glow: rgba(62, 189, 79, 0.15);
+  --accent-glow-strong: rgba(62, 189, 79, 0.25);
+  --text-primary: #F0F4F8;
+  --text-secondary: #94A7BE;
+  --text-muted: #5A6F87;
+  --border: rgba(255, 255, 255, 0.06);
+  --border-hover: rgba(255, 255, 255, 0.12);
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-body: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
 }
 
 * {
@@ -22,19 +33,31 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: var(--font-body);
   background-color: var(--bg-dark);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 a {
   color: var(--accent);
   text-decoration: none;
+  transition: color 0.2s ease;
 }
 
 a:hover {
-  color: var(--accent-light);
+  color: var(--accent-hover);
+}
+
+::selection {
+  background: var(--accent-glow-strong);
+  color: var(--text-primary);
 }
 </style>
