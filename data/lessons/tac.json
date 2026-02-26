@@ -1,0 +1,173 @@
+{
+  "id": "tac",
+  "licenseId": "tac",
+  "name": "Tripulante de Cabina",
+  "fullName": "Lecciones para Licencia de Tripulante Auxiliar de Cabina",
+  "description": "Plan de lecciones para preparar el examen DGAC de Tripulante Auxiliar de Cabina (TAC)",
+  "totalLessons": 26,
+  "estimatedTotalHours": 5,
+  "subjects": [
+    {
+      "id": "tac-reglamentacion",
+      "name": "Reglamentación TAC",
+      "icon": "📋",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "tac-reg-1",
+          "title": "Licencia TAC y DAN 61",
+          "description": "Requisitos, atribuciones y limitaciones de la licencia TAC",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de licencia TAC",
+            "Responsabilidades del tripulante de cabina",
+            "Atribuciones y limitaciones de la licencia"
+          ]
+        },
+        {
+          "id": "tac-reg-2",
+          "title": "DAN 121 y Normativa de Seguridad",
+          "description": "Operaciones de transporte aéreo, tiempos y normativa",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "DAN 121: Operaciones de transporte aéreo",
+            "Tiempos de vuelo, servicio y descanso",
+            "Código Aeronáutico aplicable",
+            "Normativa de seguridad aérea",
+            "Normativa de sustancias peligrosas en vuelo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tac-emergencias",
+      "name": "Emergencias Generales",
+      "icon": "🆘",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "tac-emer-1",
+          "title": "Evacuación de Emergencia",
+          "description": "Procedimientos de evacuación, comandos y equipos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Evacuación de emergencia: procedimientos y comandos",
+            "Uso de equipos de emergencia: toboganes, chalecos, balsas"
+          ]
+        },
+        {
+          "id": "tac-emer-2",
+          "title": "Fuego y Descompresión",
+          "description": "Fuego a bordo y descompresión de cabina",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Fuego a bordo: detección y combate",
+            "Descompresión de cabina: tipos y procedimientos",
+            "Oxígeno de emergencia y máscaras"
+          ]
+        },
+        {
+          "id": "tac-emer-3",
+          "title": "Aterrizaje de Emergencia y Ditching",
+          "description": "Aterrizaje de emergencia en tierra y agua",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Aterrizaje de emergencia: en tierra y en agua (ditching)",
+            "Procedimientos de supervivencia"
+          ]
+        },
+        {
+          "id": "tac-emer-4",
+          "title": "Primeros Auxilios y Mercancías Peligrosas",
+          "description": "Primeros auxilios a bordo y manejo de mercancías peligrosas",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 4,
+          "topicsCovered": [
+            "Primeros auxilios a bordo",
+            "Mercancías peligrosas y su manejo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tac-seguridad",
+      "name": "Seguridad de Cabina",
+      "icon": "🛡️",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "tac-seg-1",
+          "title": "Briefing e Inspección de Cabina",
+          "description": "Briefing a pasajeros e inspección pre-vuelo de cabina",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Briefing a pasajeros",
+            "Inspección de cabina pre-vuelo",
+            "Seguridad en puertas y ventanas de emergencia"
+          ]
+        },
+        {
+          "id": "tac-seg-2",
+          "title": "Pasajeros Conflictivos y Turbulencia",
+          "description": "Manejo de pasajeros difíciles, turbulencia y servicio médico",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Manejo de pasajeros conflictivos",
+            "Turbulencia: procedimientos de seguridad",
+            "Servicio médico a bordo",
+            "Comunicación con cockpit"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tac-factores-humanos",
+      "name": "Factores Humanos y CRM",
+      "icon": "🧠",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "tac-fh-1",
+          "title": "CRM de Cabina y Comunicación",
+          "description": "CRM para tripulantes de cabina y comunicación efectiva",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "CRM para tripulantes de cabina",
+            "Comunicación efectiva en crew",
+            "Conciencia situacional en cabina"
+          ]
+        },
+        {
+          "id": "tac-fh-2",
+          "title": "Fatiga, Estrés y Toma de Decisiones",
+          "description": "Gestión de fatiga, estrés y toma de decisiones bajo presión",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Gestión de la fatiga",
+            "Toma de decisiones bajo presión",
+            "Estrés y manejo emocional"
+          ]
+        }
+      ]
+    }
+  ]
+}

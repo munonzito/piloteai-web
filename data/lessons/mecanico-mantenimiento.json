@@ -1,0 +1,183 @@
+{
+  "id": "mecanico-mantenimiento",
+  "licenseId": "mecanico-mantenimiento",
+  "name": "Mecánico de Mantenimiento",
+  "fullName": "Lecciones para Licencia de Mecánico de Mantenimiento Aeronáutico",
+  "description": "Plan de lecciones para preparar el examen DGAC base de Mecánico de Mantenimiento",
+  "totalLessons": 28,
+  "estimatedTotalHours": 6,
+  "subjects": [
+    {
+      "id": "mm-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "icon": "📋",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "mm-reg-1",
+          "title": "DAN 43 y DAN 66",
+          "description": "Tareas de mantenimiento y licencias de mantenimiento",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 43: Tareas de mantenimiento",
+            "DAN 66: Licencias de mantenimiento",
+            "Código Aeronáutico aplicable"
+          ]
+        },
+        {
+          "id": "mm-reg-2",
+          "title": "Responsabilidades y Certificación",
+          "description": "Responsabilidades del mecánico, conformidad y aeronavegabilidad",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Responsabilidades del mecánico de mantenimiento",
+            "Certificación de conformidad de mantenimiento",
+            "Aeronavegabilidad y sus requisitos"
+          ]
+        },
+        {
+          "id": "mm-reg-3",
+          "title": "Directivas y Manuales",
+          "description": "Directivas de aeronavegabilidad, registros y manuales de mantenimiento",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Registros y documentación técnica",
+            "Directivas de aeronavegabilidad (AD)",
+            "Manuales de mantenimiento y sus tipos"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mm-factores-humanos",
+      "name": "Factores Humanos en Mantenimiento",
+      "icon": "🧠",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "mm-fh-1",
+          "title": "Modelo SHELL y Dirty Dozen",
+          "description": "Modelo SHELL y los 12 factores sucios del mantenimiento",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Modelo SHELL en mantenimiento",
+            "Los 12 factores sucios (Dirty Dozen)"
+          ]
+        },
+        {
+          "id": "mm-fh-2",
+          "title": "Fatiga, Error y Comunicación",
+          "description": "Fatiga en mantenimiento, prevención de errores y trabajo en equipo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Fatiga y sus efectos en mantenimiento",
+            "Errores humanos y su prevención",
+            "Comunicación efectiva en mantenimiento",
+            "Trabajo en equipo y supervisión"
+          ]
+        },
+        {
+          "id": "mm-fh-3",
+          "title": "Estrés y Cultura de Seguridad",
+          "description": "Gestión del estrés y cultura de seguridad en mantenimiento",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 3,
+          "topicsCovered": [
+            "Gestión del estrés y la presión",
+            "Cultura de seguridad en mantenimiento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mm-apoyo-general",
+      "name": "Apoyo General",
+      "icon": "🔧",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "mm-ag-1",
+          "title": "Matemáticas y Materiales Aeronáuticos",
+          "description": "Física aplicada, metales, compuestos y sellantes",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Matemáticas y física aplicada",
+            "Materiales aeronáuticos: metales, compuestos, sellantes"
+          ]
+        },
+        {
+          "id": "mm-ag-2",
+          "title": "Herramientas e Inspección",
+          "description": "Herramientas de mantenimiento e inspección visual",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Herramientas y equipos de mantenimiento",
+            "Procedimientos de inspección visual",
+            "Seguridad en el taller y hangar"
+          ]
+        },
+        {
+          "id": "mm-ag-3",
+          "title": "Corrosión y Peso y Balance",
+          "description": "Corrosión, prevención, remolque y peso y balance",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Corrosión: tipos, prevención y tratamiento",
+            "Peso y balance de aeronaves",
+            "Procedimientos de remolque y estacionamiento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mm-ingles-tecnico",
+      "name": "Inglés Técnico",
+      "icon": "🇬🇧",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "mm-ing-1",
+          "title": "Terminología Aeronáutica en Inglés",
+          "description": "Términos técnicos y lectura de manuales en inglés",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Terminología técnica aeronáutica en inglés",
+            "Lectura de manuales de mantenimiento en inglés"
+          ]
+        },
+        {
+          "id": "mm-ing-2",
+          "title": "AD, Service Bulletins y Documentación",
+          "description": "Directivas de aeronavegabilidad y boletines de servicio en inglés",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Interpretación de directivas de aeronavegabilidad",
+            "Boletines de servicio en inglés",
+            "Documentación técnica: AMM, IPC, SRM, CMM"
+          ]
+        }
+      ]
+    }
+  ]
+}

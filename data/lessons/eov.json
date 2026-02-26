@@ -1,0 +1,251 @@
+{
+  "id": "eov",
+  "licenseId": "eov",
+  "name": "Encargado de Operaciones de Vuelo",
+  "fullName": "Lecciones para Licencia de Encargado de Operaciones de Vuelo",
+  "description": "Plan de lecciones para preparar el examen DGAC de Encargado de Operaciones de Vuelo (EOV)",
+  "totalLessons": 36,
+  "estimatedTotalHours": 7,
+  "subjects": [
+    {
+      "id": "eov-meteorologia",
+      "name": "Meteorología Aeronáutica",
+      "icon": "🌤️",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "eov-met-1",
+          "title": "METAR, SPECI y TAF para Despacho",
+          "description": "Interpretación de reportes meteorológicos para despacho de vuelos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Interpretación de METAR, SPECI y TAF",
+            "Análisis de condiciones para despacho"
+          ]
+        },
+        {
+          "id": "eov-met-2",
+          "title": "SIGMET, AIRMET y Cartas de Tiempo",
+          "description": "Avisos meteorológicos y cartas de tiempo significativo",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "SIGMET, AIRMET y avisos meteorológicos",
+            "Cartas de tiempo significativo"
+          ]
+        },
+        {
+          "id": "eov-met-3",
+          "title": "Vientos en Altitud y Fenómenos Peligrosos",
+          "description": "Vientos, jet stream, engelamiento, turbulencia y ceniza volcánica",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Vientos en altitud y temperaturas",
+            "Fenómenos peligrosos: engelamiento, turbulencia, ceniza volcánica",
+            "Corriente en chorro y su efecto en planificación"
+          ]
+        },
+        {
+          "id": "eov-met-4",
+          "title": "Climatología Aeronáutica de Chile",
+          "description": "Condiciones climáticas típicas de Chile para planificación",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 4,
+          "topicsCovered": [
+            "Climatología aeronáutica de Chile"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eov-navegacion",
+      "name": "Navegación Aérea",
+      "icon": "🧭",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "eov-nav-1",
+          "title": "Rutas Aéreas y Espacio Aéreo",
+          "description": "Rutas nacionales/internacionales, clasificación del espacio aéreo",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Rutas aéreas nacionales e internacionales",
+            "Espacio aéreo: clasificación y requisitos"
+          ]
+        },
+        {
+          "id": "eov-nav-2",
+          "title": "ATC, Cartas y NOTAM",
+          "description": "Procedimientos ATC, cartas IFR/VFR, NOTAM y PIB",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Procedimientos ATC y coordinación",
+            "Cartas aeronáuticas IFR y VFR",
+            "NOTAM y PIB (Pre-flight Information Bulletin)"
+          ]
+        },
+        {
+          "id": "eov-nav-3",
+          "title": "AIP, Alternates y Radioayudas",
+          "description": "AIP Chile, selección de alternates y sistemas de navegación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "AIP Chile y uso operacional",
+            "Alternates y su selección",
+            "Radioayudas y sistemas de navegación"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eov-performance",
+      "name": "Performance y Planeación de Vuelo",
+      "icon": "📊",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "eov-perf-1",
+          "title": "Performance de Despegue y Aterrizaje",
+          "description": "Cálculos de performance y limitaciones operacionales",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Performance de despegue y aterrizaje",
+            "Limitaciones operacionales de la aeronave"
+          ]
+        },
+        {
+          "id": "eov-perf-2",
+          "title": "Combustible y Altitud de Crucero",
+          "description": "Cálculo de combustible, selección de altitud y peso y balance",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Cálculo de combustible: trip, reserve, alternate, contingency",
+            "Selección de altitud de crucero",
+            "Peso y balance operacional"
+          ]
+        },
+        {
+          "id": "eov-perf-3",
+          "title": "Drift-Down, OFP y ETOPS",
+          "description": "Performance en ruta, planes de vuelo operacionales y ETOPS",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 3,
+          "topicsCovered": [
+            "Performance en ruta y drift-down",
+            "Planes de vuelo operacionales (OFP)",
+            "ETOPS y su planificación"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eov-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "icon": "📋",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "eov-reg-1",
+          "title": "Licencia EOV y Normativa",
+          "description": "DAN 61, DAN 91 y responsabilidades del EOV",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de licencia EOV",
+            "DAN 91: Reglas de operación",
+            "Responsabilidades del encargado de operaciones"
+          ]
+        },
+        {
+          "id": "eov-reg-2",
+          "title": "DAN 119/121 y Transporte Aéreo",
+          "description": "Operaciones de transporte aéreo, control operacional y mínimos",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "DAN 119 y 121: Operaciones de transporte aéreo",
+            "Control operacional compartido con el piloto",
+            "Mínimos operacionales para despacho"
+          ]
+        },
+        {
+          "id": "eov-reg-3",
+          "title": "MEL, CDL y Documentación",
+          "description": "MEL/CDL, documentación de despacho y legislación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "MEL y CDL: aplicación operacional",
+            "Documentación de despacho",
+            "Código Aeronáutico y legislación"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eov-comunicaciones",
+      "name": "Comunicaciones y Procedimientos ATC",
+      "icon": "📻",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "eov-com-1",
+          "title": "Comunicaciones Aeronáuticas para EOV",
+          "description": "Fraseología ATC, coordinación con ATC/FIC, emergencias y AFTN",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Fraseología ATC estándar",
+            "Procedimientos de comunicación para operaciones",
+            "Coordinación con ATC y FIC",
+            "Procedimientos de emergencia en comunicaciones",
+            "AFTN y sistemas de comunicación aeronáutica"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "eov-aeronaves",
+      "name": "Conocimiento General de Aeronaves",
+      "icon": "⚙️",
+      "order": 6,
+      "lessons": [
+        {
+          "id": "eov-aer-1",
+          "title": "Sistemas de Aeronaves para EOV",
+          "description": "Sistemas principales, instrumentación, limitaciones y MEL",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Sistemas principales de aeronaves de transporte",
+            "Instrumentación y aviónica relevante",
+            "Limitaciones operacionales por sistemas",
+            "MEL y lista de equipos mínimos"
+          ]
+        }
+      ]
+    }
+  ]
+}

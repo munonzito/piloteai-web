@@ -1,0 +1,163 @@
+{
+  "id": "oce",
+  "licenseId": "oce",
+  "name": "Operador de Carga y Estiba",
+  "fullName": "Lecciones para Licencia de Operador de Carga y Estiba",
+  "description": "Plan de lecciones para preparar el examen DGAC de Operador de Carga y Estiba (OCE)",
+  "totalLessons": 28,
+  "estimatedTotalHours": 6,
+  "subjects": [
+    {
+      "id": "oce-peso-balance",
+      "name": "Peso y Balance",
+      "icon": "⚖️",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "oce-pb-1",
+          "title": "Conceptos de Peso en Aviación",
+          "description": "BEW, ZFW, TOW, LW y centro de gravedad",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Conceptos de peso: BEW, ZFW, TOW, LW",
+            "Centro de gravedad: cálculo y límites",
+            "Efectos del CG fuera de límites"
+          ]
+        },
+        {
+          "id": "oce-pb-2",
+          "title": "Hoja de Carga y Distribución",
+          "description": "Hoja de carga, manifesto, distribución por compartimiento",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Hoja de carga y manifesto",
+            "Distribución de carga en compartimientos",
+            "Correcciones de último momento",
+            "Load sheet y trim sheet"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oce-procedimientos-carga",
+      "name": "Procedimientos de Carga",
+      "icon": "📦",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "oce-proc-1",
+          "title": "Tipos de Carga y ULD",
+          "description": "Tipos de carga, Unit Load Devices y sujeción",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Tipos de carga: general, peligrosa, perecedera, viva",
+            "ULD (Unit Load Devices): tipos y uso",
+            "Sujeción y trincado de carga"
+          ]
+        },
+        {
+          "id": "oce-proc-2",
+          "title": "Procedimientos de Carga y Rampa",
+          "description": "Carga/descarga, secuencia, equipos de handling y seguridad",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Procedimientos de carga y descarga",
+            "Secuencia de carga por compartimiento",
+            "Equipos de handling y rampa",
+            "Seguridad en rampa y plataforma"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oce-mercancias-peligrosas",
+      "name": "Mercancías Peligrosas",
+      "icon": "☢️",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "oce-dg-1",
+          "title": "Clasificación de Mercancías Peligrosas",
+          "description": "Las 9 clases de mercancías peligrosas y etiquetado",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Clasificación de mercancías peligrosas (9 clases)",
+            "Etiquetado y marcado",
+            "Embalaje y cantidades permitidas"
+          ]
+        },
+        {
+          "id": "oce-dg-2",
+          "title": "Documentación DGR y Emergencias",
+          "description": "Documentación, mercancías prohibidas, emergencias y separación",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Documentación DGR",
+            "Mercancías prohibidas en aeronaves",
+            "Procedimientos de emergencia con DG",
+            "Separación y compatibilidad"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oce-reglamentacion",
+      "name": "Reglamentación",
+      "icon": "📋",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "oce-reg-1",
+          "title": "Licencia OCE y Normativa",
+          "description": "DAN 61, DAN 121, normativa IATA y documentación de carga",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 61: Requisitos de licencia OCE",
+            "DAN 121: Operaciones de transporte aéreo",
+            "Responsabilidades del operador de carga",
+            "Normativa IATA de carga",
+            "Documentación de carga: AWB, manifesto",
+            "Código Aeronáutico aplicable"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "oce-aeronaves",
+      "name": "Conocimiento de Aeronaves",
+      "icon": "✈️",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "oce-aer-1",
+          "title": "Compartimientos de Carga",
+          "description": "Configuración, limitaciones de peso/área, puertas y tipos de aeronave",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Configuración de compartimientos de carga",
+            "Limitaciones de peso por compartimiento",
+            "Piso de carga: limitaciones de carga por unidad de área",
+            "Puertas de carga y accesos",
+            "Tipos de aeronaves y sus características de carga"
+          ]
+        }
+      ]
+    }
+  ]
+}

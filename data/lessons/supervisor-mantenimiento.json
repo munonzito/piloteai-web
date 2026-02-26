@@ -1,0 +1,184 @@
+{
+  "id": "supervisor-mantenimiento",
+  "licenseId": "supervisor-mantenimiento",
+  "name": "Supervisor de Mantenimiento",
+  "fullName": "Lecciones para Licencia de Supervisor de Mantenimiento Aeronáutico",
+  "description": "Plan de lecciones para preparar el examen DGAC de Supervisor de Mantenimiento",
+  "totalLessons": 30,
+  "estimatedTotalHours": 6,
+  "subjects": [
+    {
+      "id": "sm-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "icon": "📋",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "sm-reg-1",
+          "title": "DAN 43, 66 y 145",
+          "description": "Tareas de mantenimiento, licencias y organizaciones aprobadas",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "DAN 43: Tareas de mantenimiento avanzadas",
+            "DAN 66: Licencias de supervisión",
+            "DAN 145: Organizaciones de mantenimiento aprobadas"
+          ]
+        },
+        {
+          "id": "sm-reg-2",
+          "title": "Legislación y Responsabilidades",
+          "description": "Código Aeronáutico, responsabilidades y aeronavegabilidad continuada",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Código Aeronáutico y legislación",
+            "Responsabilidades del supervisor de mantenimiento",
+            "Gestión de la aeronavegabilidad continuada"
+          ]
+        },
+        {
+          "id": "sm-reg-3",
+          "title": "Calidad, Auditorías y AD",
+          "description": "Sistema de calidad, auditorías y directivas de aeronavegabilidad",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 3,
+          "topicsCovered": [
+            "Sistema de calidad en mantenimiento",
+            "Auditorías internas y externas",
+            "Directivas de aeronavegabilidad y cumplimiento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sm-factores-humanos",
+      "name": "Factores Humanos",
+      "icon": "🧠",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "sm-fh-1",
+          "title": "Liderazgo y Dirty Dozen",
+          "description": "Liderazgo, supervisión de equipos y los 12 factores sucios",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Liderazgo y supervisión de equipos",
+            "Los 12 factores sucios (Dirty Dozen)",
+            "Gestión de errores humanos en mantenimiento"
+          ]
+        },
+        {
+          "id": "sm-fh-2",
+          "title": "Comunicación, Fatiga y Seguridad",
+          "description": "Comunicación, fatiga, cultura de seguridad y modelo SHELL",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Comunicación y coordinación de equipos",
+            "Gestión de la fatiga en personal de mantenimiento",
+            "Cultura de seguridad y reporte de eventos",
+            "Modelo SHELL aplicado a supervisión"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sm-apoyo-general",
+      "name": "Base y Apoyo General",
+      "icon": "🔧",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "sm-ag-1",
+          "title": "Planificación y Control de Materiales",
+          "description": "Planificación de mantenimiento y control de repuestos",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Planificación de mantenimiento",
+            "Control de materiales y repuestos"
+          ]
+        },
+        {
+          "id": "sm-ag-2",
+          "title": "Documentación, Inspección y Herramientas",
+          "description": "Documentación técnica, inspección, herramientas y almacenamiento",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Documentación técnica y registros",
+            "Procedimientos de inspección",
+            "Gestión de herramientas calibradas",
+            "Condiciones de almacenamiento y preservación",
+            "Peso y balance en mantenimiento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sm-habilitacion-profesional",
+      "name": "Habilitación Profesional",
+      "icon": "🎓",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "sm-hp-1",
+          "title": "Gestión de Programas de Mantenimiento",
+          "description": "Programas de mantenimiento, control de calidad y confiabilidad",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Gestión de programas de mantenimiento",
+            "Control de calidad y aseguramiento",
+            "Análisis de confiabilidad"
+          ]
+        },
+        {
+          "id": "sm-hp-2",
+          "title": "Investigación, Proveedores y Certificación",
+          "description": "Investigación de eventos, proveedores y certificación post-mantenimiento",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Investigación de eventos de mantenimiento",
+            "Gestión de proveedores y talleres externos",
+            "Certificación de aeronaves después de mantenimiento"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sm-ingles-tecnico",
+      "name": "Inglés Técnico",
+      "icon": "🇬🇧",
+      "order": 5,
+      "lessons": [
+        {
+          "id": "sm-ing-1",
+          "title": "Inglés Técnico para Supervisión",
+          "description": "Terminología avanzada, manuales, AD y comunicación técnica",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Terminología técnica aeronáutica avanzada",
+            "Lectura de manuales y documentos técnicos en inglés",
+            "Directivas de aeronavegabilidad en inglés",
+            "Comunicación técnica en inglés"
+          ]
+        }
+      ]
+    }
+  ]
+}

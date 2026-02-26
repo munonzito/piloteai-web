@@ -7,6 +7,7 @@
           <span class="logo-text">Piloteai</span>
         </NuxtLink>
         <nav class="nav">
+          <NuxtLink to="/licencias" class="nav-link">Licencias</NuxtLink>
           <NuxtLink to="/privacidad" class="nav-link">Privacidad</NuxtLink>
           <NuxtLink to="/soporte" class="nav-link">Soporte</NuxtLink>
           <NuxtLink to="/acceder" class="nav-link">Acceder</NuxtLink>
@@ -35,6 +36,7 @@
             <div class="footer-col">
               <h4>Producto</h4>
               <a href="/#planes">Comenzar</a>
+              <NuxtLink to="/licencias">Licencias DGAC</NuxtLink>
             </div>
             <div class="footer-col">
               <h4>Legal</h4>

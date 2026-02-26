@@ -1,0 +1,348 @@
+{
+  "id": "habilitaciones-transporte",
+  "licenseId": "habilitaciones-transporte",
+  "name": "Habilitaciones de Aeronaves de Transporte",
+  "fullName": "Lecciones para Habilitaciones de Tipo de Aeronaves de Transporte",
+  "description": "Plan de lecciones para preparar exámenes DGAC de habilitaciones de tipo para aeronaves de línea aérea",
+  "totalLessons": 36,
+  "estimatedTotalHours": 7,
+  "habilitaciones": [
+    {
+      "id": "hab-a320",
+      "code": "A320",
+      "name": "Airbus A320",
+      "subjects": [
+        {
+          "id": "a320-sistemas",
+          "name": "Sistemas del A320",
+          "icon": "⚙️",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "a320-sis-1",
+              "title": "Fly-by-Wire y Leyes de Control",
+              "description": "Fly-by-wire del A320: leyes normal, alternate y direct",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 1,
+              "topicsCovered": [
+                "Fly-by-wire y leyes de control normal, alternate, direct",
+                "Flight envelope protections"
+              ]
+            },
+            {
+              "id": "a320-sis-2",
+              "title": "Hidráulica y Eléctrica",
+              "description": "Sistemas hidráulicos Green/Blue/Yellow y eléctrico del A320",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 2,
+              "topicsCovered": [
+                "Sistema hidráulico: Green, Blue, Yellow",
+                "Sistema eléctrico: generadores, APU, RAT"
+              ]
+            },
+            {
+              "id": "a320-sis-3",
+              "title": "Combustible y Presurización",
+              "description": "Gestión de combustible, bleed/pack y aire acondicionado",
+              "estimatedMinutes": 12,
+              "xpReward": 60,
+              "order": 3,
+              "topicsCovered": [
+                "Sistema de combustible y gestión",
+                "Sistema de presurización y aire acondicionado (bleed/pack)"
+              ]
+            },
+            {
+              "id": "a320-sis-4",
+              "title": "Tren, Frenos y Protección Hielo",
+              "description": "Tren de aterrizaje, autobrake, anti-skid y anti-hielo",
+              "estimatedMinutes": 12,
+              "xpReward": 60,
+              "order": 4,
+              "topicsCovered": [
+                "Tren de aterrizaje y frenos (autobrake, anti-skid)",
+                "Protección contra hielo y lluvia"
+              ]
+            },
+            {
+              "id": "a320-sis-5",
+              "title": "FMGC, ECAM y Autopilot",
+              "description": "FMGC/MCDU, ECAM, autopilot y autothrust del A320",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 5,
+              "topicsCovered": [
+                "FMGC/MCDU y automatización",
+                "ECAM y gestión de alertas",
+                "Autopilot y autothrust"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a320-limitaciones",
+          "name": "Limitaciones",
+          "icon": "⚠️",
+          "order": 2,
+          "lessons": [
+            {
+              "id": "a320-lim-1",
+              "title": "Limitaciones del A320",
+              "description": "VMO/MMO, motor, peso, altitud, viento cruzado y temperatura",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 1,
+              "topicsCovered": [
+                "Limitaciones de velocidad (VMO/MMO)",
+                "Limitaciones de motor (N1, EGT, N2)",
+                "Limitaciones de peso (MTOW, MLW, MZFW)",
+                "Limitaciones de altitud y presurización",
+                "Limitaciones de viento cruzado y de cola",
+                "Limitaciones de temperatura operacional"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "a320-emergencias",
+          "name": "Procedimientos de Emergencia",
+          "icon": "🆘",
+          "order": 3,
+          "lessons": [
+            {
+              "id": "a320-emer-1",
+              "title": "Emergencias de Motor y Fuego",
+              "description": "Falla de motor, dual engine failure, humo y fuego",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 1,
+              "topicsCovered": [
+                "Engine failure procedures",
+                "Dual engine failure",
+                "Smoke and fire procedures"
+              ]
+            },
+            {
+              "id": "a320-emer-2",
+              "title": "Depresurización, Gravity y Evacuación",
+              "description": "Descompresión, extensión de gravedad, evacuación y ECAM",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 2,
+              "topicsCovered": [
+                "Depressurization",
+                "Landing gear gravity extension",
+                "Evacuation procedures",
+                "ECAM actions philosophy"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-b737",
+      "code": "B737",
+      "name": "Boeing 737",
+      "subjects": [
+        {
+          "id": "b737-sistemas",
+          "name": "Sistemas del B737",
+          "icon": "⚙️",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "b737-sis-1",
+              "title": "Hidráulica y Eléctrica del B737",
+              "description": "Sistemas hidráulicos A y B, eléctrico y generadores",
+              "estimatedMinutes": 12,
+              "xpReward": 60,
+              "order": 1,
+              "topicsCovered": [
+                "Sistemas hidráulicos A y B",
+                "Sistema eléctrico y generadores"
+              ]
+            },
+            {
+              "id": "b737-sis-2",
+              "title": "Combustible, Presurización y Tren",
+              "description": "Combustible, aire acondicionado, tren y frenos del B737",
+              "estimatedMinutes": 12,
+              "xpReward": 60,
+              "order": 2,
+              "topicsCovered": [
+                "Sistema de combustible",
+                "Sistema de presurización y aire acondicionado",
+                "Tren de aterrizaje y frenos"
+              ]
+            },
+            {
+              "id": "b737-sis-3",
+              "title": "Flight Controls, FMC y Displays",
+              "description": "Controles de vuelo, FMC, autopilot e instrumentación del B737",
+              "estimatedMinutes": 12,
+              "xpReward": 60,
+              "order": 3,
+              "topicsCovered": [
+                "Flight controls: manual y autopilot",
+                "FMC y automatización",
+                "Instrumentos y displays de cabina"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-b763",
+      "code": "B763",
+      "name": "Boeing 767-300",
+      "subjects": [
+        {
+          "id": "b763-sistemas",
+          "name": "Sistemas del B767",
+          "icon": "⚙️",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "b763-sis-1",
+              "title": "Sistemas del B767",
+              "description": "Hidráulicos L/C/R, eléctrico, APU, combustible y ETOPS",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 1,
+              "topicsCovered": [
+                "Sistemas hidráulicos (L, C, R)",
+                "Sistema eléctrico y APU",
+                "Sistema de combustible y transferencia",
+                "Sistema de presurización",
+                "Flight management y automatización",
+                "Tren de aterrizaje y frenos",
+                "ETOPS: sistemas y procedimientos"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-b777",
+      "code": "B777",
+      "name": "Boeing 777",
+      "subjects": [
+        {
+          "id": "b777-sistemas",
+          "name": "Sistemas del B777",
+          "icon": "⚙️",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "b777-sis-1",
+              "title": "Fly-by-Wire y Sistemas del B777",
+              "description": "PFC, ACE, hidráulicos, eléctrico y motores del B777",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 1,
+              "topicsCovered": [
+                "Fly-by-wire Boeing: PFC y ACE",
+                "Sistemas hidráulicos (L, C, R)",
+                "Sistema eléctrico avanzado",
+                "Motores GE90/Trent 800 y sistemas de propulsión"
+              ]
+            },
+            {
+              "id": "b777-sis-2",
+              "title": "Aviónica, ETOPS y Automatización",
+              "description": "AIMS, aviónica integrada, ETOPS y automatización del B777",
+              "estimatedMinutes": 12,
+              "xpReward": 60,
+              "order": 2,
+              "topicsCovered": [
+                "AIMS y aviónica integrada",
+                "ETOPS: sistemas y operaciones",
+                "Automatización avanzada"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-b788",
+      "code": "B788",
+      "name": "Boeing 787-8 Dreamliner",
+      "subjects": [
+        {
+          "id": "b788-sistemas",
+          "name": "Sistemas del B787",
+          "icon": "⚙️",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "b788-sis-1",
+              "title": "Arquitectura Eléctrica del B787",
+              "description": "More electric aircraft, no-bleed y distribución de potencia",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 1,
+              "topicsCovered": [
+                "Arquitectura eléctrica avanzada (more electric aircraft)",
+                "No-bleed architecture",
+                "Sistema eléctrico y distribución de potencia"
+              ]
+            },
+            {
+              "id": "b788-sis-2",
+              "title": "Estructura, FBW, Motores y ETOPS",
+              "description": "Materiales compuestos, fly-by-wire, HUD, motores y ETOPS del B787",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 2,
+              "topicsCovered": [
+                "Estructura de materiales compuestos",
+                "Flight controls: fly-by-wire",
+                "Aviónica y displays HUD",
+                "Motores GEnx/Trent 1000",
+                "ETOPS extendido"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hab-a340",
+      "code": "A340",
+      "name": "Airbus A340",
+      "subjects": [
+        {
+          "id": "a340-sistemas",
+          "name": "Sistemas del A340",
+          "icon": "⚙️",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "a340-sis-1",
+              "title": "Sistemas del A340",
+              "description": "Fly-by-wire, hidráulicos, cuatro motores, combustible, ECAM y FMS",
+              "estimatedMinutes": 15,
+              "xpReward": 75,
+              "order": 1,
+              "topicsCovered": [
+                "Fly-by-wire: leyes de control",
+                "Sistemas hidráulicos (Green, Blue, Yellow)",
+                "Sistema de cuatro motores: gestión y operación",
+                "Sistema de combustible y transferencia",
+                "ECAM y gestión de alertas",
+                "Automatización y FMS",
+                "Presurización y sistemas ambientales"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -17,12 +17,28 @@ export default defineNuxtConfig({
 
   sitemap: {
     excludeAppSources: true,
-    urls: [
-      { loc: '/', changefreq: 'weekly', priority: 1.0 },
-      { loc: '/privacidad', changefreq: 'monthly', priority: 0.3 },
-      { loc: '/soporte', changefreq: 'monthly', priority: 0.5 },
-      { loc: '/acceder', changefreq: 'monthly', priority: 0.4 },
-    ],
+    urls: async () => {
+      const staticUrls = [
+        { loc: '/', changefreq: 'weekly', priority: 1.0 },
+        { loc: '/privacidad', changefreq: 'monthly', priority: 0.3 },
+        { loc: '/soporte', changefreq: 'monthly', priority: 0.5 },
+        { loc: '/acceder', changefreq: 'monthly', priority: 0.4 },
+        { loc: '/licencias', changefreq: 'weekly', priority: 0.9 },
+      ]
+
+      const { getAllLicensePages, slugify } = await import('./data/curricula/index')
+      const licenses = getAllLicensePages()
+      const dynamicUrls: { loc: string; changefreq: string; priority: number }[] = []
+
+      for (const l of licenses) {
+        dynamicUrls.push({ loc: `/licencias/${l.slug}`, changefreq: 'monthly', priority: 0.8 })
+        for (const s of l.curriculum.subjects) {
+          dynamicUrls.push({ loc: `/licencias/${l.slug}/${slugify(s.name)}`, changefreq: 'monthly', priority: 0.7 })
+        }
+      }
+
+      return [...staticUrls, ...dynamicUrls]
+    },
   },
 
   robots: {

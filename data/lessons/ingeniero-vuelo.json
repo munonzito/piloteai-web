@@ -1,0 +1,149 @@
+{
+  "id": "ingeniero-vuelo",
+  "licenseId": "ingeniero-vuelo",
+  "name": "Ingeniero de Vuelo",
+  "fullName": "Lecciones para Licencia de Ingeniero de Vuelo",
+  "description": "Plan de lecciones para preparar el examen DGAC de Ingeniero de Vuelo",
+  "totalLessons": 22,
+  "estimatedTotalHours": 4,
+  "subjects": [
+    {
+      "id": "ing-reglamentacion",
+      "name": "Reglamentación Aeronáutica",
+      "icon": "📋",
+      "order": 1,
+      "lessons": [
+        {
+          "id": "ing-reg-1",
+          "title": "DAR y DAN para Ingenieros de Vuelo",
+          "description": "DAR 01, 06, 08, DAN 61 y normativa aplicable",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "DAR 01 y DAR 06: Certificaciones y normativa",
+            "DAR 08: Requisitos operacionales",
+            "DAN 61: Requisitos de licencia de ingeniero"
+          ]
+        },
+        {
+          "id": "ing-reg-2",
+          "title": "Responsabilidades y Documentación",
+          "description": "Responsabilidades del ingeniero de vuelo, OACI y documentación",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "Código Aeronáutico aplicable",
+            "Responsabilidades del ingeniero de vuelo",
+            "Normativa OACI y DGAC aplicable",
+            "Documentación técnica y operacional"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ing-factores-humanos",
+      "name": "Factores Humanos",
+      "icon": "🧠",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "ing-fh-1",
+          "title": "Ergonomía y Error Humano",
+          "description": "Ergonomía en cabina, modelos de error y prevención",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Ergonomía en la cabina de vuelo",
+            "Error humano: modelos y prevención",
+            "Automatización y complacencia"
+          ]
+        },
+        {
+          "id": "ing-fh-2",
+          "title": "CRM y Comunicación en Crew de Tres",
+          "description": "CRM para ingenieros, comunicación y conciencia situacional",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 2,
+          "topicsCovered": [
+            "CRM para ingenieros de vuelo",
+            "Comunicación efectiva en crew de tres",
+            "Conciencia situacional"
+          ]
+        },
+        {
+          "id": "ing-fh-3",
+          "title": "Fatiga, Estrés y Toma de Decisiones",
+          "description": "Gestión de fatiga, estrés y toma de decisiones",
+          "estimatedMinutes": 10,
+          "xpReward": 50,
+          "order": 3,
+          "topicsCovered": [
+            "Fatiga y gestión del descanso",
+            "Estrés y toma de decisiones"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ing-ingles-tecnico",
+      "name": "Inglés Técnico",
+      "icon": "🇬🇧",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "ing-eng-1",
+          "title": "Inglés Técnico Aeronáutico",
+          "description": "Terminología, manuales, comunicaciones y documentación en inglés",
+          "estimatedMinutes": 12,
+          "xpReward": 60,
+          "order": 1,
+          "topicsCovered": [
+            "Terminología técnica aeronáutica",
+            "Lectura de manuales técnicos en inglés",
+            "Comunicaciones técnicas en inglés",
+            "Documentación operacional en inglés"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ing-sistemas",
+      "name": "Sistemas de Aeronaves",
+      "icon": "⚙️",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "ing-sis-1",
+          "title": "Propulsión, Combustible y Eléctrica",
+          "description": "Sistemas de propulsión, combustible y eléctrico/hidráulico",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 1,
+          "topicsCovered": [
+            "Sistemas de propulsión",
+            "Sistemas de combustible y gestión",
+            "Sistemas eléctricos e hidráulicos"
+          ]
+        },
+        {
+          "id": "ing-sis-2",
+          "title": "Presurización, Anti-Hielo y Emergencias",
+          "description": "Presurización, A/C, protección contra hielo y emergencias",
+          "estimatedMinutes": 15,
+          "xpReward": 75,
+          "order": 2,
+          "topicsCovered": [
+            "Sistema de presurización y aire acondicionado",
+            "Sistemas de protección contra hielo",
+            "Monitoreo de parámetros de motor",
+            "Procedimientos de emergencia de sistemas"
+          ]
+        }
+      ]
+    }
+  ]
+}
