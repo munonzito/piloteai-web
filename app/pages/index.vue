@@ -285,6 +285,70 @@
 <script setup>
 import { ref, computed } from 'vue'
 
+useSeoMeta({
+  title: 'Piloteai - Prepara tus exámenes DGAC con +10,000 preguntas reales',
+  description: 'Aprueba tu examen DGAC a la primera. Más de 10,000 preguntas reales organizadas por licencia y tema. Exámenes cronometrados, explicaciones detalladas y seguimiento de progreso. 19 licencias disponibles.',
+  ogTitle: 'Piloteai - Prepara tus exámenes DGAC',
+  ogDescription: 'Más de 10,000 preguntas reales organizadas por licencia y tema. Exámenes cronometrados y seguimiento de progreso para aprobar tu examen DGAC a la primera.',
+  ogImage: 'https://piloteai.cl/icon.png',
+  ogType: 'website',
+  ogLocale: 'es_CL',
+  ogSiteName: 'Piloteai',
+  twitterCard: 'summary_large_image',
+  twitterTitle: 'Piloteai - Prepara tus exámenes DGAC',
+  twitterDescription: 'Más de 10,000 preguntas reales para aprobar tu examen DGAC. 19 licencias disponibles.',
+  twitterImage: 'https://piloteai.cl/icon.png',
+})
+
+useSchemaOrg([
+  defineWebPage({
+    '@type': 'WebPage',
+    name: 'Piloteai - Preparación de exámenes DGAC',
+    description: 'Plataforma de preparación para exámenes de la Dirección General de Aeronáutica Civil de Chile con más de 10,000 preguntas reales.',
+  }),
+  defineWebSite({
+    name: 'Piloteai',
+    url: 'https://piloteai.cl',
+  }),
+  {
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: '¿Las preguntas son oficiales de la DGAC?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Las preguntas están basadas en el temario oficial de exámenes DGAC y cubren todas las materias requeridas para cada licencia.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: '¿Qué licencias cubre Piloteai?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Cubrimos las 19 licencias aeronáuticas de la DGAC: desde Piloto Privado de Avión (PPL) hasta Piloto de Transporte de Línea Aérea (PTLA), incluyendo helicópteros, drones, planeadores, instructor de vuelo y más.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: '¿Cómo se organizan las preguntas?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Las preguntas están organizadas por licencia y por tema (aerodinámica, meteorología, navegación, regulaciones, etc.). Puedes crear exámenes personalizados eligiendo la cantidad de preguntas y el tiempo límite.',
+        },
+      },
+      {
+        '@type': 'Question',
+        name: '¿Puedo ver explicaciones de las respuestas?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Sí. Cada pregunta incluye una revisión detallada con la respuesta correcta y su explicación, para que puedas entender el razonamiento detrás de cada respuesta.',
+        },
+      },
+    ],
+  },
+])
+
 const showEmailModal = ref(false)
 const selectedPlan = ref('mensual')
 const checkoutEmail = ref('')

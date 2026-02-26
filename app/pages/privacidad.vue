@@ -91,7 +91,14 @@
 </template>
 
 <script setup>
-useHead({ title: 'Politica de Privacidad - Piloteai' })
+useSeoMeta({
+  title: 'Política de Privacidad - Piloteai',
+  description: 'Conoce cómo Piloteai recopila, utiliza y protege tu información personal. Política de privacidad actualizada.',
+  ogTitle: 'Política de Privacidad - Piloteai',
+  ogDescription: 'Conoce cómo Piloteai recopila, utiliza y protege tu información personal.',
+  ogType: 'website',
+  robots: 'noindex, follow',
+})
 const today = new Date().toLocaleDateString('es-CL', { year: 'numeric', month: 'long', day: 'numeric' })
 </script>
 

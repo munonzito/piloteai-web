@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/seo": "^3.4.0",
     "firebase": "^12.9.0",
     "firebase-admin": "^13.6.1",
     "mercadopago": "^2.12.0",

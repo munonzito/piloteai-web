@@ -4,6 +4,14 @@
   </NuxtLayout>
 </template>
 
+<script setup>
+useHead({
+  titleTemplate: (title) => {
+    return title && !title.includes('Piloteai') ? `${title} | Piloteai` : title || 'Piloteai - Prepara tus exámenes DGAC'
+  },
+})
+</script>
+
 <style>
 :root {
   --bg-dark: #060E1A;

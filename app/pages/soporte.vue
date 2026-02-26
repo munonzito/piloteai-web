@@ -60,7 +60,13 @@
 </template>
 
 <script setup>
-useHead({ title: 'Soporte - Piloteai' })
+useSeoMeta({
+  title: 'Soporte y Ayuda - Piloteai',
+  description: 'Necesitas ayuda con Piloteai? Contacta a nuestro equipo de soporte, reporta problemas o envía sugerencias. Preguntas frecuentes sobre la plataforma de exámenes DGAC.',
+  ogTitle: 'Soporte y Ayuda - Piloteai',
+  ogDescription: 'Contacta al equipo de soporte de Piloteai. Preguntas frecuentes y ayuda para la plataforma de preparación de exámenes DGAC.',
+  ogType: 'website',
+})
 </script>
 
 <style scoped>

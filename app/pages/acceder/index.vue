@@ -128,6 +128,12 @@ import { signInWithEmailAndPassword } from "firebase/auth";
 
 definePageMeta({ layout: false });
 
+useSeoMeta({
+  title: 'Acceder - Piloteai',
+  description: 'Inicia sesión en Piloteai para acceder a tus exámenes DGAC, seguimiento de progreso y preguntas de práctica.',
+  robots: 'noindex, nofollow',
+})
+
 const router = useRouter();
 const route = useRoute();
 const { $auth } = useNuxtApp();
