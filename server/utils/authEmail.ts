@@ -27,7 +27,7 @@ export async function sendSignInLinkEmail({
         : "Tu enlace de acceso a Piloteai";
 
     const result = await resend.emails.send({
-        from: "Piloteai <noreply@mail.piloteai.cl>",
+        from: "Piloteai <noreply@mail.piloteai.com>",
         to: normalizedEmail,
         subject,
         html: generateEmailTemplate(signInLink, normalizedEmail, isSubscriptionConfirmation),

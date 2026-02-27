@@ -35,7 +35,7 @@ export async function sendPasswordRecoveryEmail({ email }: { email: string }) {
     const customResetLink = `${process.env.APP_URL}/cambiar-contrasena?oobCode=${oobCode}&apiKey=${apiKey}`;
 
     const result = await resend.emails.send({
-        from: "Piloteai <noreply@mail.piloteai.cl>",
+        from: "Piloteai <noreply@mail.piloteai.com>",
         to: normalizedEmail,
         subject: "Recupera tu contraseña de Piloteai",
         html: generatePasswordRecoveryTemplate(customResetLink, normalizedEmail),
