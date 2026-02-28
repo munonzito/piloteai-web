@@ -41,10 +41,16 @@
                 <span class="stat-label">Estudio</span>
               </div>
             </div>
-            <a href="/#planes" class="btn-primary">
-              Comenzar Preparación
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
-            </a>
+            <div class="hero-actions">
+              <a href="/#planes" class="btn-primary">
+                Comenzar Preparación
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <NuxtLink v-if="hasGuide" :to="`/licencias/${data.slug}/como-obtener`" class="btn-ghost">
+                Cómo obtener esta licencia
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7.8H7.8"/></svg>
+              </NuxtLink>
+            </div>
           </div>
           <div class="hero-info-card">
             <h3>Información del Examen</h3>
@@ -179,6 +185,7 @@
 
 <script setup>
 import { getAllLicensePages, getLicenseBySlug, categoryLabels, slugify } from '../../../../data/curricula'
+import { getGuideByLicenseId } from '../../../../data/guides/como-obtener'
 
 const route = useRoute()
 const data = getLicenseBySlug(route.params.slug)
@@ -195,6 +202,8 @@ function getLessonCount(subjectId) {
   const ls = data.lessons.subjects.find((s) => s.id === subjectId)
   return ls ? ls.lessons.length : 0
 }
+
+const hasGuide = !!getGuideByLicenseId(data.slug)
 
 const allLicenses = getAllLicensePages()
 const relatedLicenses = allLicenses
@@ -435,6 +444,32 @@ useSchemaOrg([
   color: #fff;
   transform: translateY(-2px);
   box-shadow: 0 8px 28px rgba(62, 189, 79, 0.35);
+}
+
+.hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--text-secondary);
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 15px 24px;
+  border: 1px solid var(--border-hover);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+}
+
+.btn-ghost:hover {
+  color: var(--text-primary);
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.03);
 }
 
 .btn-lg {

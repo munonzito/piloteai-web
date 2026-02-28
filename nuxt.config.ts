@@ -27,6 +27,7 @@ export default defineNuxtConfig({
       ]
 
       const { getAllLicensePages, slugify } = await import('./data/curricula/index')
+      const { getGuideByLicenseId } = await import('./data/guides/como-obtener')
       const licenses = getAllLicensePages()
       const dynamicUrls: { loc: string; changefreq: string; priority: number }[] = []
 
@@ -34,6 +35,9 @@ export default defineNuxtConfig({
         dynamicUrls.push({ loc: `/licencias/${l.slug}`, changefreq: 'monthly', priority: 0.8 })
         for (const s of l.curriculum.subjects) {
           dynamicUrls.push({ loc: `/licencias/${l.slug}/${slugify(s.name)}`, changefreq: 'monthly', priority: 0.7 })
+        }
+        if (getGuideByLicenseId(l.slug)) {
+          dynamicUrls.push({ loc: `/licencias/${l.slug}/como-obtener`, changefreq: 'monthly', priority: 0.8 })
         }
       }
 
